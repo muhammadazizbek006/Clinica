@@ -87,4 +87,4 @@ const KopSavollar = () => {
   );
 };
 
-export default KopSavollar;
+export default KopSavollar
