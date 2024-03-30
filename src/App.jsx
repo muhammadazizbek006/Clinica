@@ -1,8 +1,26 @@
 import React from 'react'
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+// LAYOUTS
+import MainLayout from './layouts/MainLayout'
+
+// PAGES
+import Home from './pages/Home'
+
+import PageNotFound from './pages/PageNotFound'
 
 const App = () => {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      
+      <Route path='/' element={<MainLayout/>}>
+        <Route index element={<Home/>}/>
+
+        <Route path='*' index element={<PageNotFound/>}/>
+      </Route>
+    )
+  )
   return (
-    <div>App</div>
+    <RouterProvider router={router}/>
   )
 }
 
