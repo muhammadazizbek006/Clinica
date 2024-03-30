@@ -1,3 +1,123 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@layer utilities {
+    .containerb{
+        @apply w-full max-w-[1440px] px-5 mx-auto 
+    }
+}
+
+.slideCut{
+  clip-path: polygon(34% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+
+#app {
+  width: 100%;
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+
+
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+
+
+  width: 100%;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    /* display: block; */
+    /* object-fit: cover; */
+  }
+
+.liner{
+  background: #B8D8EB; background: linear-gradient(45deg, #B8D8EB 50%, #BADF93 50%)
+}
+.xaqida{
+  background: #B8D8EB; background: linear-gradient(135deg, #BADF93  70%, #B8D8EB 60%)
+}
+
+
+.javob{
+  background: #fff; background: linear-gradient(45deg, #fff 50%, #BADF93 50%)
+}
+.open-animation{
+animation: openInputAnimation 100ms linear alternate;
+}
+@keyframes openInputAnimation {
+  from {
+    width: 0px;
+    background-color: transparent;
+  }
+  to {
+    width: 100%;
+    background-color: white;
+  }
+}
+
+.close-animation {
+  animation: closeInputAnimation 100ms linear alternate;
+}
+@keyframes closeInputAnimation {
+  from {
+    width: 100%;
+    background-color: white;
+  }
+  to {
+    width: 0px;
+    background-color: transparent;
+  }
+}
+
+/* .rotate-animation {
+  animation: rotate 200ms linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+.rotate-animation-2 {
+  transform: rotate(180deg);
+  animation: rotate2 200ms linear;
+}
+
+@keyframes rotate2 {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+} */
