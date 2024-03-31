@@ -11,6 +11,7 @@ export default {
         'akva':'#b8d8eb',
         'online-zakaz':'#153e35',
         'link':'#f8fcf4',
+        'next':'#619cbe'
       },
       fontSize:{
         '42':'42px',
