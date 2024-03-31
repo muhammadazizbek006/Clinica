@@ -97,7 +97,7 @@ const Header = () => {
           <ul className="text-base font-medium flex items-center md:flex hidden md:hidden 888:flex md:space-x-2 lg:space-x-6 1129:space-x-14   xl:space-x-5 ">
             {/* xizmatlar va narxlar */}
             <li onMouseMove={handleOpen} onMouseLeave={handleClose}>
-              <Link className="flex ">
+              <Link  className="flex ">
                 <span>Xizmatlar va narxlar</span>
                 <img className="rotate-180" src={arrow} alt={arrow} />
               </Link>
@@ -135,7 +135,7 @@ const Header = () => {
               className={` absolute left-0 top-6    flex flex-col shadow-md `}
             >
               <Link
-                to="TishShifokoriBilanMaslahat"
+                to="/shifokormaslaxat"
                 className=" pl-2 py-3  w-[300px] inline-block bg-white border-b-2 border-header "
               >
                 Tish shifokori bilan maslahatlashuv

@@ -5,8 +5,8 @@ import MainLayout from './layouts/MainLayout'
 
 // PAGES
 import Home from './pages/Home'
-import  Xizmatlar  from './pages/Xizmatlar'
 import PageNotFound from './pages/PageNotFound'
+import Shifokormaslaxat from './pages/Shifokormaslaxat'
 
 const App = () => {
   const router = createBrowserRouter(
@@ -14,7 +14,7 @@ const App = () => {
       
       <Route path='/' element={<MainLayout/>}>
         <Route index element={<Home/>}/>
-        <Route path='/xizmatlar' element={<Xizmatlar/>}/>
+        <Route path='/shifokormaslaxat' element={<Shifokormaslaxat/>}/>
         <Route path='*'  element={<PageNotFound/>}/>
       </Route>
     )

@@ -261,3 +261,90 @@ export const savollar = [
         javob:"Biz yangi va doimiy mijozlarni xursand qilishni yaxshi ko'ramiz, shuning uchun biz muntazam ravishda aktsiyalarni o'tkazamiz va yoqimli chegirmalarni taklif qilamiz. Barcha aktsiyalar alohida bo'limda taqdim etilgan."
     }
 ]
+
+
+// tish shifokori bilan maslaxatlashuv
+
+export const maslaxatlar = [
+    {
+        id:1,
+        img:karusel5,
+        yonalishi:"Stomatolog-terapevt bilan maslahatlashuv",
+        narxi:600,
+        tashrif:1,
+        boshlangichnarxi:300,
+        vazifasi:"Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.",
+        sababnomi:"Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:",
+    },
+    {
+        id:2,
+        img:karusel5,
+        yonalishi:"Stomatolog-terapevt, tibbiyot fanlari doktori bilan maslahatlashuv",
+        narxi:1000,
+        tashrif:1,
+        boshlangichnarxi:300,
+        vazifasi:"Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.",
+        sababnomi:"Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:",
+    },
+    {
+        id:3,
+        img:karusel5,
+        yonalishi:"Ortodontist bilan maslahatlashish",
+        narxi:600,
+        tashrif:1,
+        boshlangichnarxi:300,
+        vazifasi:"Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.",
+        sababnomi:"Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:",
+    },
+    {
+        id:4,
+        img:karusel5,
+        yonalishi:"Parodontolog, tibbiyot fanlari doktori bilan maslahatlashuv	",
+        narxi:1000,
+        tashrif:1,
+        boshlangichnarxi:300,
+        vazifasi:"Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.",
+        sababnomi:"Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:",
+    },
+    {
+        id:5,
+        img:karusel5,
+        yonalishi:"Stomatolog-terapevt bilan maslahatlashuv",
+        narxi:600,
+        tashrif:1,
+        boshlangichnarxi:300,
+        vazifasi:"Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.",
+        sababnomi:"Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:",
+    },
+    {
+        id:6,
+        img:karusel5,
+        yonalishi:"Tish shifokori bilan batafsil maslahatlashuv (barcha mutaxassisliklar): tekshiruv, maslahat (agar kerak bo'lsa, boshqa mutaxassislarni jalb qilish), qo'lda etkazib berish bilan davolash rejasini tuzish",
+        narxi:1500,
+        tashrif:1,
+        boshlangichnarxi:300,
+        vazifasi:"Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.",
+        sababnomi:"Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:",
+    },
+    {
+        id:7,
+        img:karusel5,
+        yonalishi:"Tish jarroh bilan maslahatlashuv",
+        narxi:600,
+        tashrif:1,
+        boshlangichnarxi:300,
+        vazifasi:"Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.",
+        sababnomi:"Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:",
+    },
+    {
+        id:8,
+        img:karusel5,
+        yonalishi:"Pediatrik stomatolog bilan maslahatlashuv",
+        narxi:0,
+        tashrif:1,
+        boshlangichnarxi:300,
+        vazifasi:"Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.",
+        sababnomi:"Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:",
+    },
+
+]
