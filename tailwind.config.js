@@ -13,7 +13,8 @@ export default {
         'link':'#f8fcf4',
       },
       fontSize:{
-        '42':'42px'
+        '42':'42px',
+        '32':'32px'
       },
       boxShadow:{
         'header':'0 3px 7px -1px rgba(0,0,0,.1)',
