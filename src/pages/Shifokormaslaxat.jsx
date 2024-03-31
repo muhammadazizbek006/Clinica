@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { maslaxatlar } from '../Data'
+import Cta from '../components/Home/Cta'
 // img
 import maslaxat from '../img/maslahatlashuv.png' 
 import next from '../img/next.svg'
 import chegirma from '../img/chegirma.svg'
+import Shifokorlar from '../components/Shifokorlar'
 const Shifokormaslaxat = () => {
   return (
     <>
@@ -107,6 +109,10 @@ const Shifokormaslaxat = () => {
         </ul>
         </div>
       </section>
+      {/* Shifokorlar */}
+      <Shifokorlar/>
+      {/* cta */}
+      <Cta/>
     </>
 
   )
