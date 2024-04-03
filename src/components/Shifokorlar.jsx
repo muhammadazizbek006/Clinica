@@ -94,10 +94,10 @@ const Shifokorlar = () => {
             return (
               <SwiperSlide
                 key={e.id}
-                className="flex space-y-2 flex-col h-full items-center py-2 px-2 border-akva border-2  border-dashed"
+                className="flex flex-col h-full  items-center py-2 px-2 border-akva border-2  border-dashed"
               >
-                <img className="h-80 w-full" src={e.img} alt="#" />
-                <div className="w-full p-3 text-center">
+                <img width="278" height="354" className="h-80 w-full" src={e.img} alt="#" />
+                <div className=" p-3 text-center   ">
                   <h3 className="text-xl font-medium mb-2">{e.name}</h3>
                   <p className="mb-12">{e.ixtisosligi}</p>
                   <Link className="text-xl font-medium hover:text-white hover:bg-online-zakaz bg-header duration-500 w-full  py-3  items-end">
