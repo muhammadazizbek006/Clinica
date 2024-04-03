@@ -183,6 +183,7 @@ const Header = () => {
         <button className=" py-4 px-4 hidden xl:block bg-white hover:bg-online-zakaz hover:text-white duration-700">
           Onlayn ro'yxatdan o'tish
         </button>
+        {/* modal */}
         {/* telefont va ijtimoiy tarmoqlar */}
         <div className="flex xl:flex-col justify-center items-center">
           <span className="mb-3 inline-block hidden xl:block">
