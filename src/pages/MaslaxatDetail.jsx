@@ -31,9 +31,36 @@ const MaslaxatDetail = () => {
 
         </section>
         {/* yonalish map  */}
-        <section>
-          <div className="contain">
-          
+        <section className='py-11'>
+          <div className="containerb">
+              {
+                mDetail.map((e)=>{
+                  return(
+                    <div className='flex justify-between'>
+                      {/* img */}
+                      <div>
+                        <img width={482} height={600} className='w-[492px] h-[500px]' src={e.img} alt="" />
+                      </div>
+                      {/* right */}
+                      <div className='w-full max-w-[710px]'>
+                        {/* top */}
+                        <div className='flex items-center justify-between mb-8'>
+                          <p className='text-3xl font-medium'>{e.boshlangichnarxi} rubldan</p>
+                          <button className='px-8 py-3 bg-header hover:bg-online-zakaz hover:text-white duration-700 font-medium'>ro'yxatdan o'tish</button>
+                        </div>
+                        {/* maslaxat */}
+                        <div className='border-b-2 border-b-gray-300 pb-8'>
+                          <p className='text-base '>{e.vazifasi}</p>
+                        </div>
+                        {/* sabab */}
+                        <div className='py-8'>
+                          <h3 className='text-xl mb-9'>{e.sababnomi}</h3>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                })
+              }
           </div>
         </section>
     </>
