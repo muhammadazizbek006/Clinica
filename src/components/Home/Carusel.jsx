@@ -38,7 +38,7 @@ const Carusel = () => {
                   <div className="flex flex-col w-1/2 gap-y-5">
                     <h2 className="font-bold text-6xl">{e.tavsiya}</h2>
                     <p className="text-xl font-medium">{e.formula}</p>
-                    <p >{e.chegirma}</p>
+                    <p className="font-medium">{e.chegirma}</p>
                     <p className="text-lg font-medium">{e.royxat}</p>
                     <Link className="bg-white px-5 py-3 inline-block w-1/6 text-center">
                       Batafsil
