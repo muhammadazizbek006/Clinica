@@ -35,7 +35,7 @@ const Shifokormaslaxat = () => {
             maslaxatlar.map((e)=>{
               return(
                 <li  key={e.id} className='border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300'>
-                  <Link className='flex justify-between items-center p-5'>
+                  <Link to={`/mDetail/${e.id}`} className='flex justify-between items-center p-5'>
                     {/* left */}
                     <div className='flex flex-col'>
                       <h3 className='text-xl font-medium mb-3 max-w-[900px]'>{e.yonalishi}</h3>
