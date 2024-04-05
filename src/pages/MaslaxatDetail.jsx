@@ -10,23 +10,33 @@ const MaslaxatDetail = () => {
     const mDetail = maslaxatlar.filter((maslaxat)=> maslaxat.id == id);
 
   return (
-    <section>
-        <div className="containerb">
-            {/* title */}
+    <>
+     {/* title */}
+        <section className="py-12">
+           
                 {
                 mDetail.map((e)=>{
                     return(
-                       <div>
-                            <img src={title} alt={e.yonalishi} />
-                            <h2>{e.yonalishi}</h2>
+                       <div className='flex items-center containerb'>
+                        
+                        <div className='w-28 bg-akva  mr-6 '>
+                         <img className='  px-5 py-3 ' src={title} alt={e.yonalishi} />
+                        </div>
+                        <h2 className='text-32 font-medium border-b-4 border-b-header w-full pb-5 '>{e.yonalishi}</h2>
                         </div>
                     )
                 })
                 }
                 
 
-        </div>
-    </section>
+        </section>
+        {/* yonalish map  */}
+        <section>
+          <div className="contain">
+          
+          </div>
+        </section>
+    </>
   )
 }
 
