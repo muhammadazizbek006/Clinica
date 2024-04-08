@@ -349,3 +349,94 @@ export const maslaxatlar = [
 
 ]
 
+// chegirma olish usullari
+import brekit from './img/aksiyaD/brekit.jpg'
+export const chegirmalar = [
+    {
+        id:1,
+        img:brekit,
+        chegrimanomi:`"Bahor tabassumi"`,
+        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
+        taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
+        aksiya:`- ligatur qavslar =34 400 rubl  27 600 rubl  - Ligaturasiz qavslar =52 400 rubl  42 000 rub.`,
+        yozilish:`Braketlarni o'rnatish bo'yicha batafsil maslahat olish uchun 343-77-00 raqamiga qo'ng'iroq qilib yoki onlayn ravishda ortodontologning bepul maslahatiga yoziling. Sizni ko'rishdan xursand bo'lamiz!`,
+    },
+    {
+        id:2,
+        img:brekit,
+        chegrimanomi:`"Bahor tabassumi"`,
+        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
+        taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
+        aksiya:`- ligatur qavslar =34 400 rubl  27 600 rubl  - Ligaturasiz qavslar =52 400 rubl  42 000 rub.`,
+        yozilish:`Braketlarni o'rnatish bo'yicha batafsil maslahat olish uchun 343-77-00 raqamiga qo'ng'iroq qilib yoki onlayn ravishda ortodontologning bepul maslahatiga yoziling. Sizni ko'rishdan xursand bo'lamiz!`,
+
+    },
+    {
+        id:1,
+        img:brekit,
+        chegrimanomi:`"Bahor tabassumi"`,
+        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
+        taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
+        aksiya:`- ligatur qavslar =34 400 rubl  27 600 rubl  - Ligaturasiz qavslar =52 400 rubl  42 000 rub.`,
+        yozilish:`Braketlarni o'rnatish bo'yicha batafsil maslahat olish uchun 343-77-00 raqamiga qo'ng'iroq qilib yoki onlayn ravishda ortodontologning bepul maslahatiga yoziling. Sizni ko'rishdan xursand bo'lamiz!`,
+
+    },
+    {
+        id:1,
+        img:brekit,
+        chegrimanomi:`"Bahor tabassumi"`,
+        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
+        taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
+        aksiya:`- ligatur qavslar =34 400 rubl  27 600 rubl  - Ligaturasiz qavslar =52 400 rubl  42 000 rub.`,
+        yozilish:`Braketlarni o'rnatish bo'yicha batafsil maslahat olish uchun 343-77-00 raqamiga qo'ng'iroq qilib yoki onlayn ravishda ortodontologning bepul maslahatiga yoziling. Sizni ko'rishdan xursand bo'lamiz!`,
+
+    },
+    {
+        id:1,
+        img:brekit,
+        chegrimanomi:`"Bahor tabassumi"`,
+        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
+        taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
+        aksiya:`- ligatur qavslar =34 400 rubl  27 600 rubl  - Ligaturasiz qavslar =52 400 rubl  42 000 rub.`,
+        yozilish:`Braketlarni o'rnatish bo'yicha batafsil maslahat olish uchun 343-77-00 raqamiga qo'ng'iroq qilib yoki onlayn ravishda ortodontologning bepul maslahatiga yoziling. Sizni ko'rishdan xursand bo'lamiz!`,
+
+    },
+    {
+        id:1,
+        img:brekit,
+        chegrimanomi:`"Bahor tabassumi"`,
+        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
+        taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
+        aksiya:`- ligatur qavslar =34 400 rubl  27 600 rubl  - Ligaturasiz qavslar =52 400 rubl  42 000 rub.`,
+        yozilish:`Braketlarni o'rnatish bo'yicha batafsil maslahat olish uchun 343-77-00 raqamiga qo'ng'iroq qilib yoki onlayn ravishda ortodontologning bepul maslahatiga yoziling. Sizni ko'rishdan xursand bo'lamiz!`,
+
+    },
+    {
+        id:1,
+        img:brekit,
+        chegrimanomi:`"Bahor tabassumi"`,
+        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
+        taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
+        aksiya:`- ligatur qavslar =34 400 rubl  27 600 rubl  - Ligaturasiz qavslar =52 400 rubl  42 000 rub.`,
+        yozilish:`Braketlarni o'rnatish bo'yicha batafsil maslahat olish uchun 343-77-00 raqamiga qo'ng'iroq qilib yoki onlayn ravishda ortodontologning bepul maslahatiga yoziling. Sizni ko'rishdan xursand bo'lamiz!`,
+
+    },
+    {
+        id:1,
+        img:brekit,
+        chegrimanomi:`"Bahor tabassumi"`,
+        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
+        taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
+        aksiya:`- ligatur qavslar =34 400 rubl  27 600 rubl  - Ligaturasiz qavslar =52 400 rubl  42 000 rub.`,
+        yozilish:`Braketlarni o'rnatish bo'yicha batafsil maslahat olish uchun 343-77-00 raqamiga qo'ng'iroq qilib yoki onlayn ravishda ortodontologning bepul maslahatiga yoziling. Sizni ko'rishdan xursand bo'lamiz!`,
+
+    },
+] 

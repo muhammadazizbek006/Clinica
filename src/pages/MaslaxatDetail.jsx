@@ -6,8 +6,8 @@ import { maslaxatlar } from '../Data';
 import title from '../img/maslahatlashuv.png'
 const MaslaxatDetail = () => {
 
-    const {id} = useParams();
-    const mDetail = maslaxatlar.filter((maslaxat)=> maslaxat.id == id);
+    const {yonalishi} = useParams();
+    const mDetail = maslaxatlar.filter((maslaxat)=> maslaxat.yonalishi == yonalishi);
 
   return (
     <>

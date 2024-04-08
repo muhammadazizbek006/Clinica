@@ -1,18 +1,23 @@
-import React from 'react'
-import Header from '../components/Header'
-import { Outlet } from 'react-router-dom'
-import Footer from '../components/Footer'
+import React from "react";
+import Header from "../components/Header";
+import { Outlet, useLocation } from "react-router-dom";
+import Footer from "../components/Footer";
+import Breadcrumps from "../components/Breadcrumps";
 
 const MainLayout = () => {
-  return (
-    <div className='flex flex-col min-h-screen'>
-    <Header/>
-    <main className='grow'>
-        <Outlet/>
-    </main>
-    <Footer/>
-    </div>
-  )
-}
+  const location = useLocation();
+  const path = location.pathname;
 
-export default MainLayout
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      { path !== "/" && <Breadcrumps />}
+      <main className="grow">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default MainLayout;
