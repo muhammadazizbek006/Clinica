@@ -7,6 +7,7 @@ import maslaxat from '../img/maslahatlashuv.png'
 import next from '../img/next.svg'
 import chegirma from '../img/chegirma.svg'
 import Shifokorlar from '../components/Shifokorlar'
+import Chegirma from '../components/Chegirma'
 const Shifokormaslaxat = () => {
   return (
     <>
@@ -60,55 +61,8 @@ const Shifokormaslaxat = () => {
           }
         </ul>
       </section>
-
-      {/* chegirma olish */}
-      <section className='py-8'>
-        <div className="containerb">
-          {/* top */}
-          <div className='flex items-center mb-8'>
-            <img className='bg-header p-4 rounded-full mr-4' src={chegirma} alt="#" />
-            <h2 className='text-32 font-medium border-b-4 border-b-header w-full '>Qanday chegirma olish mumkin</h2>
-          </div>
           {/* chegirma */}
-        <ul className='grid grid-cols-2 gap-5'>
-            {/* 1 */}
-            <li className='p-7 border-4 border-gray-300 text-base'>
-              <Link className='font-medium mb-3 '>"Bahor tabassumi"</Link>
-              <p>"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."</p>
-            </li>
-            {/* 2 */}
-            <li className='p-7 border-4 border-gray-300 text-base'>
-              <Link className='font-medium mb-3 '>"Gippokrat qasamyodi"</Link>
-              <p>"Tibbiyot xodimlari - birinchi tashrif uchun 5% chegirma"</p>
-            </li>
-            {/* 3 */}
-            <li className='p-7 border-4 border-gray-300 text-base'>
-              <Link className='font-medium mb-3 '>"Do'stingizni olib keling"</Link>
-              <p>"Biz sizga ham, siz bizning klinikamizni tavsiya qilgan do'stingizga ham yoqimli bonuslar beramiz."</p>
-            </li>
-            {/* 4 */}
-            <li className='p-7 border-4 border-gray-300 text-base'>
-              <Link className='font-medium mb-3 '>"Fikr-mulohazangiz uchun rahmat"</Link>
-              <p>"Klinikaga tashrifingiz haqida ma'lumot portallaridan birida sharh qoldiring - va keyingi uchrashuvda 5% chegirmaga ega bo'ling!"</p>
-            </li>
-            {/* 5 */}
-            <li className='p-7 border-4 border-gray-300 text-base'>
-              <Link className='font-medium mb-3 '>"Tug `ilgan kuning bilan!"</Link>
-              <p>"Dam olish kunidan 7 kun oldin va keyin 7 kun ichida biz sizga 2000 rubl chegirma beramiz. barcha klinika xizmatlari uchun."</p>
-            </li>
-            {/* 6 */}
-            <li className='p-7 border-4 border-gray-300 text-base'>
-              <Link className='font-medium mb-3 '>"Baxtli soatlar"</Link>
-              <p>"Klinikaga ish kunida soat 09.00 dan 12.00 gacha tashrif buyurgan bolalar va pensionerlarga 5% chegirma beriladi."</p>
-            </li>
-            {/* 7 */}
-            <li className='p-7 border-4 border-gray-300 text-base'>
-              <Link className='font-medium mb-3 '>"Oilaviy chegirma"</Link>
-              <p>"Birgalikda davolash foydaliroq! Oilangizning barcha a'zolari uchun 5 dan 7% gacha chegirma."</p>
-            </li>
-        </ul>
-        </div>
-      </section>
+          <Chegirma/>
       {/* Shifokorlar */}
       <Shifokorlar/>
       {/* cta */}
