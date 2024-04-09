@@ -42,7 +42,7 @@ const KopSavollar = () => {
 
   return (
     <>
-      <section className="mb-28">
+      <section className="mb-28 pt-10">
         <div className="containerb">
           {/* title */}
           <h2 className="text-center text-4xl font-medium mb-10 ">

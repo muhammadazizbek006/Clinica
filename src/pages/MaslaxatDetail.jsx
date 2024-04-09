@@ -4,6 +4,11 @@ import { maslaxatlar } from '../Data';
 
 // img
 import title from '../img/maslahatlashuv.png'
+import KopSavollar from '../components/Home/KopSavollar';
+import Cta from '../components/Home/Cta';
+
+
+
 const MaslaxatDetail = () => {
 
     const {yonalishi} = useParams();
@@ -63,6 +68,10 @@ const MaslaxatDetail = () => {
               }
           </div>
         </section>
+
+        <KopSavollar/>
+
+        <Cta/>
     </>
   )
 }
