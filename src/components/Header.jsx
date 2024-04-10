@@ -162,7 +162,7 @@ const Header = () => {
                 Estetik stamatalogiya
               </Link>
               <Link
-                to="/Periodontologiya"
+                to="/PeriAdanatalogiya"
                 className=" pl-2 py-3  w-[300px]  inline-block bg-white border-b-2 border-header"
               >
                 Peri Adanatalogiya

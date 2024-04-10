@@ -26,6 +26,8 @@ import Terapevtik from "./pages/terapevt/Terapevtik";
 import TerapevtDetail from "./pages/terapevt/TerapevtDetail";
 import EstetikStamatalogika from "./pages/estetikStamatalogika/EstetikStamatalogika";
 import EstetikDetail from "./pages/estetikStamatalogika/EstetikDetail";
+import { PeriAdanatalogik } from "./Data";
+import PeriAdanatalogiya from "./pages/periAdanatalogiya/PeriAdanatalogiya";
 
 
 const App = () => {
@@ -49,6 +51,9 @@ const App = () => {
         
         <Route path="/EstetikStamatalogika" element={<EstetikStamatalogika/>}/>
         <Route path="/estetika/:yonalishi" element={<EstetikDetail/>}/>
+
+
+        <Route path="/PeriAdanatalogiya" element={<PeriAdanatalogiya/>}/>
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )
