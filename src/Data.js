@@ -652,3 +652,127 @@ export const Estetik = [
         malumot3:`Tishlarni oqartiruvchi jellardan foydalanish odatda oson. Shifokor protsedurani klinikada amalga oshiradi va bemorga hech qanday maxsus ko'nikma va kuch talab etilmaydi. Shifokor jarayonni nazorat qiladi va optimal natijalarni ta'minlaydi.`
     }
 ]
+
+// periadanatalogiya
+import vektor from './img/periADanatalogiya/vektor.png'
+
+export const PeriAdanatalogik = [
+
+    {
+        id:1,
+        yonalishi:`"Vektor" ultratovush apparati yordamida davolash`,
+        narxi:3000-1900 ,
+        soni:`1 protsedura`,
+        img:vektor,
+        boshlanishN:3000,
+        sharx:`Turli xil milk kasalliklarini davolash va oldini olish uchun ishlatiladigan vektor terapiyasi zamonaviy stomatologiyaning samarali usuli hisoblanadi. Bu sizga periodontit, gingivit, peri-implantit, yuqori sezuvchanlik va boshqa og'iz muammolari bilan samarali kurashish imkonini beradi. Jarayon, shuningdek, bakterial blyashka bilan bog'liq yomon nafasni yo'q qilishga yordam beradi`,
+
+        sharx2:`Vektor texnologiyasining periodontal kasalliklarni davolash va oldini olishda, shuningdek, implantlar atrofida bakterial blyashka va yallig'lanish natijasida kelib chiqqan gingivitni davolashda imkoniyatlari va afzalliklari:`,
+
+
+
+        malumot:`Blyashka, bakterial blyashka va tish toshlarini samarali olib tashlash.`,
+
+        malumot2:`Tish go'shti yallig'lanishini bartaraf etishga yordam beradi.`,
+
+        malumot3:`Qon aylanishini tiklaydi.`,
+    },
+
+    {
+        id:2,
+        yonalishi:`Plazmolifting (dorilarni maxillofasiyal sohaga yuborish)`,
+        narxi:3000-1900 ,
+        soni:`1 protsedura`,
+        img:vektor,
+        boshlanishN:3000,
+        sharx:`Turli xil milk kasalliklarini davolash va oldini olish uchun ishlatiladigan vektor terapiyasi zamonaviy stomatologiyaning samarali usuli hisoblanadi. Bu sizga periodontit, gingivit, peri-implantit, yuqori sezuvchanlik va boshqa og'iz muammolari bilan samarali kurashish imkonini beradi. Jarayon, shuningdek, bakterial blyashka bilan bog'liq yomon nafasni yo'q qilishga yordam beradi`,
+
+        sharx2:`Vektor texnologiyasining periodontal kasalliklarni davolash va oldini olishda, shuningdek, implantlar atrofida bakterial blyashka va yallig'lanish natijasida kelib chiqqan gingivitni davolashda imkoniyatlari va afzalliklari:`,
+
+
+
+        malumot:`Blyashka, bakterial blyashka va tish toshlarini samarali olib tashlash.`,
+
+        malumot2:`Tish go'shti yallig'lanishini bartaraf etishga yordam beradi.`,
+
+        malumot3:`Qon aylanishini tiklaydi.`,
+    },
+
+    {
+        id:3,
+        yonalishi:`HYALREPAIR bilan biorevitalizatsiya (dorilarni yuz-jag' sohasiga yuborish)`,
+        narxi:25000,
+        soni:`2 protsedura`,
+        img:vektor,
+        boshlanishN:3000,
+        sharx:`Turli xil milk kasalliklarini davolash va oldini olish uchun ishlatiladigan vektor terapiyasi zamonaviy stomatologiyaning samarali usuli hisoblanadi. Bu sizga periodontit, gingivit, peri-implantit, yuqori sezuvchanlik va boshqa og'iz muammolari bilan samarali kurashish imkonini beradi. Jarayon, shuningdek, bakterial blyashka bilan bog'liq yomon nafasni yo'q qilishga yordam beradi`,
+
+        sharx2:`Vektor texnologiyasining periodontal kasalliklarni davolash va oldini olishda, shuningdek, implantlar atrofida bakterial blyashka va yallig'lanish natijasida kelib chiqqan gingivitni davolashda imkoniyatlari va afzalliklari:`,
+
+
+
+        malumot:`Blyashka, bakterial blyashka va tish toshlarini samarali olib tashlash.`,
+
+        malumot2:`Tish go'shti yallig'lanishini bartaraf etishga yordam beradi.`,
+
+        malumot3:`Qon aylanishini tiklaydi.`,
+    },
+
+    {
+        id:4,
+        yonalishi:`Gumni lazer bilan davolash`,
+        narxi:25000,
+        soni:`2 tish`,
+        img:vektor,
+        boshlanishN:1300,
+        sharx:`Turli xil milk kasalliklarini davolash va oldini olish uchun ishlatiladigan vektor terapiyasi zamonaviy stomatologiyaning samarali usuli hisoblanadi. Bu sizga periodontit, gingivit, peri-implantit, yuqori sezuvchanlik va boshqa og'iz muammolari bilan samarali kurashish imkonini beradi. Jarayon, shuningdek, bakterial blyashka bilan bog'liq yomon nafasni yo'q qilishga yordam beradi`,
+
+        sharx2:`Vektor texnologiyasining periodontal kasalliklarni davolash va oldini olishda, shuningdek, implantlar atrofida bakterial blyashka va yallig'lanish natijasida kelib chiqqan gingivitni davolashda imkoniyatlari va afzalliklari:`,
+
+
+
+        malumot:`Blyashka, bakterial blyashka va tish toshlarini samarali olib tashlash.`,
+
+        malumot2:`Tish go'shti yallig'lanishini bartaraf etishga yordam beradi.`,
+
+        malumot3:`Qon aylanishini tiklaydi.`,
+    },
+    {
+        id:5,
+        yonalishi:`Tishlarning yuqori sezuvchanligini lazer yordamida olib tashlash`,
+        narxi:900,
+        soni:`1 tish`,
+        img:vektor,
+        boshlanishN:3000,
+        sharx:`Turli xil milk kasalliklarini davolash va oldini olish uchun ishlatiladigan vektor terapiyasi zamonaviy stomatologiyaning samarali usuli hisoblanadi. Bu sizga periodontit, gingivit, peri-implantit, yuqori sezuvchanlik va boshqa og'iz muammolari bilan samarali kurashish imkonini beradi. Jarayon, shuningdek, bakterial blyashka bilan bog'liq yomon nafasni yo'q qilishga yordam beradi`,
+
+        sharx2:`Vektor texnologiyasining periodontal kasalliklarni davolash va oldini olishda, shuningdek, implantlar atrofida bakterial blyashka va yallig'lanish natijasida kelib chiqqan gingivitni davolashda imkoniyatlari va afzalliklari:`,
+
+
+
+        malumot:`Blyashka, bakterial blyashka va tish toshlarini samarali olib tashlash.`,
+
+        malumot2:`Tish go'shti yallig'lanishini bartaraf etishga yordam beradi.`,
+
+        malumot3:`Qon aylanishini tiklaydi.`,
+    },
+    {
+        id:6,
+        yonalishi:`Herpesni davolash`,
+        narxi:900,
+        soni:`1 protsedura`,
+        img:vektor,
+        boshlanishN:900,
+        sharx:`Turli xil milk kasalliklarini davolash va oldini olish uchun ishlatiladigan vektor terapiyasi zamonaviy stomatologiyaning samarali usuli hisoblanadi. Bu sizga periodontit, gingivit, peri-implantit, yuqori sezuvchanlik va boshqa og'iz muammolari bilan samarali kurashish imkonini beradi. Jarayon, shuningdek, bakterial blyashka bilan bog'liq yomon nafasni yo'q qilishga yordam beradi`,
+
+        sharx2:`Vektor texnologiyasining periodontal kasalliklarni davolash va oldini olishda, shuningdek, implantlar atrofida bakterial blyashka va yallig'lanish natijasida kelib chiqqan gingivitni davolashda imkoniyatlari va afzalliklari:`,
+
+
+
+        malumot:`Blyashka, bakterial blyashka va tish toshlarini samarali olib tashlash.`,
+
+        malumot2:`Tish go'shti yallig'lanishini bartaraf etishga yordam beradi.`,
+
+        malumot3:`Qon aylanishini tiklaydi.`,
+    },
+]
