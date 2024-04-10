@@ -24,6 +24,7 @@ import ChegirmaDetail from "./pages/chegirma/ChegirmaDetail";
 
 import Terapevtik from "./pages/terapevt/Terapevtik";
 import TerapevtDetail from "./pages/terapevt/TerapevtDetail";
+import EstetikStamatalogika from "./pages/estetikStamatalogika/EstetikStamatalogika";
 
 
 const App = () => {
@@ -43,6 +44,9 @@ const App = () => {
         
         <Route path="/terapevtik" element={<Terapevtik/>}/>
         <Route path="/terapevt/:yonalishi" element={<TerapevtDetail/>}/>
+        
+        
+        <Route path="/EstetikStamatalogika" element={<EstetikStamatalogika/>}/>
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )

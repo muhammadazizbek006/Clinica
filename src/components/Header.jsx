@@ -154,8 +154,9 @@ const Header = () => {
               >
                 Terapevtik xizmatlar
               </Link>
+              
               <Link
-                to="/Estetik"
+                to="/EstetikStamatalogika"
                 className=" pl-2 py-3  w-[300px] inline-block bg-white border-b-2 border-header"
               >
                 Estetik stamatalogiya
