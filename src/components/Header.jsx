@@ -140,14 +140,16 @@ const Header = () => {
               >
                 Tish shifokori bilan maslahatlashuv
               </Link>
+
               <Link
                 to="/BolalarS"
                 className=" pl-2 py-3  w-[300px] inline-block bg-white border-b-2 border-header"
               >
                 Bolalar stomatologiyasi
               </Link>
+
               <Link
-                to="/Terapevt"
+                to="/Terapevtik"
                 className=" pl-2 py-3  w-[300px] inline-block bg-white border-b-2 border-header"
               >
                 Terapevtik xizmatlar

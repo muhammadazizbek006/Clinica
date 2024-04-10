@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import { maslaxatlar } from '../../Data'
 import Cta from '../../components/Home/Cta'
 // img
-import maslaxat from '../img/maslahatlashuv.png' 
-import next from '../img/next.svg'
-import chegirma from '../img/chegirma.svg'
+import maslaxat from '../../img/maslahatlashuv.png' 
+import next from '../../img/next.svg'
+import chegirma from '../../img/chegirma.svg'
 import Shifokorlar from '../../components/Shifokorlar'
 import Chegirma from '../chegirma/Chegirma'
 const Shifokormaslaxat = () => {
@@ -64,7 +64,7 @@ const Shifokormaslaxat = () => {
           {/* chegirma */}
           <Chegirma/>
       {/* Shifokorlar */}
-      <Shifokorlar/>
+       <Shifokorlar/>
       {/* cta */}
       <Cta/>
     </>

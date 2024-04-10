@@ -2,8 +2,9 @@ import React from 'react'
 import { bolalar } from '../../Data'
 import { Link } from 'react-router-dom'
 // img
-import bollar from '../img/bolalar.png'
-import next from '../img/next.svg'
+import bollar from '../../img/bolalar.png'
+import next from '../../img/next.svg'
+
 import Chegirma from '../chegirma/Chegirma'
 const BolalarS = () => {
   return (

@@ -517,3 +517,67 @@ export const bolalar = [
 
     }
 ]
+
+// terapevtik
+import kares from './img/terapevt/kares.png'
+import pulpiton from './img/terapevt/pulpiton.png'
+export const Terapevt = [
+    {
+        id:1,
+        yonalishi:`Kariyesni davolash`,
+        narxi:`5500-10500 `,
+        soni:`1 tish`,
+        img:kares,
+        boshlanishN:5500,
+        sharx:`Tish kariesining oldini olish uchun tish shifokoriga tashrif buyurish, muntazam tekshiruvlardan o'tish va profilaktik tozalash kerak. Agar karies paydo bo'lsa, tishlarning parchalanishi va asoratlarni oldini olish uchun uni imkon qadar erta davolash kerak. Tish chirishini davolash ta'sirlangan to'qimalarni olib tashlash va tishni to'ldirishni yoki og'irroq holatlarda inley yoki toj kabi boshqa usullarni qo'llashni o'z ichiga olishi mumkin. Tish kariesining oldini olish uchun siz shakar va shakarli ichimliklarni iste'mol qilishni ham nazorat qilishingiz kerak, tishlaringizni qattiq narsalar bilan urishdan saqlaning va emalni mustahkamlash uchun ftoridli mahsulotlardan foydalaning. Tishlarni kariyesga qarshi maxsus xususiyatlarga ega pastalar va chayishlar yordamida ham himoya qilish mumkin.`
+    },
+    {
+        id:2,
+        yonalishi:`Pulpitni davolash`,
+        narxi:`12000-34000 `,
+        soni:`1 tish`,
+        img:pulpiton,
+        boshlanishN:12000,
+        sharx:`Pulpit bilan, sovuq va issiqqa sezgirlikning oshishi bilan bir qatorda, pulpit ovqatni tishlash yoki chaynash paytida og'riq, zararlangan tish atrofidagi milklarning shishishi, tishning rangi o'zgarishi va pulpit yorig'ining paydo bo'lishi bilan birga bo'lishi mumkin (vertikal yorilish). tish yuzasi). Agar siz pulpitga shubha qilsangiz, tashxis va davolash uchun tish shifokoriga murojaat qilish tavsiya etiladi.`,
+        sharx2:`Semptomlar o'tkir pulpitga, tish pulpasini ta'sir qiladigan yallig'lanish jarayoniga xos bo'lishi mumkin. Tish pulpasida nerv uchlari va qon tomirlari mavjud bo'lib, yallig'lanish kuchli og'riqlarga olib kelishi mumkin.`,
+        malumot:`O'tkir pulpit odatda to'satdan paydo bo'ladi va hech qanday ko'rinadigan tirnash xususiyatisiz paydo bo'lishi mumkin. Og'riq ayniqsa kechasi yoki issiq yoki sovuq narsalar bilan aloqa qilganda sezilishi mumkin. Tirnashtiruvchi bartaraf etilgandan so'ng, og'riq biroz vaqt davom etishi mumkin.`,
+        malumot2:`Og'riqning lokalizatsiyasi noaniq bo'lishi mumkin va bemor uni butun jag'ida his qilishi mumkin. Pulpit o'sib borishi bilan og'riq kuchayib, zonklama bo'lishi mumkin, hujumlar orasidagi og'riqsiz intervallar qisqaroq bo'lishi mumkin.`
+    },
+    {
+        id:3,
+        yonalishi:`Periodontitni davolash`,
+        narxi:`5500-10500 `,
+        soni:`1 tish`,
+        boshlanishN:12000,
+        sharx:`Periodontit - bu zudlik bilan davolashni talab qiladigan yallig'lanishli tish kasalligi. Agar nazorat qilinmasa, infektsiya atrofdagi to'qimalarga tarqalishi va xo'ppoz, osteomielit (suyaklarning yallig'lanishi) yoki sepsis (umumiy infektsiya) kabi jiddiy asoratlarni keltirib chiqarishi mumkin. Shuning uchun asoratlar rivojlanishining oldini olish va tishlar va atrofdagi to'qimalarning sog'lig'ini saqlash uchun o'tkir periodontitning dastlabki belgilarida tish shifokoriga murojaat qilish muhimdir.`,
+        malumotTitle:`Periodontitning mumkin bo'lgan sabablari va belgilari:`,
+        malumot:`Sifatsiz ildiz kanallarini to'ldirish, rivojlangan pulpit, davolanmagan chuqur karies va periodontal anomaliyalar periodontitning rivojlanishiga olib kelishi mumkin.`,
+        malumot2:`O'tkir periodontit to'satdan kuchli og'riq bilan tavsiflanadi, bu issiq yoki sovuq tirnash xususiyati beruvchi yoki kechasi paydo bo'lishi mumkin. Og'riq jag'ning bo'ylab tarqalishi va pulsatsiyalanishi mumkin. Tirnashtiruvchi bartaraf etilgandan so'ng, og'riq biroz vaqt davom etishi mumkin.`,
+        malumot3:`Surunkali periodontit davriy og'riqlar bilan namoyon bo'lishi yoki asemptomatik bo'lishi mumkin. Bunday hollarda infektsiya suyak to'qimasini yo'q qilishda davom etishi va tish va uning atrofidagi to'qimalarning yomonlashishiga olib kelishi mumkin.`
+    },
+    {
+        id:4,
+        yonalishi:`Mikroskop yordamida davolash`,
+        narxi:`3000`,
+        soni:`1 xizmat`,
+        boshlanishN:3000,
+        sharx:`Operatsion mikroskop zamonaviy stomatologiyaning ilg'or yutuqlaridan biri bo'lib, shifokorlarga yuqori darajada ishlash imkonini beradi. Mikroskopdan foydalanish tish shifokoriga ildiz kanallarini tozalash va to'ldirish sifatini sezilarli darajada yaxshilash imkonini beradi.`,
+        sharx2:`Optik qurilma tasvirni kattalashtiradi, hatto eng kichik nuqsonlarni aniqlashga yordam beradi va ta'sirlangan to'qimalarni yanada aniqroq olib tashlashni ta'minlaydi.`,
+        sharx3:`Mikroskop yordamida tish shifokori jarayonni yaxshiroq ko'rishi va nazorat qilishi mumkin, bu esa natijalarning sifati va chidamliligini oshiradi. Sizni Clinica Native da mikroskop ostida stomatologik davolanishga taklif qilamiz! Uchrashuvga yozilish uchun veb-saytda so'rov qoldiring yoki 343-77-00 raqamiga qo'ng'iroq qiling.`,
+        malumotTitle:`Tishlarni mikroskop bilan davolashning afzalliklari`,
+        malumot:`Maksimal diagnostika aniqligi: bu tekshirish vaqtida ko'rinmaydigan nuqsonlarni aniqlashning bir usuli.`,
+        malumot2:`Kariyesni davolash va tishlarni tiklash vaqtida yaxshi vizualizatsiya`,
+        malumot3:`Davolash paytida tish shikastlanishi bilan bog'liq asoratlar xavfini kamaytirish`
+    },
+    {
+        id:5,
+        yonalishi:`Tashxis uchun mikroskopdan foydalanish`,
+        narxi:1500,
+        soni:`1 xizmat`,
+        boshlanishN:3000,
+        sharx:`Operatsion mikroskop zamonaviy stomatologiyaning ilg'or yutuqlaridan biri bo'lib, shifokorlarga yuqori darajada ishlash imkonini beradi. Mikroskopdan foydalanish tish shifokoriga ildiz kanallarini tozalash va to'ldirish sifatini sezilarli darajada yaxshilash imkonini beradi.`,
+        sharx2:`Optik qurilma tasvirni kattalashtiradi, hatto eng kichik nuqsonlarni aniqlashga yordam beradi va ta'sirlangan to'qimalarni yanada aniqroq olib tashlashni ta'minlaydi.`,
+        sharx3:`Mikroskop yordamida tish shifokori jarayonni yaxshiroq ko'rishi va nazorat qilishi mumkin, bu esa natijalarning sifati va chidamliligini oshiradi. Sizni Clinica Native da mikroskop ostida stomatologik davolanishga taklif qilamiz! Uchrashuvga yozilish uchun veb-saytda so'rov qoldiring yoki 343-77-00 raqamiga qo'ng'iroq qiling.`,
+        malumotTitle:`Tishlarni mikroskop bilan davolashning afzalliklari`
+    }
+]

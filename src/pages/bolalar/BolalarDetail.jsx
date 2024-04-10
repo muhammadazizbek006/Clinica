@@ -1,8 +1,8 @@
 import React from 'react'
 // img
-import bollar from '../img/bolalar.png'
+import bollar from '../../img/bolalar.png'
 import { useParams } from 'react-router-dom'
-import { bolalar } from '../Data';
+import { bolalar } from '../../Data';
 
 const BolalarDetail = () => {
     const {yonalishi} = useParams();

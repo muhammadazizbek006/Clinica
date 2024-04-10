@@ -4,7 +4,8 @@ import { chegirmalar } from '../../Data'
 
 import { Link } from 'react-router-dom'
 // img
-import chegirma from '../img/chegirma.svg'
+import chegirma from '../../img/chegirma.svg'
+
 const Chegirma = () => {
   return (
     <>
