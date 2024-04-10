@@ -4,6 +4,8 @@ import { Terapevt } from '../../Data'
 // img
 import terapevtik from '../../img/terapevtik.png'
 import next from '../../img/next.svg'
+import Chegirma from '../chegirma/Chegirma'
+import Cta from '../../components/Home/Cta'
 const Terapevtik = () => {
   return (
     <>
@@ -57,6 +59,8 @@ const Terapevtik = () => {
             </ul>
         </div>
     </section>
+    <Chegirma/>
+    <Cta/>
     </>
   )
 }
