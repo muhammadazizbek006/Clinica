@@ -12,12 +12,13 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
 
-import Shifokormaslaxat from "./pages/Shifokormaslaxat";
-import MaslaxatDetail from "./pages/MaslaxatDetail";
+import Shifokormaslaxat from "./pages/maslaxat/Shifokormaslaxat";
+import MaslaxatDetail from "./pages/maslaxat/MaslaxatDetail";
 
-import BolalarS from "./pages/BolalarS";
+import BolalarS from "./pages/bolalar/BolalarS";
 import BolalarDetail from "./pages/BolalarDetail";
-import ChegirmaDetail from "./pages/ChegirmaDetail";
+import ChegirmaDetail from "./pages/chegirma/ChegirmaDetail";
+
 
 const App = () => {
   const router = createBrowserRouter(
@@ -28,7 +29,7 @@ const App = () => {
         <Route path="/mdetail/:yonalishi" element={<MaslaxatDetail />} />
         <Route path="/bolalars" element={<BolalarS/>}/>
         <Route path="/bolalar/:yonalishi" element={<BolalarDetail/>}/>
-        <Route path="/chegirmaDetail/:chegirmanomi" element={<ChegirmaDetail/>}/>
+        <Route path="/chegirma/:chegirmanomi" element={<ChegirmaDetail/>}/>
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )

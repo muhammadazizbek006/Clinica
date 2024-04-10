@@ -1,11 +1,11 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { maslaxatlar } from '../Data';
+import { maslaxatlar } from '../../Data';
 
 // img
 import title from '../img/maslahatlashuv.png'
-import KopSavollar from '../components/Home/KopSavollar';
-import Cta from '../components/Home/Cta';
+import KopSavollar from '../../components/Home/KopSavollar';
+import Cta from '../../components/Home/Cta';
 
 
 

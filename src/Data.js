@@ -355,7 +355,7 @@ export const chegirmalar = [
     {
         id:1,
         img:brekit,
-        chegrimanomi:`"Bahor tabassumi"`,
+        chegrmanomi:`"Bahor tabassumi"`,
         muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
         taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
         maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
@@ -365,7 +365,7 @@ export const chegirmalar = [
     {
         id:2,
         img:brekit,
-        chegrimanomi:`"Kangaroo salonlari tarmog'i mijozlari uchun maxsus taklif"`,
+        chegrmanomi:`"Kangaroo salonlari tarmog'i mijozlari uchun maxsus taklif"`,
         muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
         taklif:`Kangaroo salonida xarid qilganingizda, siz bizning klinikamiz xizmatlari uchun sovg'a sertifikatiga ega bo'lasiz`,
         maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
@@ -374,7 +374,7 @@ export const chegirmalar = [
     {
         id:3,
         img:brekit,
-        chegrimanomi:`"Kalit taslim tish" aksiyasi`,
+        chegrmanomi:`"Kalit taslim tish" aksiyasi`,
         taklif:`Tibbiyot xodimlari - birinchi tashrif uchun 5% chegirma`,
         maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
         aksiya:`• metall-keramika toj = 52 000 rubl. • zirkonyum toji = 55 000 rub.`,
@@ -385,14 +385,14 @@ export const chegirmalar = [
     {
         id:4,
         img:brekit,
-        chegrimanomi:`Gippokrat qasamyodi`,
+        chegrmanomi:`Gippokrat qasamyodi`,
         taklif:`Tibbiyot muassasalari xodimlari va tibbiyot oliy o'quv yurtlari va kollejlari talabalari uchun -`,
         aksiya:`birinchi pullik tashrif uchun 5% chegirma.`,
     },
     {
         id:5,
         img:brekit,
-        chegrimanomi:`Bahorgi dentakur`,
+        chegrmanomi:`Bahorgi dentakur`,
         taklif:`Endi har hafta ish kuni soat 9.00 dan 14.00 gacha bizning klinikamiz og'iz bo'shlig'i gigienasi uchun maxsus narxga ega - atigi 3500 rubl.`,
         yozilish:`Boshqa chegirmalar va reklama sovg'a sertifikatlari ushbu reklama uchun mavjud. amal qilmaydi.`,
 
@@ -400,7 +400,7 @@ export const chegirmalar = [
     {
         id:6,
         img:brekit,
-        chegrimanomi:`Professional og'iz gigienasiga 35% chegirma`,
+        chegrmanomi:`Professional og'iz gigienasiga 35% chegirma`,
     
         taklif:`5500 rublga professional og'iz gigienasi protsedurasini oling. –
         keyingi rejalashtirilgan protsedura uchun 35% chegirmaga ega bo'ling!`,
