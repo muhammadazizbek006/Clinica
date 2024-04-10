@@ -521,6 +521,8 @@ export const bolalar = [
 // terapevtik
 import kares from './img/terapevt/kares.png'
 import pulpiton from './img/terapevt/pulpiton.png'
+import mikroskop from './img/terapevt/mikroskop.png'
+import perodantint from './img/terapevt/perodantint.png'
 export const Terapevt = [
     {
         id:1,
@@ -548,6 +550,7 @@ export const Terapevt = [
         yonalishi:`Periodontitni davolash`,
         narxi:`5500-10500 `,
         soni:`1 tish`,
+        img:perodantint,
         boshlanishN:12000,
         sharx:`Periodontit - bu zudlik bilan davolashni talab qiladigan yallig'lanishli tish kasalligi. Agar nazorat qilinmasa, infektsiya atrofdagi to'qimalarga tarqalishi va xo'ppoz, osteomielit (suyaklarning yallig'lanishi) yoki sepsis (umumiy infektsiya) kabi jiddiy asoratlarni keltirib chiqarishi mumkin. Shuning uchun asoratlar rivojlanishining oldini olish va tishlar va atrofdagi to'qimalarning sog'lig'ini saqlash uchun o'tkir periodontitning dastlabki belgilarida tish shifokoriga murojaat qilish muhimdir.`,
         malumotTitle:`Periodontitning mumkin bo'lgan sabablari va belgilari:`,
@@ -560,6 +563,7 @@ export const Terapevt = [
         yonalishi:`Mikroskop yordamida davolash`,
         narxi:`3000`,
         soni:`1 xizmat`,
+        img:mikroskop,
         boshlanishN:3000,
         sharx:`Operatsion mikroskop zamonaviy stomatologiyaning ilg'or yutuqlaridan biri bo'lib, shifokorlarga yuqori darajada ishlash imkonini beradi. Mikroskopdan foydalanish tish shifokoriga ildiz kanallarini tozalash va to'ldirish sifatini sezilarli darajada yaxshilash imkonini beradi.`,
         sharx2:`Optik qurilma tasvirni kattalashtiradi, hatto eng kichik nuqsonlarni aniqlashga yordam beradi va ta'sirlangan to'qimalarni yanada aniqroq olib tashlashni ta'minlaydi.`,
@@ -574,10 +578,14 @@ export const Terapevt = [
         yonalishi:`Tashxis uchun mikroskopdan foydalanish`,
         narxi:1500,
         soni:`1 xizmat`,
+        img:mikroskop,
         boshlanishN:3000,
         sharx:`Operatsion mikroskop zamonaviy stomatologiyaning ilg'or yutuqlaridan biri bo'lib, shifokorlarga yuqori darajada ishlash imkonini beradi. Mikroskopdan foydalanish tish shifokoriga ildiz kanallarini tozalash va to'ldirish sifatini sezilarli darajada yaxshilash imkonini beradi.`,
         sharx2:`Optik qurilma tasvirni kattalashtiradi, hatto eng kichik nuqsonlarni aniqlashga yordam beradi va ta'sirlangan to'qimalarni yanada aniqroq olib tashlashni ta'minlaydi.`,
         sharx3:`Mikroskop yordamida tish shifokori jarayonni yaxshiroq ko'rishi va nazorat qilishi mumkin, bu esa natijalarning sifati va chidamliligini oshiradi. Sizni Clinica Native da mikroskop ostida stomatologik davolanishga taklif qilamiz! Uchrashuvga yozilish uchun veb-saytda so'rov qoldiring yoki 343-77-00 raqamiga qo'ng'iroq qiling.`,
-        malumotTitle:`Tishlarni mikroskop bilan davolashning afzalliklari`
+        malumotTitle:`Tishlarni mikroskop bilan davolashning afzalliklari`,
+        malumot:`Maksimal diagnostika aniqligi: bu tekshirish vaqtida ko'rinmaydigan nuqsonlarni aniqlashning bir usuli.`,
+        malumot2:`Kariyesni davolash va tishlarni tiklash vaqtida yaxshi vizualizatsiya.`,
+        malumot3:`Davolash paytida tish shikastlanishi bilan bog'liq asoratlar xavfini kamaytirish.`,
     }
 ]
