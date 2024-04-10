@@ -593,3 +593,62 @@ export const Terapevt = [
         malumot3:`Davolash paytida tish shikastlanishi bilan bog'liq asoratlar xavfini kamaytirish.`,
     }
 ]
+
+// estitik stamatalogia
+import keramika from './img/estetika/keramika.png'
+import kompozit from './img/estetika/kompozit.png'
+import jel from './img/estetika/jel.png'
+
+export const Estetik = [
+
+    {
+        id:1,
+        yonalishi:`Keramika qoplamalarini o'rnatish`,
+        narxi:25000,
+        soni:`1 tish`,
+        img:keramika,
+        boshlanishN:25000,
+        sharx:`Keramika qoplamalari turli estetik tish muammolari uchun samarali echimdir. Ular emaldagi chiplarni, yoriqlarni, dog'larni tuzatish, tishlarning shakli va rangini o'zgartirish uchun ishlatilishi mumkin. Seramika tabiiy tish emaliga o'xshaydi, bu sizga tabiiy va jozibali ko'rinishga erishish imkonini beradi. Ular, shuningdek, bardoshli va dog 'chidamli bo'lib, bemorlar orasida mashhur tanlovdir. Biroq, chinni qoplamalardan foydalanishga qaror qilishdan oldin, bemorning individual ehtiyojlariga ko'ra tekshiruv o'tkazadigan va tavsiyalar beradigan tish shifokori bilan maslahatlashish tavsiya etiladi.`,
+
+
+        malumotTitle:`Chinni qoplamalar quyidagi hollarda tavsiya etilishi mumkin:`,
+        malumot:`Emaldagi chiplar, yoriqlar yoki dog'lar: chinni qoplamalar bu kamchiliklarni qoplashi mumkin, tishlaringizning tabiiy ko'rinishini tiklaydi.`,
+
+        malumot2:`Oqartirish bilan tuzatib bo'lmaydigan rang o'zgarishi: Agar oqartirish kerakli natijani bermasa, tishlarning rangini o'zgartirish uchun chinni shponlardan foydalanish mumkin.`,
+        malumot3:`Noto'g'ri shakllangan tishlar: Agar tishlaringiz uchburchak, barrel shaklida yoki notekis qirralarga ega bo'lsa, chinni qoplamalar yanada uyg'un va jozibali tabassumni yaratishga yordam beradi.`
+    },
+    {
+        id:2,
+        yonalishi:`Kompozit qoplamalarni o'rnatish`,
+        narxi:9000,
+        soni:`1 tish`,
+        img:kompozit,
+        boshlanishN:12000,
+        sharx:`Kompozit qoplamalar haqiqatan ham tabassumingiz estetikasini yaxshilashning arzon va samarali usulidir. Kompozit qoplamalar chiplar, dog'lar yoki notekislik kabi kichik tish kamchiliklarini tuzatish uchun ishlatilishi mumkin. Ular tishlarga tabiiy va jozibali ko'rinish beradi. Bundan tashqari, kompozit qoplamalar bir stomatologik tashrifda bajarilishi mumkin, bu bemor uchun protsedurani yanada qulayroq qiladi.`,
+
+        malumotTitle:`Kompozit qoplamalarni o'rnatish usullari - to'g'ridan-to'g'ri va bilvosita:`,
+
+        malumot:`To'g'ridan-to'g'ri usul odatda tishning shakli yoki rangiga kichik tuzatishlar kiritish zarur bo'lganda qo'llaniladi.`,
+        malumot2:`Bilvosita usul yangi tish shaklini yaratish yoki uning o'rnini o'zgartirish zarur bo'lganda murakkabroq holatlarda qo'llaniladi`
+    },
+    {
+        id:3,
+        yonalishi:`Jel yordamida tishlarni oqartirish`,
+        narxi:25000,
+        soni:`1 protsedura`,
+        img:jel,
+        boshlanishN:12000,
+        sharx:`Oqroq tabassum o'zingizga bo'lgan ishonchni va umumiy ko'rinishingizni sezilarli darajada yaxshilaydi.Professional tishlarni oqartirish bu natijaga erishishning eng samarali usullaridan biridir.`,
+        sharx2:`Professional tishlarni oqartirishning bir necha usullari mavjud, jumladan, maxsus jellar, LED lampalar, lazerlar va boshqa texnologiyalardan foydalanish. Tish shifokoringiz tishlaringizning holatini va sizning afzalliklaringizni hisobga olgan holda siz uchun eng mos usulni tanlashda yordam berishi mumkin.`,
+        sharx3:`Biroq, tishlarni oqartirishni boshlashdan oldin, tishlaringiz sog'lom va oqlash jarayoniga ta'sir qilishi mumkin bo'lgan muammolardan xoli bo'lishi uchun tish shifokoringiz bilan maslahatlashish muhimdir. Shuni ham yodda tutish kerakki, oqartirish natijalari vaqtinchalik bo'lishi mumkin va muntazam parvarishlash va stomatologik parvarish uzoq vaqt davomida qor-oq tabassumni saqlab qolishga yordam beradi.`,
+
+
+        malumotTitle:`Jel yordamida tishlarni professional oqartirish bir qator afzalliklarga ega:`,
+        
+        malumot:`Tishlarni oqartiruvchi jellar tish emaliga ham xavfsiz hisoblanadi. Ularda emalga zarar bermaydigan va og'riq keltirmaydigan maxsus komponentlar mavjud. Biroq, har qanday protsedurada bo'lgani kabi, shifokor tavsiyalariga rioya qilish va jellardan foydalanishning tavsiya etilgan vaqti va chastotasidan oshmasligi kerak.`,
+
+        malumot2:`Tojlarni bir nechta soyalarni oqartirish imkoniyati. Bu, ayniqsa, toj yoki qoplamali odamlar uchun foydalidir, chunki ular vaqt o'tishi bilan tabiiy oqligini yo'qotishi mumkin.`,
+
+        malumot3:`Tishlarni oqartiruvchi jellardan foydalanish odatda oson. Shifokor protsedurani klinikada amalga oshiradi va bemorga hech qanday maxsus ko'nikma va kuch talab etilmaydi. Shifokor jarayonni nazorat qiladi va optimal natijalarni ta'minlaydi.`
+    }
+]
