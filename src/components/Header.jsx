@@ -168,7 +168,7 @@ const Header = () => {
                 Peri Adanatalogiya
               </Link>
               <Link
-                to="/protezlash"
+                to="/Protezlash"
                 className=" pl-2 py-3  w-[300px] inline-block bg-white border-b-2 border-header"
               >
                 Pratezlash

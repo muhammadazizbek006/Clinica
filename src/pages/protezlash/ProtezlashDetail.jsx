@@ -1,32 +1,25 @@
 import React from "react";
-import { PeriAdanatalogik } from "../../Data";
 import { useParams } from "react-router-dom";
+// pages
+import KopSavollar from "../../components/Home/KopSavollar";
 import Cta from "../../components/Home/Cta";
 import Chegirma from "../chegirma/Chegirma";
+import { Protezlashi } from "../../Data";
 // img
+import protezlar from '../../img/protezlash.png'
 import terapevtm from '../../img/terapevt/terapevt.svg'
-import estetik from '../../img/estetik.png'
-import KopSavollar from "../../components/Home/KopSavollar";
-import peria from '../../img/periodanatalogiya.png'
-
-
-const PeriAdanatalogiyaDetail = () => {
-
+const ProtezlashDetail = () => {
     const { yonalishi } = useParams();
-    const peri = PeriAdanatalogik.filter((e) => e.yonalishi == yonalishi);
-
-    return (
+    const pro = Protezlashi.filter((e) => e.yonalishi == yonalishi);
+  return (
     <>
-  <section className="py-8">
-        {peri.map((e) => {
+    {/* title */}
+      <section className="py-8">
+        {pro.map((e) => {
           return (
             <div className=" flex  justify-between items-center containerb">
               <div className="w-28 bg-akva  mr-6">
-                <img
-                  className="  px-5 py-3 "
-                  src={peria}
-                  alt={e.yonalishi}
-                />
+                <img className="  px-5 py-3 " src={protezlar} alt={e.yonalishi} />
               </div>
               <h2 className="text-32 font-medium border-b-4 border-b-header w-full pb-5 ">
                 {e.yonalishi}
@@ -38,10 +31,10 @@ const PeriAdanatalogiyaDetail = () => {
 
       <section className="py-10">
         <div className="containerb">
-          {peri.map((e) => {
+          {pro.map((e) => {
             return (
-              <div className="flex justify-between">
-                <img className="w-[399px]" src={e.img} alt={e.yonalishi} />
+              <div className="flex">
+                <img className="w-[546px] mr-14" src={e.img} alt={e.yonalishi} />
                 {/* right */}
                 <div className="w-full max-w-[701px]">
                   {/* narx ro'yxat */}
@@ -60,20 +53,20 @@ const PeriAdanatalogiyaDetail = () => {
                   </div>
                   {/* maslaxat */}
                   <div className="pt-8">
-                    <h4 className="mb-9 text-base font-medium">
+                    <h4 className="mb-9 text-base font-medium flex items-center space-x-3">
+                      <img className="mr-4" src={terapevtm} alt={e.malumot} />
                       {e.malumotTitle}
                     </h4>
 
                     <div className="flex items-center mb-3 ">
-                      <img className="mr-4" src={terapevtm} alt={e.malumot} />
+                    
                       <p>{e.malumot}</p>
                     </div>
                     <div className="flex items-center mb-3 ">
-                      <img className="mr-4" src={terapevtm} alt={e.malumot} />
                       <p>{e.malumot2}</p>
                     </div>
                     <div className="flex items-center mb-3 ">
-                      <img className="mr-4" src={terapevtm} alt={e.malumot} />
+                      
                       <p>{e.malumot3}</p>
                     </div>
                   </div>
@@ -84,13 +77,13 @@ const PeriAdanatalogiyaDetail = () => {
         </div>
       </section>
 
-          <KopSavollar/>
+      <KopSavollar />
 
       <Chegirma />
-      
+
       <Cta />
     </>
-  )
-}
+  );
+};
 
-export default PeriAdanatalogiyaDetail
+export default ProtezlashDetail;

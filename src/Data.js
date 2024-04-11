@@ -776,3 +776,72 @@ export const PeriAdanatalogik = [
         malumot3:`Qon aylanishini tiklaydi.`,
     },
 ]
+
+import metalKeramika from './img/karusel5.png'
+export const Protezlashi = [
+
+    {
+        id:1,
+        yonalishi:`Metall-keramika tojini ishlab chiqarish va o'rnatish`,
+        narxi:22500 -35000 ,
+        soni:`1 tish`,
+        img:metalKeramika,
+        boshlanishN:22500,
+        sharx:`Metall-keramika tojini ishlab chiqarish va o'rnatish tish shifokori tomonidan amalga oshiriladigan protseduradir. Bu shikastlangan tishning shakli, funksiyasi va estetikasini tiklash imkonini beradi.`,
+
+        sharx2:`Metall-keramika tojini o'rnatgandan so'ng, bemorga og'iz gigienasini kuzatish va profilaktik tekshiruvlar uchun muntazam ravishda tish shifokoriga tashrif buyurish tavsiya etiladi.`,
+
+        malumotTitle:`Mana, ushbu protseduraning asosiy bosqichlari:`,
+
+        malumot:`Tish tayyorlash: Birinchidan, tish shifokori shikastlangan tishni davolaydi, barcha nuqsonlarni va kariyoz to'qimalarni olib tashlaydi. Keyin tish emalning kichik qatlamini olib tashlash orqali tojni qabul qilishga tayyorlanadi.`,
+
+        malumot2:`Taassurot olish: tishni tayyorlagandan so'ng, tish shifokori qattiqlashtiradigan va tishning aniq nusxasini yaratadigan maxsus material yordamida taassurot oladi.`,
+
+        malumot3:`Toj qilish: olingan taassurot stomatologiya laboratoriyasiga yuboriladi, u erda hunarmandlar keramik qatlam bilan qoplangan toj uchun metall asos yasashadi. Bu tabiiy rang va estetik ko'rinishga erishish uchun amalga oshiriladi.`,
+    },
+
+    {
+        id:2,
+        yonalishi:`Implantga metall-keramika tojni o'rnatish`,
+        narxi:35000 ,
+        soni:`1 tish`,
+        img:vektor,
+        boshlanishN:35000,
+    },
+
+    {
+        id:3,
+        yonalishi:`Zirkonyum dioksid tojini o'rnatish`,
+        narxi:25000-38000,
+        soni:`2 tish`,
+        img:vektor,
+        boshlanishN:25000,
+    },
+
+    {
+        id:4,
+        yonalishi:`Gumni lazer bilan davolash`,
+        narxi:38000,
+        soni:`1 tish`,
+        img:vektor,
+        boshlanishN:38000,
+
+    },
+    {
+        id:5,
+        yonalishi:`Qisman olinadigan protezni o'rnatish`,
+        narxi:11500-58000,
+        soni:`1 tish`,
+        img:vektor,
+        boshlanishN:11500,
+    },
+
+    {
+        id:6,
+        yonalishi:`To'liq olinadigan protezni o'rnatish`,
+        narxi:35000-60000,
+        soni:`1 jag'`,
+        img:vektor,
+        boshlanishN:35000,
+    },
+]
