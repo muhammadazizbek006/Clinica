@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Aktsiya = () => {
+const AktsiyaDetail = () => {
   return (
     <>
         
@@ -8,4 +8,4 @@ const Aktsiya = () => {
   )
 }
 
-export default Aktsiya
+export default AktsiyaDetail

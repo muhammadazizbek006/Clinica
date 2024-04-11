@@ -1,12 +1,12 @@
 // carusel img
 import karusel1 from './img/karusel1.png'
 import karusel2 from './img/karusel2.png'
-// import karusel3 from './img/karusel3.png'
-// import karusel4 from './img/karusel4.png'
+import karusel3 from './img/karusel3.png'
+import karusel4 from './img/karusel4.png'
 import karusel5 from './img/karusel5.png'
-// import karusel6 from './img/karusel6.png'
+import karusel6 from './img/karusel6.png'
 import karusel7 from './img/karusel7.png'
-// import karusel8 from './img/karusel8.png'
+import karusel8 from './img/karusel8.png'
 
 
 // carusels
@@ -21,7 +21,7 @@ export const carusels = [
         tavsiya:'Tish formulasi',
         formula:"Bolaning og'iz bo'shlig'ini profilaktik tekshirish - 0 rub.",
         royxat:"Sertifikatni ro'yxatdan o'tkazish - 500 rubl.",
-        img:karusel2,
+        img:karusel3,
     },
     {
         id:3,
@@ -41,7 +41,7 @@ export const carusels = [
         tavsiya:'Tish formulasi',
         formula:"Bolaning og'iz bo'shlig'ini profilaktik tekshirish - 0 rub.",
         royxat:"Sertifikatni ro'yxatdan o'tkazish - 500 rubl.",
-        img:karusel2,
+        img:karusel4,
     },
     {
         id:6,
@@ -55,14 +55,14 @@ export const carusels = [
         tavsiya:'Tish formulasi',
         formula:"Bolaning og'iz bo'shlig'ini profilaktik tekshirish - 0 rub.",
         royxat:"Sertifikatni ro'yxatdan o'tkazish - 500 rubl.",
-        img:karusel1,
+        img:karusel6,
     },
     {
         id:8,
         tavsiya:'Tish formulasi',
         formula:"Bolaning og'iz bo'shlig'ini profilaktik tekshirish - 0 rub.",
         royxat:"Sertifikatni ro'yxatdan o'tkazish - 500 rubl.",
-        img:karusel2,
+        img:karusel8,
     },
 ]
 
@@ -77,6 +77,7 @@ import xizmat6 from './img/periodanatalogiya.png'
 import xizmat7 from './img/protezlash.png'
 import xizmat8 from './img/implantatsya.png'
 import xizmat9 from './img/ortodontiya.png'
+
 export const xizmatlar = [
     {
         id:1,
@@ -847,7 +848,7 @@ export const Protezlashi = [
 ]
 
 // Diagnostika
-import dg from './img/diagnostika/dg.png'
+import dg from './img/dg.png'
 export const Diagnostik = [
 
     {
@@ -859,4 +860,76 @@ export const Diagnostik = [
         boshlanishN:5500,
         sharx:`Medit i700 yuqori tezlikdagi intraoral 3D skaner bir tish yoki butun qatorning real vaqtda raqamli taassurotini, shuningdek, yumshoq to‘qimalarning fotosuratlarini olish uchun og‘iz bo‘shlig‘i skanerlash uchun ishlatiladi. 3D skanerdan foydalanish maslahatlar sifatini yaxshilash, eng yaxshi davolash variantini tanlash va onlayn bulut tizimidan foydalangan holda stomatologiya laboratoriyalari bilan muloqot qilish imkonini beradi.`,
     },
+]
+
+
+// aktsiya
+import bt from './img/aksiyaD/brekit.jpg'
+
+import snom  from './img/karusel3.png'
+
+import baxtli from './img/karusel7.png'
+
+import fikr from './img/karusel8.png'
+
+export const Aksiya = [
+    {
+        id:1,
+        img:bt,
+        nomi:`"Bahor tabassumi"`,
+        muddat:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        chegrima:`braketlarni o'rnatish uchun 20% chegirma`,
+        taklif:`Ortodontist bilan birinchi maslahat - bepul`,
+        taklif2:`Qavslarni o'rnatish narxi (1 jag' uchun):`,
+        ish:` ligatur qavslar= `,
+        ish2:` Ligaturasiz qavslar=`,
+        narx:`34 400 rubl`,
+        narx2:`52 400 rubl`,
+        aksiyaN:`27 600 rubl`,
+        aksiyaN2:`42 000 rub.`
+    },
+
+
+    {
+        id:2,
+        img:snom,
+        nomi:`Tug'ilgan kuning bilan!`,
+        muddat:`Tug'ilgan kun - sog'lig'ingizga g'amxo'rlik qilish uchun ajoyib sabab!
+        Ushbu sanadan oldin va keyin 7 kun ichida klinikaga tashrif buyuring va 2000 rubl chegirmaga ega bo'ling.
+        har qanday Clinca Native xizmatlari uchun!`,
+
+        taklif:`Aksiyadan foydalanish uchun sizga faqat tug‘ilgan kuningizni tasdiqlovchi hujjat kerak bo‘ladi.  * Agar ushbu davrda`,
+        taklif2:`klinikaga tashrif buyurganingizda, siz bayram bonuslaridan foydalanmagan bo'lsangiz yoki ularni to'liq ishlatmagan bo'lsangiz, ular sizning hisobingizga o'tkaziladi. Siz ularni keyinroq istalgan vaqtda sarflashingiz mumkin . * Aksiya vaqtida chegirma boshqa chegirmalar bilan birlashtirilishi mumkin. * Chegirma miqdori o'sha kuni davolanishning umumiy miqdorining 30% dan oshmasligi kerak. Tel.: 343-77-00`,
+    },
+    {
+        id:3,
+        img:fikr,
+        nomi:`Fikr-mulohazangiz uchun rahmat`,
+        muddat:`2023-yil 15-avgustdan boshlab amal qiladi`,
+        chegrima:`2Gis, Yandex saytlarida klinikani ko‘rib chiqish uchun keyingi uchrashuvga bir martalik 5% chegirma.
+        Quyidagi saytlarda Clinica Native haqidagi sharhingizni qoldirib, keyingi uchrashuvga 5% chegirma olasiz:`,
+       
+        taklif:`Bizga shifokoringizni va sog'lom, qordek oq tabassumni topishga yordam bering!`,
+        taklif2:`Aksiya vaqtida chegirmalar boshqa chegirmalar bilan birlashtirilishi mumkin.
+        Agar joriy qarz mavjud bo'lsa, chegirma berilmaydi.`,
+    },
+    {
+        id:4,
+        img:baxtli,
+        nomi:`Baxtli soatlar`,
+        muddat:`Ish kunlarida 09:00 dan 12:00 gacha klinikaga tashrif buyurganingizda`,
+        chegrima:`Bolalar va pensionerlar *5% chegirma.`,
+        taklif:`* Aksiyadan foydalanish uchun sizga faqat pensiya maqomingizni tasdiqlovchi hujjat kerak bo'ladi.`,
+        taklif2:`Chegirmalar boshqa chegirmalar va aktsiyalar bilan birlashtirilishi mumkin.`,
+    },
+    {
+        id:5,
+        img:kompozit,
+        nomi:`Texnik tishlarni oqartirish - sovg'a sifatida professional gigiena!`,
+        muddat:`Ish kunlarida 09:00 dan 12:00 gacha klinikaga tashrif buyurganingizda`,
+        chegrima:`Bolalar va pensionerlar *5% chegirma.`,
+        taklif:`Uskunalarni oqartirish xizmatlarining narxi 25 000 rublni tashkil qiladi.`,
+        taklif2:`Tishlarni oqartirishdan oldin professional gigiena - optimal natijalarga erishish uchun zaruriy shart. Bu sizning tishlaringizning haqiqiy rangini aniqlashga yordam beradi va oqartiruvchi jel imkon qadar samarali bo'lishi uchun tosh va blyashka olib tashlanadi.`,
+    },
+
 ]

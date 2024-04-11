@@ -33,7 +33,7 @@ import Protezlash from "./pages/protezlash/Protezlash";
 import ProtezlashDetail from "./pages/protezlash/ProtezlashDetail";
 import Diagnostika from "./pages/Diagnostik/Diagnostika";
 import DiagnostikaDetail from "./pages/Diagnostik/DiagnostikaDetail";
-import Aktsiya from "./pages/Aktsiya";
+import Aktsiya from "./pages/aktsiya/Aktsiya";
 
 
 const App = () => {
@@ -71,6 +71,7 @@ const App = () => {
         <Route path="/diga/:yonalishi" element={<DiagnostikaDetail/>}/>
 
         <Route path="/Aktsiya" element={<Aktsiya/>}/>
+
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )
