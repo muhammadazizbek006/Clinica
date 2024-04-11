@@ -26,11 +26,13 @@ import Terapevtik from "./pages/terapevt/Terapevtik";
 import TerapevtDetail from "./pages/terapevt/TerapevtDetail";
 import EstetikStamatalogika from "./pages/estetikStamatalogika/EstetikStamatalogika";
 import EstetikDetail from "./pages/estetikStamatalogika/EstetikDetail";
-import { PeriAdanatalogik } from "./Data";
+import { Diagnostik, PeriAdanatalogik } from "./Data";
 import PeriAdanatalogiya from "./pages/periAdanatalogiya/PeriAdanatalogiya";
 import PeriAdanatalogiyaDetail from "./pages/periAdanatalogiya/PeriAdanatalogiyaDetail";
 import Protezlash from "./pages/protezlash/Protezlash";
 import ProtezlashDetail from "./pages/protezlash/ProtezlashDetail";
+import Diagnostika from "./pages/Diagnostik/Diagnostika";
+import DiagnostikaDetail from "./pages/Diagnostik/DiagnostikaDetail";
 
 
 const App = () => {
@@ -62,6 +64,10 @@ const App = () => {
 
         <Route path="/Protezlash" element={<Protezlash/>}/>
         <Route path="/protez/:yonalishi" element={<ProtezlashDetail/>}/>
+
+
+        <Route path="/Diagnostika" element={<Diagnostika/>}/>
+        <Route path="/diga/:yonalishi" element={<DiagnostikaDetail/>}/>
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )
