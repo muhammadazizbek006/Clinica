@@ -776,7 +776,7 @@ export const PeriAdanatalogik = [
         malumot3:`Qon aylanishini tiklaydi.`,
     },
 ]
-
+// protezlash
 import metalKeramika from './img/karusel5.png'
 export const Protezlashi = [
 
@@ -843,5 +843,20 @@ export const Protezlashi = [
         soni:`1 jag'`,
         img:vektor,
         boshlanishN:35000,
+    },
+]
+
+// Diagnostika
+import dg from './img/diagnostika/dg.png'
+export const Diagnostik = [
+
+    {
+        id:1,
+        yonalishi:`3D intraoral skanerlash`,
+        narxi:5500 ,
+
+        img:dg,
+        boshlanishN:5500,
+        sharx:`Medit i700 yuqori tezlikdagi intraoral 3D skaner bir tish yoki butun qatorning real vaqtda raqamli taassurotini, shuningdek, yumshoq to‘qimalarning fotosuratlarini olish uchun og‘iz bo‘shlig‘i skanerlash uchun ishlatiladi. 3D skanerdan foydalanish maslahatlar sifatini yaxshilash, eng yaxshi davolash variantini tanlash va onlayn bulut tizimidan foydalangan holda stomatologiya laboratoriyalari bilan muloqot qilish imkonini beradi.`,
     },
 ]
