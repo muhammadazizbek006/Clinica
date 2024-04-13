@@ -12,7 +12,7 @@ const Aktsiya = () => {
                     { Aksiya.map((e)=>{
                         return(
                             <li key={e.id}>
-                               <Link className='flex' to={`/aktsiyam${e.nomi}`}>
+                               <Link className='flex'  to={`/Aktsiyam/${e.yonalishi}`}>
                                    <img width={208} height={240} className='w-52  h-60  mr-10  object-cover' src={e.img} alt="#" />
 
                                    <div>

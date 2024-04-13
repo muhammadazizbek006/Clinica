@@ -34,6 +34,7 @@ import ProtezlashDetail from "./pages/protezlash/ProtezlashDetail";
 import Diagnostika from "./pages/Diagnostik/Diagnostika";
 import DiagnostikaDetail from "./pages/Diagnostik/DiagnostikaDetail";
 import Aktsiya from "./pages/aktsiya/Aktsiya";
+import AktsiyaDetail from "./pages/aktsiya/AktsiyaDetail";
 
 
 const App = () => {
@@ -71,7 +72,7 @@ const App = () => {
         <Route path="/diga/:yonalishi" element={<DiagnostikaDetail/>}/>
 
         <Route path="/Aktsiya" element={<Aktsiya/>}/>
-
+        <Route path="/Aktsiyam/:nomi" element={<AktsiyaDetail/>}/>
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )
