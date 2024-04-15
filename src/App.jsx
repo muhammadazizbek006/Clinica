@@ -35,6 +35,8 @@ import Diagnostika from "./pages/Diagnostik/Diagnostika";
 import DiagnostikaDetail from "./pages/Diagnostik/DiagnostikaDetail";
 import Aktsiya from "./pages/aktsiya/Aktsiya";
 import AktsiyaDetail from "./pages/aktsiya/AktsiyaDetail";
+import Shifokorlar from "./components/Shifokorlar";
+import ShifokorlarX from "./pages/biznishifokorlar/ShifokorlarX";
 
 
 const App = () => {
@@ -74,6 +76,9 @@ const App = () => {
         <Route path="/Aktsiya" element={<Aktsiya/>}/>
         <Route path="/Akt/:nomi" element={<AktsiyaDetail/>}/>
 
+
+        <Route path="/ShifokorlarX" element={<ShifokorlarX/>}/>
+        
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )

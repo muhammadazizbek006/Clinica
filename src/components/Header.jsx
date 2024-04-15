@@ -107,11 +107,9 @@ const Header = () => {
               <Link to="/Aktsiya">Aksiya</Link>
             </li>
 
-
-
             {/* Bizning shifokorlarimiz */}
             <li>
-              <Link to="/bizningshifokorlarimiz">Bizning shifokorlarimiz</Link>
+              <Link to="/ShifokorlarX">Bizning shifokorlarimiz</Link>
             </li>
 
             {/* Klinika haqida */}
