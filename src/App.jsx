@@ -26,7 +26,7 @@ import Terapevtik from "./pages/terapevt/Terapevtik";
 import TerapevtDetail from "./pages/terapevt/TerapevtDetail";
 import EstetikStamatalogika from "./pages/estetikStamatalogika/EstetikStamatalogika";
 import EstetikDetail from "./pages/estetikStamatalogika/EstetikDetail";
-import { Diagnostik, PeriAdanatalogik } from "./Data";
+
 import PeriAdanatalogiya from "./pages/periAdanatalogiya/PeriAdanatalogiya";
 import PeriAdanatalogiyaDetail from "./pages/periAdanatalogiya/PeriAdanatalogiyaDetail";
 import Protezlash from "./pages/protezlash/Protezlash";
@@ -72,12 +72,15 @@ const App = () => {
         <Route path="/diga/:yonalishi" element={<DiagnostikaDetail/>}/>
 
         <Route path="/Aktsiya" element={<Aktsiya/>}/>
-        <Route path="/Aktsiyam/:nomi" element={<AktsiyaDetail/>}/>
+        <Route path="/Akt/:nomi" element={<AktsiyaDetail/>}/>
+
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )
   );
-  return <RouterProvider router={router} />;
+    return(
+      <RouterProvider router={router} />
+    ) ;
 };
 
 export default App;
