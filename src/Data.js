@@ -184,12 +184,12 @@ import anjelika from './img/anjelika.jpg'
 import anna from './img/anna.jpg'
 import aleksandra from './img/aleksandra.jpg'
 import ilnur from './img/ilnur.jpg'
-// import kristina from './img/Kristina.jpg'
-// import kristina from './img/Kristina.jpg'
-// import kristina from './img/Kristina.jpg'
-// import kristina from './img/Kristina.jpg'
+import suxa from './img/suxa.jpg'
+import elena from './img/elena.jpg'
 
-export const shifokorlar =[
+
+
+export const shifokorlar = [
     {
         id:1,
         img:kristina,
@@ -208,36 +208,136 @@ export const shifokorlar =[
         tm8:`2023 “Raqamli stomatologiya” ma’ruza va amaliy kurs.`,
         tm9:`2023 "Tish shifokori amaliyotida yopishqoq keramika restavratsiyasi" ma'ruza va amaliy kursi.`,
     },
+
     {
         id:2,
         img:yelena,
         name:"Svetlakova Elena Nikolaevna",
-        ixtisosligi:["Tish shifokori-periodontist", "Tibbiyot fanlari doktori"],
+        ixtisosligi:`Stomatolog-periodontist`,
+        ixtisosligi2:`Tibbiyot fanlari doktori`,
+        ixtisosligi3:`Periodontal kasalliklarni konservativ davolash`,
+        talimmalaka:`Ta'lim va malaka:`,
+        tm:`2007 yil Rossiya Federatsiyasi Sog'liqni saqlash vazirligining "Ural davlat tibbiyot akademiyasi" oliy kasbiy ta'lim davlat byudjeti ta'lim muassasasi, "Stomatologiya" mutaxassisligi, stomatolog sifatida malakasi.`,
+
+        tm2:`2008 yil Internatura, Rossiya Federatsiyasi Sog'liqni saqlash vazirligining "Ural davlat tibbiyot akademiyasi" oliy kasbiy ta'lim davlat byudjeti ta'lim muassasasi, "Umumiy stomatologiya" mutaxassisligi.`,
+
+        tm3:`2013 yil Rossiya Federatsiyasi Sog'liqni saqlash vazirligining "Ural davlat tibbiyot akademiyasi" oliy kasbiy ta'lim davlat byudjeti ta'lim muassasasining "Terapevtik stomatologiya" mutaxassisligi bo'yicha kasbiy qayta tayyorlash.`,
+
+        tm4:`2020 Malaka oshirish, "Ural davlat tibbiyot universiteti" Federal davlat byudjeti oliy kasbiy ta'lim muassasasi, "Terapevtik stomatologiya" tsikli, 144 soat.`,
+
+        tm5:`2020 "Terapevtik stomatologiya" mutaxassisligi bo'yicha mutaxassis sertifikati.`,
+
+        tm6:`2015 yil Kasbiy qayta tayyorlash, Rossiya Federatsiyasi Sog'liqni saqlash vazirligining "Ural davlat tibbiyot universiteti" oliy kasbiy ta'lim davlat byudjeti ta'lim muassasasi, "Xirurgik stomatologiya" mutaxassisligi.`,
+
+        tm7:`2020 Malaka oshirish, ANO DPO “Gumanitar-texnika instituti”, “Xirurgik stomatologiya” mutaxassisligi.`,
+
+        tm8:`2020 "Xirurgik stomatologiya" mutaxassisligi bo'yicha mutaxassis sertifikati.`,
+
+        tm9:`2012 yil Qisqa muddatli malaka oshirish sertifikati, Moskva davlat tibbiyot va stomatologiya universiteti, "Stomatologiyada lazer texnologiyalarini qo'llash".`,
     },
+    
     {
         id:3,
         img:anjelika,
         name:"Mustafina Anjelika Albertovna",
-        ixtisosligi:["Stomatolog-ortodontist"],
+        ixtisosligi:`Stomatolog-ortodontist`,
+
+        talimmalaka:`Ta'lim va malaka:`,
+        tm:`2016 yildan beri, umumiy stomatolog, Qozon,
+            2021 yildan beri, ortodont, Yekaterinburg: Kattalar va barcha yoshdagi bolalar uchun olinadigan va olinmaydigan asbob-uskunalar bo'yicha ortodontik davolash`,
+
+        tm2:`2011 - 2016 Qozon davlat tibbiyot universiteti, mutaxassisligi umumiy stomatolog. 2020-2022 yillar nomidagi Shimoli-gʻarbiy davlat tibbiyot universiteti. Mechnikova, ortodontiya ixtisosligi 2021 "Katta bemorlarni alignerlar bilan davolash" sertifikatlash kursi 2021 "Bolalar va o'smirlar uchun alignerlar bilan davolash" sertifikatlash kursi 2022 "Lingual braketlar bilan davolash" sertifikatlash kursi Xobbi va sevimli mashg'ulotlarim: Men faol hayot tarzi bilan shug'ullanaman. velosiped, men oilam bilan ochiq havoda vaqt o'tkazishni yaxshi ko'raman. Kasbiy qiziqishlar doirasi: Men bilan bu qo'rqinchli yoki og'riqli emas, siz sog'lom va chiroyli tabassumni topasiz va men sizga orzularingizdagi tabassumni berib, biroz baxtliroq bo'laman.`,
     },
+
     {
         id:4,
         img:anna,
         name:"Tutynina Anna Olegovna",
-        ixtisosligi:["Pediatrik stomatolog"],
+
+        ixtisosligi:`Bolalar stomatologi`,
+
+        talimmalaka:`Ta'lim va malaka:`,
+        tm:`2013 - 2014 yillar "Dynasty" stomatologiya klinikasi, Yekaterinburg, umumiy stomatolog (terapevtik qabul)`,
+        tm2:`2015 yildan "Krasnoufimskaya stomatologiya klinikasi" davlat avtonom muassasasi bolalar stomatologi, 2019 yildan boshlab ortodontik tayinlangan bolalar bo'limi mudiri.`,
+
+        tm3:` 2011 yil Rossiya Federatsiyasi Sog'liqni saqlash vazirligining "Ural davlat tibbiyot akademiyasi" oliy kasbiy ta'lim davlat byudjeti ta'lim muassasasi, mutaxassisligi "Stomatologiya", malakali stomatolog (a'rifiy diplom).`,
+        tm4:`2012 yil  Rossiya Federatsiyasi Sog'liqni saqlash vazirligining Ural davlat tibbiyot akademiyasi SOSP bazasida "Umumiy stomatologiya" mutaxassisligi bo'yicha stajirovka.`,
+        
+        tm5:`2015  Kasbiy qayta tayyorlash, Ural davlat tibbiyot universiteti, Rossiya Federatsiyasi Sog'liqni saqlash vazirligi, "Pediatrik stomatologiya" mutaxassisligi.`,
+
+        tm6:`2020  Malaka oshirish, Federal davlat byudjeti oliy taʼlim muassasasi “Akademik E.A. nomidagi Perm davlat tibbiyot universiteti. Vagner”, “Pediatriya stomatologiyasi” mutaxassisligi, 144 soat. "Pediatriya stomatologiyasi" mutaxassisligi bo'yicha mutaxassis sertifikati.`,
     },
+
     {
         id:5,
         img:aleksandra,
         name:"Salmina Aleksandra Vadimovna",
-        ixtisosligi:["Tish jarrohi"],
+
+        ixtisosligi:`Tish jarrohi`,
+
+        talimmalaka:`Ta'lim va malaka:`,
+        tm:`2023 Pavel Yaroshevich "Implant atrofidagi to'qimalarni ko'paytirish uchun minimal invaziv protokollar". Stomport`,
+
+        tm2:`2023 All-on-4 kontseptsiyasi Taras Yurov, Aleksandr Bikbaev. Aurum.`,
+
+        tm3:`2023 yil "Amaliyat orqali mukammallik" ilmiy-amaliy kongressi. Dental GURU.`,
+
+        tm4:`2021 Oddiy va murakkab holatlarning apikal jarrohligi. Dmitriy Kudryashov. Geosoft.`,
+
+        tm5:`2021 Aleksey Frolov "To'qima" aralash qabul qilish protokollari. Stomport.`,
+
+        tm6:`2020 IV Xalqaro Implantologiya Kongressi. Kisir Akademiyasi.`,
     },
+
     {
         id:6,
         img:ilnur,
         name:"Mustafin Ilnur Mubarikovich",
-        ixtisosligi:["Ortoped-tish shifokori", "Tish jarrohi"],
+        ixtisosligi:`Ortoped tish shifokori`,
+
+        ixtisosligi2:`Tish jarrohi`,
+
+        talimmalaka:`Ta'lim va malaka:`,
+        tm:`2010 - 2015 Izhevsk davlat tibbiyot akademiyasi, stomatologiya fakulteti`,
+
+        tm2:`2016 Izhevsk davlat tibbiyot akademiyasi, "stomatologiya-umumiy amaliyot" mutaxassisligi bo'yicha stajirovka`,
+        tm3:`2016 yil Izhevsk davlat tibbiyot akademiyasi, "ortopedik stomatologiya" bo'yicha boshlang'ich mutaxassislik`,
+
+        tm4:`2017 yil . implantlar" Yekaterinburg 2019
+" Tarmoqlararo Davlat sertifikatlashtirish instituti" Perm, birlamchi mutaxassislik "jarrohlik stomatologiyasi"`,
+
+        tm5:`2019 "To'liq keramik restavratsiyalar" treningi Dumnov K.A., Moskva`,
     },
+
+    {
+        id:7,
+        img:suxa,
+        name:"Suxorukova Anna Aleksandrovna",
+        ixtisosligi2:`Stomatolog-terapevt`,
+
+        talimmalaka:`Ta'lim va malaka:`,
+        tm:`2019-2023: Mixail Solomonov "Endodontiya 1,2,3,4,8".
+        2021 yil avgust: I. Mehr “Kengaytirilgan endodontika”.
+        2022 yil iyun: “Pro Endo 4” xalqaro kongressi, Bishkek,
+        2022 yil iyun: N.V. Tsoy "Og'iz bo'shlig'ining yumshoq to'qimalari. Konservativ davolash".
+        2022 yil iyun: Lyubomirskiy "Tish shifokori amaliyotida diodli lazerdan foydalanish".`,
+
+        tm2:`0206 Ural davlat tibbiyot akademiyasining stomatologiya fakultetidan.
+        2007 yil Sverdlovsk viloyat stomatologiya klinikasida kunduzgi stajirovka, "umumiy amaliyot stomatologiyasi" mutaxassisligi bo'yicha stomatolog sifatida malakaga ega, sertifikatning tasdiqlanishi 2018 yil
+        2011 yil Ural davlat tibbiyot akademiyasi terapevtik stomatologiya kafedrasida terapevtik stomatologiya bo'yicha birlamchi mutaxassislik, tasdiqlang 2016 va 2020 yillarda sertifikat`,
+    },
+
+    {
+        id:8,
+        img:elena,
+        name:"Iltubaeva Elena Aleksandrovna",
+        ixtisosligi:`Kattalar uchun keng qamrovli professional og'iz gigienasi`,
+        ixtisosligi2:`Yuzaki va o'rta kariesni davolash`,
+        talimmalaka:`Ta'lim va malaka:`,
+        tm:`2023 - Ural davlat tibbiyot universiteti, stomatologiya fakulteti.`,
+        tm2:`1 yil`,
+    },
+
 ]
 
 // ko'p beriladigan savollar
