@@ -21,7 +21,7 @@ const ShifokorlarX = () => {
                 shifokorlar.map((e)=>{
                   return(
                     <li key={e.id}>
-                          <Link to={`/shdetail${e.name}`} className='flex'>
+                          <Link to={`/detail/${e.name}`} className='flex'>
                             <img className='w-40 h-48 mr-4' width={150} height={190} src={e.img} alt="" />
                             
                             <div className='flex flex-col'>

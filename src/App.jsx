@@ -79,7 +79,7 @@ const App = () => {
 
 
         <Route path="/ShifokorlarX" element={<ShifokorlarX/>}/>
-        <Route path="/shdetail/:name" element={<ShifokorlarXDetail/>}/>
+        <Route path="/detail/:name" element={<ShifokorlarXDetail/>}/>
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )
