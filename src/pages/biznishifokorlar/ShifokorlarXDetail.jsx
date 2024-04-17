@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { shifokorlar } from '../../Data';
 
 // pages
-import KopSavollar from "../../components/Home/KopSavollar";
+
 import Cta from "../../components/Home/Cta";
 
 const ShifokorlarXDetail = () => {
@@ -11,12 +11,12 @@ const ShifokorlarXDetail = () => {
     const shifokor = shifokorlar.filter((e) => e.name == name);
   return (
     <>
-        <section>
+        <section className='py-12'>
             <div className="containerb">
                {
                 shifokor.map((e)=>{
                     return(
-                        <h2 className='text-42 font-bold mb-8'>{e.name}</h2>
+                        <h2 className='text-42  mb-8'>{e.name}</h2>
                     )
                 })
                }
@@ -26,20 +26,21 @@ const ShifokorlarXDetail = () => {
                 {
                     shifokor.map((e)=>{
                         return(
-                            <li className='flex justify-between'>
+                            <li className='flex  '>
                                 {/* left */}
-                                <img className='w-[405px] h-[559px]' src={e.img} alt={e.name} />
+                                <img className='w-[405px] h-[559px] mr-24' src={e.img} alt={e.name} />
+
                                 <div>
                                     <h4 className='text-base font-medium text-header mb-3'>Doktor ixtisosligi</h4>
                                         {/* ixtisosligi */}
-                                    <div className='space-y-2'>
-                                        <p className='text-base'>{e.ixtisosligi}</p>
+                                    <div className='space-y-2 mb-4'>
+                                        <p className='text-base list-disc'>{e.ixtisosligi}</p>
                                         <p className='text-base'>{e.ixtisosligi2}</p>
                                         <p className='text-base'>{e.ixtisosligi3}</p>
                                     </div>
                                     {/* talim va malaka */}
                                     <div className='space-y-3'>
-                                        <p className='text-base font-medium'>{e.talimmalaka}</p>
+                                        <p className='text-base font-medium text-header'>{e.talimmalaka}</p>
                                         <p className='text-base'>{e.tm}</p>
                                         <p className='text-base'>{e.tm2}</p>
                                         <p className='text-base'>{e.tm3}</p>
@@ -50,7 +51,6 @@ const ShifokorlarXDetail = () => {
                                         <p className='text-base'>{e.tm8}</p>
                                         <p className='text-base'>{e.tm9}</p>
 
-
                                     </div>
                                 </div>
                             </li>
@@ -60,7 +60,7 @@ const ShifokorlarXDetail = () => {
                </ul>
             </div>
         </section>
-        <KopSavollar/>
+
         <Cta/>
     </>
   )
