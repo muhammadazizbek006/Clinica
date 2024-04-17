@@ -39,6 +39,7 @@ import Shifokorlar from "./components/Shifokorlar";
 import ShifokorlarX from "./pages/biznishifokorlar/ShifokorlarX";
 import ShifokorlarXDetail from "./pages/biznishifokorlar/ShifokorlarXDetail";
 import KlinikaXadiqa from "./pages/klinikaxaqida/KlinikaXadiqa";
+import Kontaktlar from "./pages/kontaktlar/Kontaktlar";
 
 
 const App = () => {
@@ -83,6 +84,8 @@ const App = () => {
         <Route path="/detail/:name" element={<ShifokorlarXDetail/>}/>
 
         <Route path="/kilinikaxaqida" element={<KlinikaXadiqa/>}/>
+
+        <Route path="/kontaktlar" element={<Kontaktlar/>}/>
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )
