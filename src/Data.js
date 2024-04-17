@@ -1045,3 +1045,49 @@ export const Aksiya = [
     },
 
 ]
+
+// klinika xaqida
+
+
+export const klinika = [
+
+    {
+        info:`Clinica Native terapevtik, protezlash va profilaktik stomatologiya sohasida keng ko'lamli xizmatlarni taklif qilishdan faxrlanadi. Biz zamonaviy materiallar va davolash usullaridan foydalangan holda bemorlarimizning barcha ehtiyojlarini qondirishga intilamiz.`,
+        mtitile:`Terapevtik stomatologiya:`,
+        malumotT:`doimiy va vaqtinchalik tishlarning kariyesini davolash.`,
+        malumotT2:`- kariyesning murakkab shakllarini davolash (pulpit, periodontit)`,
+        malumotT3:`- kariy bo'lmagan lezyonlarni davolash (emal gipoplaziyasi, floroz va boshqalar).`,
+        malumotT4:`- tishlarni tiklash`,
+        malumotT5:`- operatsion mikroskop yordamida takroriy endodontik davolash`,
+        malumotT6:`- tishlarni oqartirish`,
+
+    },
+    {
+        mtitile:`Zamonaviy diagnostika usullari: `,
+
+        malumotT:`EXTARO 300 stomatologik mikroskopi bemor uchun davolash jarayonini qulayroq qiladi va yuqori sifatli stomatologik yordamni ta'minlaydi. `,
+        malumotT2:`- Jarrohlik maydonining vizualizatsiyasini yaxshilaydi.
+        Yashirin karies bo'shliqlarini aniqlashga yordam beradi.
+        Tish tayyorlash sifatini nazorat qilishni va yo'qolgan to'qimalarni tiklashni soddalashtiradi.
+        Mikroskop qo'shimcha ildiz kanallarini qidirishda va takroriy endodontik davolanish uchun zarurdir.`,
+        malumotT3:`- Radiovizografik apparat EZ sensori Intra-oral sensor.
+        Rentgenologik stomatologik intraoral VEX-S300W.`,
+        malumotT4:`- Medit i700 yuqori tezlikdagi intraoral 3D skaner bir tish yoki butun qatorning real vaqtda raqamli taassurotini, shuningdek, yumshoq to‘qimalarning fotosuratlarini olish uchun intraoral skanerlash uchun ishlatiladi. 3D skanerdan foydalanish maslahatlar sifatini yaxshilash, eng yaxshi davolash variantini tanlash va onlayn bulut tizimidan foydalangan holda stomatologiya laboratoriyalari bilan o‘zaro aloqada bo‘lish imkonini beradi.`,
+        
+    },
+    {
+
+        mtitile:`Kichkina va kattalar bemorlari uchun, `,
+
+        malumotT:`Tish shifokoriga tashrif buyurishdan qo'rqqanlarga televizor ekranida yovvoyi tabiat manzaralari, sevimli filmlar yoki multfilmlar ko'rsatilishi bilan psixologik dam olish taklif etiladi. Agar xohlasangiz, protsedura davomida naushnik kiyishingiz va tinchlantiruvchi musiqa tinglashingiz mumkin.`,
+
+        
+    },
+    {
+
+        mtitile:`Estetik stomatologiya:`,
+        malumotT:`Flash professional tishlarni oqartirish tizimini o'z ichiga oladi. Oqartirish oqartiruvchi jel komponentlarini yorug'lik (LED) faollashtirish orqali amalga oshiriladi, buning natijasida yuqori oqartirish natijasiga erishiladi (7-8 tonnagacha).`,
+        malumotT2:`Vektor apparati yordamida periodontal davolash bakterial plyonkani yo'q qilishga va tish va implantlarning ildizlari yuzasidan tish plastinkasini ehtiyotkorlik bilan olib tashlashga imkon beradi. Diodli lazer periodontal cho'ntaklarni kuretaj va sterilizatsiya qilish, gingivektomiya uchun ishlatiladi. Periodontitni kompleks davolash, ko'rsatmalarga ko'ra, gialuron kislotasi va boyitilgan autoplazma in'ektsiyalarini o'z ichiga oladi. Davolash rejasi kasallikning klinik ko'rinishiga, bemorning yoshiga va unga bog'liq bo'lgan omillarga qarab mutaxassis tomonidan individual ravishda tanlanadi.`,
+    },
+
+]

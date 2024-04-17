@@ -114,7 +114,7 @@ const Header = () => {
 
             {/* Klinika haqida */}
             <li>
-              <Link to="/klinikaxaida">Klinika haqida</Link>
+              <Link to="/kilinikaxaqida">Klinika haqida</Link>
             </li>
 
             {/* Kontaktlar */}
