@@ -37,6 +37,7 @@ import Aktsiya from "./pages/aktsiya/Aktsiya";
 import AktsiyaDetail from "./pages/aktsiya/AktsiyaDetail";
 import Shifokorlar from "./components/Shifokorlar";
 import ShifokorlarX from "./pages/biznishifokorlar/ShifokorlarX";
+import ShifokorlarXDetail from "./pages/biznishifokorlar/ShifokorlarXDetail";
 
 
 const App = () => {
@@ -78,7 +79,7 @@ const App = () => {
 
 
         <Route path="/ShifokorlarX" element={<ShifokorlarX/>}/>
-        
+        <Route path="/shdetail/:name" element={<ShifokorlarXDetail/>}/>
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )
