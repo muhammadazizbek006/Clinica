@@ -24,28 +24,37 @@ import ChegirmaDetail from "./pages/chegirma/ChegirmaDetail";
 
 import Terapevtik from "./pages/terapevt/Terapevtik";
 import TerapevtDetail from "./pages/terapevt/TerapevtDetail";
+
 import EstetikStamatalogika from "./pages/estetikStamatalogika/EstetikStamatalogika";
 import EstetikDetail from "./pages/estetikStamatalogika/EstetikDetail";
 
 import PeriAdanatalogiya from "./pages/periAdanatalogiya/PeriAdanatalogiya";
 import PeriAdanatalogiyaDetail from "./pages/periAdanatalogiya/PeriAdanatalogiyaDetail";
+
 import Protezlash from "./pages/protezlash/Protezlash";
 import ProtezlashDetail from "./pages/protezlash/ProtezlashDetail";
+
 import Diagnostika from "./pages/Diagnostik/Diagnostika";
 import DiagnostikaDetail from "./pages/Diagnostik/DiagnostikaDetail";
+
 import Aktsiya from "./pages/aktsiya/Aktsiya";
 import AktsiyaDetail from "./pages/aktsiya/AktsiyaDetail";
+
 import Shifokorlar from "./components/Shifokorlar";
 import ShifokorlarX from "./pages/biznishifokorlar/ShifokorlarX";
+
 import ShifokorlarXDetail from "./pages/biznishifokorlar/ShifokorlarXDetail";
 import KlinikaXadiqa from "./pages/klinikaxaqida/KlinikaXadiqa";
+
 import Kontaktlar from "./pages/kontaktlar/Kontaktlar";
+
 import Implantatsiya from "./pages/implantatsiya/Implantatsiya";
 import ImplantatsiyaDetail from "./pages/implantatsiya/ImplantatsiyaDetail";
 
 
 import Ortodontiya from './pages/ortodontiya/Ortodontiya'
 import OrtodontiyaDetail from './pages/ortodontiya/OrtodontiyaDetail'
+import Barchaxizmatlar from "./pages/barchaxizmatlar/Barchaxizmatlar";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -83,6 +92,8 @@ const App = () => {
         <Route path="/Aktsiya" element={<Aktsiya/>}/>
         <Route path="/Akt/:nomi" element={<AktsiyaDetail/>}/>
 
+
+        <Route path="/barchaxizmatlar" element={<Barchaxizmatlar/>}/>
 
         <Route path="/ShifokorlarX" element={<ShifokorlarX/>}/>
         <Route path="/detail/:name" element={<ShifokorlarXDetail/>}/>

@@ -107,6 +107,9 @@ const Header = () => {
               <Link to="/Aktsiya">Aksiya</Link>
             </li>
 
+            {/* xizmatlar */}
+            <Link to='/Barchaxizmatlar'>Xizmatlar</Link>
+
             {/* Bizning shifokorlarimiz */}
             <li>
               <Link to="/ShifokorlarX">Bizning shifokorlarimiz</Link>

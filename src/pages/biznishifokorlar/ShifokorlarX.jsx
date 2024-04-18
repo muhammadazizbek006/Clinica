@@ -33,7 +33,7 @@ const ShifokorlarX = () => {
                               </div>
                                                       
                               <div className='mt-auto inline-block '>
-                                  <Link className='text-lg font-medium bg-header py-3 px-5 inline-block top-12 hover:bg-online-zakaz hover:text-white duration-300'>Batafsil ma'lumot</Link>
+                                  <Link className='text-lg font-medium bg-header py-3 px-5 inline-block  hover:bg-online-zakaz hover:text-white duration-300'>Batafsil ma'lumot</Link>
                                 </div>
                             </div>
                           </Link>

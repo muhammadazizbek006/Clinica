@@ -83,6 +83,7 @@ export const xizmatlar = [
         id:1,
         img:xizmat1,
         title:"Tish shifokori bilan maslahatlashuv",
+        
     },
     {
         id:2,
@@ -1200,6 +1201,7 @@ import  keng from './img/ortodontiya/keng.png'
 import  keng2 from './img/ortodontiya/keng2.png'
 // import  keramika from './img/ortodontiya/keramika.png'
 import  qavs from './img/ortodontiya/qavs.png'
+import { Link } from 'react-router-dom'
 
 export const Ortadon = [
 

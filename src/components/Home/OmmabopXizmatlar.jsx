@@ -25,18 +25,19 @@ const OmmabopXizmatlar = () => {
                     ommabop.map((e)=>{
                       return(
                         
-                        <li key={e.id} className='flex justify-between items-center  py-3 px-6 hover:bg-link  '>
-                          
-                          {/* // left */}
-                          <div className='flex items-center w-full max-w-[581px]'> 
-                             <img className='mr-3' src={soat} alt="" />
-                             <p className='text-xl'>{e.xizmat}</p>
-                          </div>
-                          {/* right */}
-                          <div className='flex items-center' >
-                            <span className='mr-3'>{e.narxi}</span>
-                            <img className='' src={next} alt="" />
-                          </div>
+                        <li key={e.id} className='   hover:bg-link  '>
+                          <Link className='flex justify-between items-center py-3 px-6'>
+                            {/* // left */}
+                            <div className='flex items-center w-full max-w-[581px]'> 
+                              <img className='mr-3' src={soat} alt="" />
+                              <p className='text-xl'>{e.xizmat}</p>
+                            </div>
+                            {/* right */}
+                            <div className='flex items-center' >
+                              <span className='mr-3'>{e.narxi}</span>
+                              <img className='' src={next} alt="" />
+                            </div>
+                          </Link>
                         </li>
                       )
                     })
