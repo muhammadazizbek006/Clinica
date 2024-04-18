@@ -975,6 +975,107 @@ export const Diagnostik = [
 ]
 
 
+
+// implantatsiya
+import tish from './img/implantatsya/tish.png'
+import donolik from './img/implantatsya/donolik.png'
+import murakkab from './img/implantatsya/murakkab.png'
+import implant from './img/implantatsya/implant.png'
+export const implantatsiya = [
+
+    {
+        id:1,
+        yonalishi:`Tish chiqarish`,
+
+        narxi:2000 -7000 ,
+        soni:`1 tish`,
+        img:tish,
+        boshlanishN:2000,
+
+        sharx:`Ba'zi hollarda, ayniqsa konservativ davo samarasiz bo'lsa, tish chiqarish kerak bo'lishi mumkin. Mumkin bo'lgan noqulaylikni kamaytirish va tiklanish vaqtini kamaytirish uchun shifokorlar ushbu protsedurani iloji boricha yumshoqroq bajarishga harakat qilishadi. Biroq, har bir vaziyat individualdir. Tishning holatini baholash va uni olib tashlash kerakligini aniqlash uchun tish shifokoriga murojaat qilish muhimdir.`,
+
+        malumotTitle:`Qanday hollarda tish chiqarish tavsiya etiladi?`,
+
+        malumot:`Jiddiy tish kasalliklari, shu jumladan periodontit, chuqur ildiz kariesi, donolik tishlarini noto'g'ri joylashtirish uchun`,
+
+        malumot2:`Muvaffaqiyatli ortodontik davolash va protezlash uchun.`,
+
+    },
+
+    {
+        id:2,
+        yonalishi:`Donolik tishini olib tashlash`,
+        narxi:4800-12000 ,
+        soni:`1 tish`,
+        img:donolik,
+        boshlanishN:4800,
+        sharx:`Donolik tishlari tishlarning eng tashqi tishlari bo'lib, 17 yoshdan 27 yoshgacha bo'lgan odamlarda paydo bo'ladi.
+        Bugungi kunda odam qo'pol, qayta ishlanmagan ovqatni chaynamaydi va bizning uzoq ajdodlarimiz kabi katta jag'ga muhtoj emas. Ko'pincha, sakkizta tishlar noqulaylik tug'diradi va hatto to'g'ri tishlash bilan ham ular ovqatni chaynashda qatnashmaydilar va aslida bizga kerak emas. Shuning uchun, deyarli har bir kattalar, yuqori va pastki donolik tishlarini olib tashlash kerakmi, degan savol tug'iladi.
+        Stomatologiyada sakkizinchi raqamni olib tashlash odatiy protsedura bo'lib, tez-tez amalga oshiriladi. Biroq, siz unga faqat shifokorning ko'rsatmalari va tavsiyasiga binoan murojaat qilishingiz kerak.`,
+        malumotT:`Donolik tishlarini olib tashlash uchun ko'rsatmalar`,
+        malumot:`Tishlarni tishlash og'riq va noqulaylikni keltirib chiqaradi va atrofdagi to'qimalarning yallig'lanishini qo'zg'atadi.`,
+        malumot2:`Tish o'rta yoki chuqur karies bilan ta'sirlangan, pulpit yoki periodontit rivojlangan.`,
+        malumot3:`Tish tishlash joyida etarli joy yo'q;`,
+        malumotT4:`Yuqori yoki pastki jag'da antagonist tishning yo'qligi - sakkizta raqam, u bilan chaynash paytida aloqa bo'lishi kerak.`,
+        malumotT5:`Tasvirda kistni aniqlash.`,
+    },
+
+    {
+        id:3,
+        yonalishi:`Murakkab tish chiqarish`,
+        narxi:4500-7000,
+        soni:`1 tish`,
+        img:murakkab,
+        boshlanishN:4500,
+    },
+
+    {
+        id:4,
+        yonalishi:`Implant o'rnatish`,
+
+        narxi:35000-53000,
+        soni:`1 tish`,
+        img:implant,
+        boshlanishN:35000,
+
+    },
+    {
+        id:5,
+        yonalishi:`Implantatsiya All-on-4 vaqtinchalik shartli olinadigan protez, mustahkamlovchi akril`,
+
+        narxi:190-350000,
+        soni:`1 jag'`,
+        boshlanishN:190000,
+        sharx:`All-on-4 - bu atigi 4 ta implant yordamida yuqori yoki pastki jag'dagi barcha tishlarni tiklash imkonini beruvchi innovatsion implantatsiya usuli. Ushbu texnologiya bemor uchun yuqori darajadagi qulaylik va estetikani ta'minlaydi. All-on-4 protsedurasi jag'ning strategik joylariga to'rtta implant qo'yishni o'z ichiga oladi. Ushbu implantlar tishlarni almashtirish uchun kuchli langarni ta'minlaydi. Implantlarni o'rnatgandan so'ng, vaqtinchalik tish tishlari 24 soat ichida o'rnatilishi mumkin, bu bemorga darhol funktsional va estetik jihatdan jozibali tishlarga ega bo'lish imkonini beradi. Vaqtinchalik tish yoyi ma'lum vaqt davomida, odatda 3 yilgacha qo'llaniladi, implantlar esa suyak to'qimalariga to'liq integratsiyalashgan. Ushbu vaqtdan so'ng, vaqtinchalik tishlar to'plami uzoq vaqt davom etadigan bardoshli materialdan yasalgan doimiy tishlar bilan almashtiriladi.
+        `,
+        sharx2:`All-on-4 texnikasi bir qator afzalliklarga ega, jumladan, tez reabilitatsiya, implantlarning minimal soni, davolash vaqti va xarajatlarini qisqartirish, shuningdek, yuqori ishonchlilik va estetik jozibadorlik. Biroq, davolanish to'g'risida qaror qabul qilishdan oldin, sizning shaxsiy ehtiyojlaringiz va imkoniyatlaringizni baholash uchun ortodont yoki implantolog bilan maslahatlashish tavsiya etiladi.`,
+        malumotT:`All-on-4 - bu tish implantatsiyasining innovatsion usuli bo'lib, u to'rtta implant yordamida butun tish archini tiklash imkonini beradi. Ushbu protsedura bir qator afzalliklarga ega:`,
+        malumot:`1. Qisqa davolanish vaqti: Faqat to'rtta implantdan foydalanish tufayli, protsedura an'anaviy implantatsiya usullariga qaraganda kamroq vaqt talab etadi.`,
+        malumot2:`2. Kamroq operatsiyalar: All-on-4 qo'shimcha jarrohlik muolajalaridan qochadi, masalan, suyaklarni payvandlash, vaqt va asoratlar xavfini kamaytiradi.`,
+        malumot3:`3. Chaynash funksiyasi va estetikani tezda tiklash: protseduradan so'ng darhol bemorga chaynash funktsiyasi va estetikani tiklash imkonini beradigan vaqtinchalik tish tishlari o'rnatiladi.`,
+        malumotT4L:`4. Yaxshilangan barqarorlik: Implantlarning maxsus joylashuvi tufayli tishlarning mustahkamligi va qo'llab-quvvatlanishi ta'minlanadi.`,
+    },
+
+    {
+        id:6,
+        yonalishi:`Implantatsiya All-on-4 vaqtinchalik tsirkoniumli protez, anodlangan titanium bar bilan`,
+
+        narxi:300-400000,
+        soni:`1 jag'`,
+        img:vektor,
+        boshlanishN:300000,
+        sharx:`All-on-4 - bu atigi 4 ta implant yordamida yuqori yoki pastki jag'dagi barcha tishlarni tiklash imkonini beruvchi innovatsion implantatsiya usuli. Ushbu texnologiya bemor uchun yuqori darajadagi qulaylik va estetikani ta'minlaydi. All-on-4 protsedurasi jag'ning strategik joylariga to'rtta implant qo'yishni o'z ichiga oladi. Ushbu implantlar tishlarni almashtirish uchun kuchli langarni ta'minlaydi. Implantlarni o'rnatgandan so'ng, vaqtinchalik tish tishlari 24 soat ichida o'rnatilishi mumkin, bu bemorga darhol funktsional va estetik jihatdan jozibali tishlarga ega bo'lish imkonini beradi. Vaqtinchalik tish yoyi ma'lum vaqt davomida, odatda 3 yilgacha qo'llaniladi, implantlar esa suyak to'qimalariga to'liq integratsiyalashgan. Ushbu vaqtdan so'ng, vaqtinchalik tishlar to'plami uzoq vaqt davom etadigan bardoshli materialdan yasalgan doimiy tishlar bilan almashtiriladi.`,
+        sharx2:`All-on-4 texnikasi bir qator afzalliklarga ega, jumladan, tez reabilitatsiya, implantlarning minimal soni, davolash vaqti va xarajatlarini qisqartirish, shuningdek, yuqori ishonchlilik va estetik jozibadorlik. Biroq, davolanish to'g'risida qaror qabul qilishdan oldin, sizning shaxsiy ehtiyojlaringiz va imkoniyatlaringizni baholash uchun ortodont yoki implantolog bilan maslahatlashish tavsiya etiladi.`,
+        malumotT:`All-on-4 - bu tish implantatsiyasining innovatsion usuli bo'lib, u to'rtta implant yordamida butun tish archini tiklash imkonini beradi. Ushbu protsedura bir qator afzalliklarga ega:`,
+        malumot:`1. Qisqa davolanish vaqti: Faqat to'rtta implantdan foydalanish tufayli, protsedura an'anaviy implantatsiya usullariga qaraganda kamroq vaqt talab etadi.`,
+        malumot2:`2. Kamroq operatsiyalar: All-on-4 qo'shimcha jarrohlik muolajalaridan qochadi, masalan, suyaklarni payvandlash, vaqt va asoratlar xavfini kamaytiradi.`,
+        malumot3:`3. Chaynash funksiyasi va estetikani tezda tiklash: protseduradan so'ng darhol bemorga chaynash funktsiyasi va estetikani tiklash imkonini beradigan vaqtinchalik tish tishlari o'rnatiladi.`,
+        malumotT4:`4. Yaxshilangan barqarorlik: Implantlarning maxsus joylashuvi tufayli tishlarning mustahkamligi va qo'llab-quvvatlanishi ta'minlanadi.`,
+        malumotT5:`5. Suyakda kamroq stress: All-on-4 yukni to'rtta implant bo'ylab taqsimlaydi, bu suyakdagi stressni kamaytiradi va suyak rezorbsiyasi xavfini kamaytiradi.`
+    },
+]
+
+
 // aktsiya
 import bt from './img/aksiyaD/brekit.jpg'
 

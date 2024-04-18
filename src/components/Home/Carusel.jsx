@@ -15,7 +15,7 @@ AOS.init();
 
 // import required modules
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
-import { carusels } from "../../Data";
+import { carusels, Aksiya } from "../../Data";
 const Carusel = () => {
   return (
     <>
@@ -30,17 +30,15 @@ const Carusel = () => {
           effect="fade"
           className="mySwiper"
         >
-          {carusels.map((e) => {
+          {Aksiya.map((e) => {
             return (
               <SwiperSlide key={e.id} className="relative bg-header">
                 <div className=" flex  items-center h-[700px] containerb">
                   {/* left */}
                   <div className="flex flex-col w-1/2 gap-y-5">
-                    <h2 className="font-bold text-6xl">{e.tavsiya}</h2>
-                    <p className="text-xl font-medium">{e.formula}</p>
-                    <p className="font-medium">{e.chegirma}</p>
-                    <p className="text-lg font-medium">{e.royxat}</p>
-                    <Link className="bg-white px-5 py-3 inline-block w-1/6 text-center">
+                    <h2 className="font-bold text-6xl">{e.nomi}</h2>
+                    <p className="font-medium">{e.chegrima}</p>
+                    <Link to={`/Akt/${e.nomi}`} className="bg-white hover:bg-online-zakaz hover:text-white duration-300 px-5 py-3 inline-block w-1/6 text-center">
                       Batafsil
                     </Link>
                   </div>

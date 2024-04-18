@@ -40,6 +40,8 @@ import ShifokorlarX from "./pages/biznishifokorlar/ShifokorlarX";
 import ShifokorlarXDetail from "./pages/biznishifokorlar/ShifokorlarXDetail";
 import KlinikaXadiqa from "./pages/klinikaxaqida/KlinikaXadiqa";
 import Kontaktlar from "./pages/kontaktlar/Kontaktlar";
+import Implantatsiya from "./pages/implantatsiya/Implantatsiya";
+import ImplantatsiyaDetail from "./pages/implantatsiya/ImplantatsiyaDetail";
 
 
 const App = () => {
@@ -83,9 +85,14 @@ const App = () => {
         <Route path="/ShifokorlarX" element={<ShifokorlarX/>}/>
         <Route path="/detail/:name" element={<ShifokorlarXDetail/>}/>
 
+        <Route path="/implantatsiya" element={<Implantatsiya/>}/>
+        <Route path="/implant/:yonalishi" element={<ImplantatsiyaDetail/>}/>
+        
         <Route path="/kilinikaxaqida" element={<KlinikaXadiqa/>}/>
 
         <Route path="/kontaktlar" element={<Kontaktlar/>}/>
+
+
         <Route path="*" element={<PageNotFound />} />
       </Route>
     )
