@@ -1198,7 +1198,7 @@ import  ol from './img/ortodontiya/ol.png'
 import  aligners from './img/ortodontiya/aligners.png'
 import  keng from './img/ortodontiya/keng.png'
 import  keng2 from './img/ortodontiya/keng2.png'
-import  keramika from './img/ortodontiya/keramika.png'
+// import  keramika from './img/ortodontiya/keramika.png'
 import  qavs from './img/ortodontiya/qavs.png'
 
 export const Ortadon = [

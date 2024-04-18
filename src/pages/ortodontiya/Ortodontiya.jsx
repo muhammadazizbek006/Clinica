@@ -1,20 +1,29 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import { Ortadon } from '../../Data';
+// img
+import next from '../../img/next.svg'
+import ortodontiya from '../../img/ortodontiya.png'
+// page
+import Chegirma from '../chegirma/Chegirma'
+import Cta from '../../components/Home/Cta'
+import KopSavollar from '../../components/Home/KopSavollar';
 
 const Ortodontiya = () => {
   return (
     <>
            {/* title */}
-           <section>
+        <section>
         <div className="containerb">
           {/* top */}
           <div className=" flex items-center justify-between pt-5">
             {/* left */}
             <div className="flex items-center">
               <div className="w-28 bg-akva  mr-6 ">
-                <img className="  px-5 py-3  " src={protezlar} alt="#" />
+                <img className="  px-5 py-6  " src={ortodontiya} alt="#" />
               </div>
               <h2 className="text-32 font-medium border-b-4 border-b-header w-full ">
-              Protezlash
+               Protezlash
               </h2>
             </div>
             {/* right */}
@@ -29,14 +38,14 @@ const Ortodontiya = () => {
       <section className="py-12">
         <div className="containerb">
           <ul>
-            {Protezlashi.map((e) => {
+            {Ortadon.map((e) => {
               return (
                 <li
                   key={e.id}
                   className="border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300"
                 >
                   <Link
-                    to={`/protez/${e.yonalishi}`}
+                    to={`/ortadont/${e.yonalishi}`}
                     className="flex justify-between items-center p-5"
                   >
                     {/* left */}

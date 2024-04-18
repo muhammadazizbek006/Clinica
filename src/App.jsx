@@ -92,7 +92,7 @@ const App = () => {
 
 
         <Route path="/ortodontiya" element={<Ortodontiya/>}/>
-        <Route path="" element={<OrtodontiyaDetail/>}/>
+        <Route path="/ortadont/:yonalishi" element={<OrtodontiyaDetail/>}/>
         
         <Route path="/kilinikaxaqida" element={<KlinikaXadiqa/>}/>
 
