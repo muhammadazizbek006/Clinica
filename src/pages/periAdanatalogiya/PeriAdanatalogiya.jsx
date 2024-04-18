@@ -21,7 +21,7 @@ const PeriAdanatalogiya = () => {
                 <img className="  px-5 py-3  " src={peri} alt="#" />
               </div>
               <h2 className="text-32 font-medium border-b-4 border-b-header w-full ">
-                Estetik stomatologiya
+                Peri Adanatalogiya
               </h2>
             </div>
             {/* right */}

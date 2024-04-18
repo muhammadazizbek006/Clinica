@@ -16,7 +16,7 @@ const OmmabopXizmatlar = () => {
               {/* ommabop xizmatlar */}
               <div className='max-w-xs'>
                 <h2 className='text-42 font-medium mb-8'>Ommabop xizmatlar</h2>
-                <Link className='font-medium text-lg px-5 py-3 bg-white hover:bg-online-zakaz hover:text-white duration-500'>Barcha xizmatlar</Link>
+                <Link to='/barchaxizmatlar' className='font-medium text-lg px-5 py-3 bg-white hover:bg-online-zakaz hover:text-white duration-500'>Barcha xizmatlar</Link>
               </div>
               {/* davolash turlari */}
               <div className='bg-white py-6 '  data-aos="fade-up" data-aos-duration="1000">
