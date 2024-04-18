@@ -26,10 +26,9 @@ const KlinikaShfokorlari = () => {
                         <div className=''>
                           <h3 className='text-lg font-medium mb-3'>{e.name}</h3>
                           <div className='flex items-center mb-24 '>
-                            <span className='mr-3 text-2xl font-extrabold'>.</span>
                             <p className='max-w-48 text-base'>{e.ixtisosligi}</p>
                           </div>
-                          <Link className='text-lg font-medium bg-header py-3 px-6 inline-block  hover:text-white hover:bg-online-zakaz duration-500'>Batafsil</Link>
+                          <Link to={`/detail/${e.name}`} className='text-lg font-medium bg-header py-3 px-6 inline-block  hover:text-white hover:bg-online-zakaz duration-500'>Batafsil</Link>
                         </div>
                       </Link>
                     </li>

@@ -103,7 +103,7 @@ const Shifokorlar = () => {
 
 
                   <div className="mt-auto inline-block  ">
-                  <Link className="text-xl font-medium  hover:text-white hover:bg-online-zakaz bg-header duration-500 px-8   py-3">
+                  <Link to={`/detail/${e.name}`} className="text-xl font-medium  hover:text-white hover:bg-online-zakaz bg-header duration-500 px-8   py-3">
                     Batafsil
                   </Link>
                   </div>

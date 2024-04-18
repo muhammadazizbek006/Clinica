@@ -24,20 +24,19 @@ const Footer = () => {
         <li className='flex  space-x-10'>
           {/* left */}
           <div className='flex flex-col space-y-2'>
-            <Link>Xizmatlar va narxlar</Link>
-            <Link>Klinika haqida</Link>
-            <Link>Hujjatlar va litsenziyalar</Link>
+            <Link to='/barchaxizmatlar'>Xizmatlar</Link>
+            <Link to='/kilinikaxaqida'>Klinika haqida</Link>
           </div>
           {/* center */}
           <div className='flex flex-col space-y-2'>
-            <Link>Mutaxassislar</Link>
-            <Link>Sharhlar</Link>
-            <Link>Nazorat qiluvchi organlar</Link>
+            <Link to='/ShifokorlarX'>Mutaxassislar</Link>
+            <a href="https://clinicanative.ru/upload/licence.pdf">Nazorat qiluvchi organlar</a>
+
           </div>
           {/* right */}
           <div className='flex flex-col space-y-2'>
             <Link>Yangiliklar</Link>
-            <Link>Kontaktlar</Link>
+            <Link to='/kontaktlar'>Kontaktlar</Link>
           </div>
         </li>
           {/* center */}
