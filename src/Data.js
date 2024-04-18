@@ -1192,3 +1192,139 @@ export const klinika = [
     },
 
 ]
+
+// ortodontiya
+import  ol from './img/ortodontiya/ol.png'
+import  aligners from './img/ortodontiya/aligners.png'
+import  keng from './img/ortodontiya/keng.png'
+import  keng2 from './img/ortodontiya/keng2.png'
+import  keramika from './img/ortodontiya/keramika.png'
+import  qavs from './img/ortodontiya/qavs.png'
+
+export const Ortadon = [
+
+    {
+        id:1,
+        yonalishi:`Keng qamrovli diagnostika tayinlash (bolalar, 12 yoshgacha)`,
+
+        narxi:6000 ,
+        soni:`1 xizmat`,
+        img:keng,
+        boshlanishN:6000,
+
+        sharx:`Bolalarda tishlarning noto'g'ri joylashishi turli sabablarga ko'ra yuzaga kelishi mumkin: irsiyat, so'rg'ichni uzoq vaqt emizish, burun nafasida qiyinchilik, sut tishlarining muddatidan oldin yo'qolishi. Bolalikda noto'g'ri okklyuzion patologiyalarni kattalarnikiga qaraganda tuzatish osonroq, chunki jag' suyaklari hali ham rivojlanmoqda va ularni osongina tuzatish mumkin. Pediatrik ortodontist bolalardagi malokluziyani tuzatishga ixtisoslashgan.`,
+        sharx2:`Davolashni boshlashdan oldin og'iz bo'shlig'iga tashxis qo'yish va tishlarni to'g'rilash uchun tishlarni qanday va qaerga siljitish kerakligini tushunish kerak. Buning uchun shifokor keng qamrovli diagnostika tayinlanishini belgilaydi, tekshiruv o'tkazadi, suratga oladi va natijalarni tahlil qiladi.`,
+
+        malumotTitle:`Bolalardagi malokluziya belgilari`,
+
+        malumot:`Katta interdental bo'shliqlar`,
+
+        malumot2:`Tishlarning egriligi`,
+        malumot3:`To'plangan tishlar`,
+        malumotT4:`Ovqatni chaynash paytida og'riq`,
+        malumotT5:`Diksiya muammolari`,
+        malumotT6:`Jag'lar yopilganda, yuqori va pastki tishlar orasida bo'shliq qoladi`,
+        
+
+    },
+
+    {
+        id:2,
+        yonalishi:`Keng qamrovli diagnostika tayinlanishi (kattalar, 12 yoshdan katta)`,
+
+        narxi:8000 ,
+
+        soni:`1 xizmat`,
+
+        img:keng2,
+        boshlanishN:4800,
+        sharx:`Ortodontik davolash har doim tishlar, tish go'shti va suyak to'qimalarining holatini to'liq tashxislash bilan boshlanadi. Tashxis qo'yish vaqtida shifokor bemorning og'iz bo'shlig'ini tekshiradi, tadqiqot o'tkazadi, olingan ma'lumotlarni tahlil qiladi va davolash rejasini ishlab chiqadi.`,
+        sharx2:`Clinica Native’da ortodontist bilan keng qamrovli diagnostika uchrashuvi bilan benuqson tabassum sari sayohatingizni boshlang!`,
+        malumotT:`Ortodontist bilan uchrashuvga yozilish sabablari`,
+
+        malumot:`Sizning tabassumingizning estetikasini buzadigan notekis tishlar.`,
+
+        malumot2:`Profilning nisbatlarini buzish - eğimli iyak yoki chiqadigan pastki jag.`,
+
+        malumot3:`Tishlar tabassum sohasida yoki yon tomonlarda uchrashmaydi.`,
+        
+        malumotT4:`Yuz assimetriyasi - jag'lar yopilganda iyak yon tomonga siljiydi.`,
+        
+        malumotT5:`Tishlarning noto'g'ri pozitsiyasi bilan bog'liq chaynash kasalliklari.`,
+        
+        malumotT6:`Malokluziyadan kelib chiqqan bosh og'rig'i.`,
+    },
+
+    {
+        id:3,
+        yonalishi:`Qavslarni o'rnatish`,
+
+        narxi:42000,
+        soni:`1 jag'`,
+        img:qavs,
+        boshlanishN:42000,
+    },
+
+    {
+        id:4,
+        yonalishi:`Metall tirgaklarni o'rnatish`,
+
+        narxi:35000,
+        soni:`1 jag'`,
+        img:qavs,
+        boshlanishN:35000,
+
+        sharx:`Metall qavslar tishlashni tuzatish uchun mashhur va samarali tanlovdir. Ular kuchli va bardoshli bo'lib, hatto qiyin holatlarda ham foydalanishga imkon beradi. Metall qavslar bilan davolash narxi odatda ancha qulay bo'lib, ularni ko'plab bemorlar uchun afzalroq tanlov qiladi. Shuni ta'kidlash kerakki, davolanish natijalari ortodontistning malakasi va tajribasiga bog'liq, shuning uchun protsedurani bajarish uchun tajribali mutaxassisni tanlash muhimdir.`,
+
+        malumotT:`Metall qavslarning afzalliklari:`,
+        malumot:`Ular odatda ancha arzon va ularning materiallari (masalan, zanglamaydigan po'lat) juda bardoshli va bardoshlidir.`,
+        malumot2:`Bundan tashqari, metall qavslar yanada ixcham bo'lishi mumkin, bu tizimni kiyish va saqlashni osonlashtiradi. Biroq, agar estetika siz uchun muhim bo'lsa, unda keramika yoki safir braketlari afzalroq bo'lishi mumkin, chunki ular tishlarga ko'proq ko'rinmaydi. Oxir-oqibat, siz tanlagan qavslar turi sizning shaxsiy ehtiyojlaringiz va afzalliklaringizga, shuningdek, ortodontist tavsiyalariga bog'liq.`
+    },
+
+    {
+        id:5,
+        yonalishi:`Keramika tirgaklarini o'rnatish`,
+        img:keramika,
+        narxi:80000,
+        soni:`1 jag'`,
+        boshlanishN:80000,
+        sharx:`Keramika qavslari ko'pincha allergiya va metallga sezgir bo'lgan odamlar uchun tavsiya etiladi, chunki ular tarkibida allergik reaktsiyaga olib kelishi mumkin bo'lgan nikel yoki boshqa metall qotishmalari mavjud emas. Seramika, shuningdek, yoqimli estetik ko'rinishga ega, chunki u tishlarning rangiga mos ravishda bo'yalgan bo'lishi mumkin, bu esa braketlarni kamroq sezadi.`,
+
+        sharx2:`Biroq, keramika tirgaklari metall qavslarga qaraganda ancha nozik va shuning uchun ehtiyotkorlik bilan ishlashni talab qiladi. Ular, shuningdek, qimmatroq bo'lishi mumkin va metall qavslarga qaraganda uzoqroq ishlov berish muddatini talab qiladi.`,
+        sharx3:`Shuni ta'kidlash kerakki, keramik qavslardan foydalanganda faqat yumshoq ovqatlar dietasi kerak emas. Biroq, qattiq va yopishqoq oziq-ovqatlardan voz kechish sizning braketlaringizga zarar yetkazmaslik va shifo jarayonini tezlashtirishga yordam beradi.`,
+
+        malumotT:`Keramika qavslarining ikki turi mavjud:`,
+
+        malumot:`Bog'lovchi qavslarda tishlarga quvvat kamarini biriktiruvchi ligature ligamentlari mavjud. Bu aniq va boshqariladigan tish harakatini ta'minlaydi. Bunday qavslarga g'amxo'rlik qilish, blyashka va tatar shakllanishiga yo'l qo'ymaslik uchun alohida g'amxo'rlik va muntazam gigiena talab qiladi. Tish shifokoriga muntazam tashrif buyurish, davolanish vaqtida braketlarning to'g'ri va samarali ishlashiga yordam beradi.`,
+
+        malumot2:`O'z-o'zidan bog'lovchi braketlar sifatida ham tanilgan ligaturesiz keramik qavslar, quvvat kamonini tishlarga mahkamlash uchun ligaturalardan foydalanishni talab qilmaydi. Buning o'rniga ular kamarning erkin harakatlanishini ta'minlaydigan maxsus qulflardan foydalanadilar. Bu sozlash jarayonini qulayroq qiladi va sozlash uchun tish shifokoriga tashriflar sonini kamaytiradi. Ligaturasiz qavslar, shuningdek, past ko'rinish va allergik reaktsiyalar yo'qligi kabi keramik materiallarning afzalliklarini taklif qiladi.`,
+
+    },
+
+    {
+        id:6,
+        yonalishi:`Aligners bilan ortodontik davolash`,
+        
+        narxi:83000,
+        soni:`1 jag'`,
+        img:ol,
+        boshlanishN:83000,
+    },
+    {
+        id:7,
+        yonalishi:`Tutqichni o'rnatish`,
+
+        narxi:800 ,
+        soni:`1 tish`,
+        boshlanishN:800,
+
+    },
+    {
+        id:8,
+        yonalishi:`Qavslarni olib tashlash`,
+        narxi:10000 ,
+        soni:`1 jag'`,
+        boshlanishN:10000 ,
+
+    },
+]
