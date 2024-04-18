@@ -7,7 +7,6 @@ import  implantatsya  from '../../img/implantatsya.png';
 // page
 import Chegirma from '../chegirma/Chegirma'
 import Cta from '../../components/Home/Cta'
-import KopSavollar from '../../components/Home/KopSavollar';
 
 const Implantatsiya = () => {
   return (
@@ -77,7 +76,7 @@ const Implantatsiya = () => {
 
       <Chegirma />
 
-      <KopSavollar/>
+
       <Cta />
     </>
   )

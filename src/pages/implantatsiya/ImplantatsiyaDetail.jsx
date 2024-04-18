@@ -77,9 +77,9 @@ const ImplantatsiyaDetail = () => {
         </div>
       </section>
 
-      <KopSavollar />
 
       <Chegirma />
+      <KopSavollar />
 
       <Cta />
     </>

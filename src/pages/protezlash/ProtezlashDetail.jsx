@@ -77,10 +77,10 @@ const ProtezlashDetail = () => {
         </div>
       </section>
 
-      <KopSavollar />
 
       <Chegirma />
 
+      <KopSavollar />
       <Cta />
     </>
   );

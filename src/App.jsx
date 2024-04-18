@@ -44,6 +44,8 @@ import Implantatsiya from "./pages/implantatsiya/Implantatsiya";
 import ImplantatsiyaDetail from "./pages/implantatsiya/ImplantatsiyaDetail";
 
 
+import Ortodontiya from './pages/ortodontiya/Ortodontiya'
+import OrtodontiyaDetail from './pages/ortodontiya/OrtodontiyaDetail'
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -87,6 +89,10 @@ const App = () => {
 
         <Route path="/implantatsiya" element={<Implantatsiya/>}/>
         <Route path="/implant/:yonalishi" element={<ImplantatsiyaDetail/>}/>
+
+
+        <Route path="/ortodontiya" element={<Ortodontiya/>}/>
+        <Route path="" element={<OrtodontiyaDetail/>}/>
         
         <Route path="/kilinikaxaqida" element={<KlinikaXadiqa/>}/>
 

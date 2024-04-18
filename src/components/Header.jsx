@@ -173,10 +173,10 @@ const Header = () => {
               className=" pl-2 py-3  w-[300px] inline-block bg-white border-b-2 border-header">Implantatsiya va jarrohlik</Link>
 
               <Link
-                to="/ordontiya"
+                to="/ortodontiya"
                 className=" pl-2 py-3  w-[300px] inline-block bg-white border-b-2 border-header"
               >
-                Pratezlash
+                Ortodontiya
               </Link>
 
               <Link
