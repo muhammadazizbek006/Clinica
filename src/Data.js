@@ -465,6 +465,7 @@ export const maslaxatlar = [
 
 // chegirma olish usullari
 import brekit from './img/aksiyaD/brekit.jpg'
+
 export const chegirmalar = [
     {
         id:1,

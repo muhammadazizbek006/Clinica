@@ -28,6 +28,7 @@ const Carusel = () => {
             delay: 2500,
           }}
           effect="fade"
+          loop={true}
           className="mySwiper"
         >
           {Aksiya.map((e) => {
