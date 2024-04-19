@@ -66,66 +66,7 @@ export const carusels = [
     },
 ]
 
-// aos stamatalogik xizmatlar
 
-import xizmat1 from './img/maslahatlashuv.png'
-import xizmat2 from './img/bolalar.png'
-import xizmat3 from './img/profissianal.png'
-import xizmat4 from './img/terapevtik.png'
-import xizmat5 from './img/estetik.png'
-import xizmat6 from './img/periodanatalogiya.png'
-import xizmat7 from './img/protezlash.png'
-import xizmat8 from './img/implantatsya.png'
-import xizmat9 from './img/ortodontiya.png'
-
-export const xizmatlar = [
-    {
-        id:1,
-        img:xizmat1,
-        title:"Tish shifokori bilan maslahatlashuv",
-        
-    },
-    {
-        id:2,
-        img:xizmat2,
-        title:"Bolalar stomatologiyasi",
-    },
-    {
-        id:3,
-        img:xizmat3,
-        title:"Professional og'iz gigienasi",
-    },
-    {
-        id:4,
-        img:xizmat4,
-        title:"Terapevtik xizmatlar",
-    },
-    {
-        id:5,
-        img:xizmat5,
-        title:"Estetik stomatologiya",
-    },
-    {
-        id:6,
-        img:xizmat6,
-        title:"Periodontologiya",
-    },
-    {
-        id:7,
-        img:xizmat7,
-        title:"Protezlash",
-    },
-    {
-        id:8,
-        img:xizmat8,
-        title:"Implantatsiya va jarrohlik",
-    },
-    {
-        id:9,
-        img:xizmat9,
-        title:"Ortodontiya",
-    },
-]
 
 
 // ommabop xizmatlar
@@ -140,11 +81,28 @@ export const ommabop = [
         id:2,
         xizmat:'Kariyesni davolash',
         narxi:5500,
+        boshlanishN:5500,
+        sharx:`Tish kariesining oldini olish uchun tish shifokoriga tashrif buyurish, muntazam tekshiruvlardan o'tish va profilaktik tozalash kerak. Agar karies paydo bo'lsa, tishlarning parchalanishi va asoratlarni oldini olish uchun uni imkon qadar erta davolash kerak. Tish chirishini davolash ta'sirlangan to'qimalarni olib tashlash va tishni to'ldirishni yoki og'irroq holatlarda inley yoki toj kabi boshqa usullarni qo'llashni o'z ichiga olishi mumkin. Tish kariesining oldini olish uchun siz shakar va shakarli ichimliklarni iste'mol qilishni ham nazorat qilishingiz kerak, tishlaringizni qattiq narsalar bilan urishdan saqlaning va emalni mustahkamlash uchun ftoridli mahsulotlardan foydalaning. Tishlarni kariyesga qarshi maxsus xususiyatlarga ega pastalar va chayishlar yordamida ham himoya qilish mumkin.`,
+        malumotT:`Kariyes sabablari:`,
+        malumot:`Tuprik tarkibining o'zgarishi va pH ning kislotali tomonga siljishi kariyes rivojlanishi uchun qulay sharoit yaratadi, chunki kislotali muhit tish emalining demineralizatsiyasiga yordam beradi.`,
+        malumot2:`Streptokokklar, laktobakteriyalar va aktinomitsetlarning mavjudligi ham og'iz bo'shlig'iga ta'sir qilishi mumkin, chunki bu mikroorganizmlar gingivit yoki periodontit kabi turli yuqumli kasalliklarning qo'zg'atuvchisi hisoblanadi.`,
+        malumot3:`Ratsionda qaynatilgan va pyuresi bo'lgan ovqatlarning ustunligi bilan vitaminlar va minerallarning etishmasligi yuzaga kelishi mumkin, bu tish va og'iz shilliq qavatining sog'lig'iga ta'sir qiladi, chunki ular sog'lig'ini saqlashda muhim rol o'ynayd`,
+        malumotT4:`Ichimlik suvi va oziq-ovqatda ftoridning etishmasligi yoki etishmasligi ham tishlarning parchalanishiga yordam beradi, chunki ftorid tishlarni demineralizatsiyadan himoya qiladi va ularning remineralizatsiyasini rag'batlantiradi.`,
+        malumotT5:`Oshqozon-ichak trakti, asab va endokrin tizimlarning kasalliklari, shuningdek gormonal darajadagi o'zgarishlar og'iz bo'shlig'ining sog'lig'iga ta'sir qilishi mumkin, chunki bu tizimlar bir-biriga bog'langan va bir-biriga ta'sir qiladi.`,
     },
     {
         id:3,
         xizmat:'Stomatolog-terapevt bilan maslahatlashuv',
         narxi:300 ,
+        boshlanishN:`300 `,
+        sharx:`Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.`,
+        sharx2:`Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.`,
+        malumotT:`Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:`,
+        malumot:`O'tkir tish og'rig'i (hatto og'riq vaqt o'tishi bilan o'tgan bo'lsa ham);`,
+        malumot2:`Chiqib ketgan tish yoki plomba;`,
+        malumot3:`Tish go'shtidagi oqma yoki tish go'shtining shishishi;`,
+        malumotT4:`To'ldiruvchining tushishi;`,
+        malumotT5:`tishlarning harakatchanligi;`,
     },
     {
         id:4,
@@ -1329,5 +1287,66 @@ export const Ortadon = [
         soni:`1 jag'`,
         boshlanishN:10000 ,
 
+    },
+]
+
+// aos stamatalogik xizmatlar
+
+import xizmat1 from './img/maslahatlashuv.png'
+import xizmat2 from './img/bolalar.png'
+import xizmat3 from './img/profissianal.png'
+import xizmat4 from './img/terapevtik.png'
+import xizmat5 from './img/estetik.png'
+import xizmat6 from './img/periodanatalogiya.png'
+import xizmat7 from './img/protezlash.png'
+import xizmat8 from './img/implantatsya.png'
+import xizmat9 from './img/ortodontiya.png'
+
+export const xizmatlar = [
+    {
+        id:1,
+        img:xizmat1,
+        title:"Tish shifokori bilan maslahatlashuv",
+        
+    },
+    {
+        id:2,
+        img:xizmat2,
+        title:"Bolalar stomatologiyasi",
+    },
+    {
+        id:3,
+        img:xizmat3,
+        title:"Professional og'iz gigienasi",
+    },
+    {
+        id:4,
+        img:xizmat4,
+        title:"Terapevtik xizmatlar",
+    },
+    {
+        id:5,
+        img:xizmat5,
+        title:"Estetik stomatologiya",
+    },
+    {
+        id:6,
+        img:xizmat6,
+        title:"Periodontologiya",
+    },
+    {
+        id:7,
+        img:xizmat7,
+        title:"Protezlash",
+    },
+    {
+        id:8,
+        img:xizmat8,
+        title:"Implantatsiya va jarrohlik",
+    },
+    {
+        id:9,
+        img:xizmat9,
+        title:"Ortodontiya",
     },
 ]
