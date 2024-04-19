@@ -19,10 +19,9 @@ const Chegirma = () => {
                 chegirmalar.map((e)=>{
                     return(
                         <li key={e.id} className='py-3 px-4 border-2 border-gray-300 hover:border-header duration-500 '>
-                            <Link to={`/chegirma/${e.chegrmanomi}`}>
-                                <h3 className='mb-2 text-lg font-medium'>{e.chegrmanomi}</h3>
+                            <Link to={`/chegirma/${e.nomi}`}>
+                                <h3 className='mb-2 text-lg font-medium'>{e.nomi}</h3>
                                 <p>{e.muddat}</p>
-                                <p>{e.aksiya}</p>
                                 <p>{e.taklif}</p>
                             </Link>
                         </li>

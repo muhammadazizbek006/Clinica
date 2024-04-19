@@ -464,67 +464,73 @@ export const maslaxatlar = [
 ]
 
 // chegirma olish usullari
-import brekit from './img/aksiyaD/brekit.jpg'
 
+import bt from './img/aksiyaD/brekit.jpg'
+
+import snom  from './img/karusel3.png'
+
+import baxtli from './img/karusel7.png'
+
+import fikr from './img/karusel8.png'
 export const chegirmalar = [
     {
         id:1,
-        img:brekit,
-        chegrmanomi:`"Bahor tabassumi"`,
-        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
-        taklif:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
-        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
-        aksiya:`- ligatur qavslar =34 400 rubl  27 600 rubl  - Ligaturasiz qavslar =52 400 rubl  42 000 rub.`,
-        yozilish:`Braketlarni o'rnatish bo'yicha batafsil maslahat olish uchun 343-77-00 raqamiga qo'ng'iroq qilib yoki onlayn ravishda ortodontologning bepul maslahatiga yoziling. Sizni ko'rishdan xursand bo'lamiz!`,
+        img:bt,
+        nomi:`"Bahor tabassumi"`,
+        muddat:`22 martdan 30 aprelgacha Clinica Native qavslarni o'rnatish uchun juda qulay shart-sharoitlarni taklif qiladi:`,
+        chegrima:`braketlarni o'rnatish uchun 20% chegirma`,
+        taklif:`Ortodontist bilan birinchi maslahat - bepul`,
+        taklif2:`Qavslarni o'rnatish narxi (1 jag' uchun):`,
+        ish:` ligatur qavslar= `,
+        ish2:` Ligaturasiz qavslar=`,
+        narx:`34 400 rubl`,
+        narx2:`52 400 rubl`,
+        aksiyaN:`27 600 rubl`,
+        aksiyaN2:`42 000 rub.`
     },
+
+
     {
         id:2,
-        img:brekit,
-        chegrmanomi:`"Kangaroo salonlari tarmog'i mijozlari uchun maxsus taklif"`,
-        muddat:`"Aksiya davrida (22 martdan 30, 24 aprelgacha) braketlarni o'rnatish uchun 20% chegirma."`,
-        taklif:`Kangaroo salonida xarid qilganingizda, siz bizning klinikamiz xizmatlari uchun sovg'a sertifikatiga ega bo'lasiz`,
-        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
-        aksiya:`Ushbu sertifikat reklama sertifikatidir va klinikada boshqa aksiyalar bo'yicha xizmatlar uchun to'lovga taalluqli emas. Sertifikatlar soni cheklangan, aksiya tirajidagi barcha sertifikatlar topshirilgandan keyin tugaydi.`,
+        img:snom,
+        nomi:`Tug'ilgan kuning bilan!`,
+        muddat:`Tug'ilgan kun - sog'lig'ingizga g'amxo'rlik qilish uchun ajoyib sabab!
+        Ushbu sanadan oldin va keyin 7 kun ichida klinikaga tashrif buyuring va 2000 rubl chegirmaga ega bo'ling.
+        har qanday Clinca Native xizmatlari uchun!`,
+
+        taklif:`Aksiyadan foydalanish uchun sizga faqat tug‘ilgan kuningizni tasdiqlovchi hujjat kerak bo‘ladi.  * Agar ushbu davrda`,
+        taklif2:`klinikaga tashrif buyurganingizda, siz bayram bonuslaridan foydalanmagan bo'lsangiz yoki ularni to'liq ishlatmagan bo'lsangiz, ular sizning hisobingizga o'tkaziladi. Siz ularni keyinroq istalgan vaqtda sarflashingiz mumkin . * Aksiya vaqtida chegirma boshqa chegirmalar bilan birlashtirilishi mumkin. * Chegirma miqdori o'sha kuni davolanishning umumiy miqdorining 30% dan oshmasligi kerak. Tel.: 343-77-00`,
     },
     {
         id:3,
-        img:brekit,
-        chegrmanomi:`"Kalit taslim tish" aksiyasi`,
-        taklif:`Tibbiyot xodimlari - birinchi tashrif uchun 5% chegirma`,
-        maslaxat:`Ortodontist bilan birinchi maslahat - bepul`,
-        aksiya:`• metall-keramika toj = 52 000 rubl. • zirkonyum toji = 55 000 rub.`,
-        yozilish:`2024-yil 30-aprelgacha aksiya bo‘yicha bepul maslahat olish uchun ro‘yxatdan o‘ting va narxni mahkamlang!
-        Sizga shuni eslatib o'tamizki, klinikamizning barcha xizmatlari uchun siz 2 yilgacha`,
-
+        img:fikr,
+        nomi:`Fikr-mulohazangiz uchun rahmat`,
+        muddat:`2023-yil 15-avgustdan boshlab amal qiladi`,
+        chegrima:`2Gis, Yandex saytlarida klinikani ko‘rib chiqish uchun keyingi uchrashuvga bir martalik 5% chegirma.
+        Quyidagi saytlarda Clinica Native haqidagi sharhingizni qoldirib, keyingi uchrashuvga 5% chegirma olasiz:`,
+       
+        taklif:`Bizga shifokoringizni va sog'lom, qordek oq tabassumni topishga yordam bering!`,
+        taklif2:`Aksiya vaqtida chegirmalar boshqa chegirmalar bilan birlashtirilishi mumkin.
+        Agar joriy qarz mavjud bo'lsa, chegirma berilmaydi.`,
     },
     {
         id:4,
-        img:brekit,
-        chegrmanomi:`Gippokrat qasamyodi`,
-        taklif:`Tibbiyot muassasalari xodimlari va tibbiyot oliy o'quv yurtlari va kollejlari talabalari uchun -`,
-        aksiya:`birinchi pullik tashrif uchun 5% chegirma.`,
+        img:baxtli,
+        nomi:`Baxtli soatlar`,
+        muddat:`Ish kunlarida 09:00 dan 12:00 gacha klinikaga tashrif buyurganingizda`,
+        chegrima:`Bolalar va pensionerlar *5% chegirma.`,
+        taklif:`* Aksiyadan foydalanish uchun sizga faqat pensiya maqomingizni tasdiqlovchi hujjat kerak bo'ladi.`,
+        taklif2:`Chegirmalar boshqa chegirmalar va aktsiyalar bilan birlashtirilishi mumkin.`,
     },
     {
         id:5,
-        img:brekit,
-        chegrmanomi:`Bahorgi dentakur`,
-        taklif:`Endi har hafta ish kuni soat 9.00 dan 14.00 gacha bizning klinikamiz og'iz bo'shlig'i gigienasi uchun maxsus narxga ega - atigi 3500 rubl.`,
-        yozilish:`Boshqa chegirmalar va reklama sovg'a sertifikatlari ushbu reklama uchun mavjud. amal qilmaydi.`,
-
+        img:kompozit,
+        nomi:`Texnik tishlarni oqartirish - sovg'a sifatida professional gigiena!`,
+        muddat:`Ish kunlarida 09:00 dan 12:00 gacha klinikaga tashrif buyurganingizda`,
+        chegrima:`Bolalar va pensionerlar *5% chegirma.`,
+        taklif:`Uskunalarni oqartirish xizmatlarining narxi 25 000 rublni tashkil qiladi.`,
+        taklif2:`Tishlarni oqartirishdan oldin professional gigiena - optimal natijalarga erishish uchun zaruriy shart. Bu sizning tishlaringizning haqiqiy rangini aniqlashga yordam beradi va oqartiruvchi jel imkon qadar samarali bo'lishi uchun tosh va blyashka olib tashlanadi.`,
     },
-    {
-        id:6,
-        img:brekit,
-        chegrmanomi:`Professional og'iz gigienasiga 35% chegirma`,
-    
-        taklif:`5500 rublga professional og'iz gigienasi protsedurasini oling. –
-        keyingi rejalashtirilgan protsedura uchun 35% chegirmaga ega bo'ling!`,
-        maslaxat:`Hatto eng ehtiyotkorlik bilan g'amxo'rlik bilan ham, tish blyashka hosil bo'lishining oldini olish mumkin emas. Asta-sekin, erishish qiyin bo'lgan joylarda blyashka, keyin esa tatar hosil bo'ladi. Undan keyin karies paydo bo'lishining oldini olish uchun siz har olti oyda bir marta tish shifokoriga tashrif buyurishingiz kerak.`,
-        aksiya:`
-        Aksiyaga ko'ra takroriy professional og'iz gigienasi narxi 3500 rublni tashkil qiladi.
-        Har 6 oyda bir marta bajarish tavsiya etiladi.`,
-
-    }
 ] 
 
 // header links nav detail
@@ -1079,13 +1085,7 @@ export const implantatsiya = [
 
 
 // aktsiya
-import bt from './img/aksiyaD/brekit.jpg'
 
-import snom  from './img/karusel3.png'
-
-import baxtli from './img/karusel7.png'
-
-import fikr from './img/karusel8.png'
 
 export const Aksiya = [
     {
