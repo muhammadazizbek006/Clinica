@@ -108,6 +108,10 @@ export const ommabop = [
         id:4,
         xizmat:"Og'iz bo'shlig'ining keng qamrovli gigienasi",
         narxi:5500,
+        boshlanishN:`5500`,
+        sharx:`Tish chirishining rivojlanishiga yo'l qo'ymaslik uchun sog'lom ovqatlanish va shirin va nordon ovqatlarni ortiqcha iste'mol qilmaslik juda muhimdir. Tishlarni professional tozalash va kasalliklarni tashxislash uchun tish shifokoriga muntazam tashrif buyurish ham og'iz va tish salomatligini saqlashning ajralmas qismidir.`,
+        sharx2:`Ammo eng ehtiyotkor g'amxo'rlik bilan ham, tish blyashka shakllanishi muqarrar. Asta-sekin, erishish qiyin bo'lgan joylarda blyashka, keyin esa tatar hosil bo'ladi. Clinica Native stomatologiyasida professional gigienik tozalash yordamida kariyes va tishlarning parchalanishining oldini olish mumkin.`,
+        sharx3:`Ushbu belgilar blyashka mavjudligini va karies va periodontit kabi og'iz kasalliklarining mumkin bo'lgan rivojlanishini ko'rsatadi. Muntazam professional gigiena blyashka olib tashlashga, kasalliklarning rivojlanishiga yo'l qo'ymaslikka va og'iz bo'shlig'ini saqlashga yordam beradi.`,
     },
     {
         id:5,
