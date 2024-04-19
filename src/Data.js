@@ -139,6 +139,13 @@ export const ommabop = [
     {
         id:7,
         xizmat:"Pediatrik stomatolog bilan maslahatlashuv",
+        sharx:`Tish salomatligiga g'amxo'rlik bolalikdan boshlanishi kerak. Clinica Native-da bolalar stomatologiyasi sohasi yosh bemorlarga, zamonaviy jihozlarga va yuqori sifatli materiallarga e'tibor berishni anglatadi. Bolalar uchun stomatologik davolanish har doim pediatrik stomatolog bilan maslahatlashuvdan boshlanadi - shifokor tekshiruv o'tkazadigan va og'iz bo'shlig'i kasalliklarini davolash va oldini olish bo'yicha chora-tadbirlar rejasini tuzadigan dastlabki uchrashuv.`,
+        malumotT:`Bolalar stomatologiga tashrif buyurish uchun TOP 10 ta sabab:`,
+        malumot:`Profilaktik tekshiruv`,
+        malumot2:`Tish emalining qorayishi`,
+        malumot3:`O'tkir tish og'rig'i`,
+        malumotT4:`Travma yoki zarba tufayli tishning shikastlanishi`,
+        malumotT5:`To'lg'azish tushib ketdi`,
     },
     {
         id:8,
