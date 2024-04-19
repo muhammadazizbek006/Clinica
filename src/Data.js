@@ -115,8 +115,12 @@ export const ommabop = [
     },
     {
         id:5,
-        xizmat:'Implantatsiya All-on-4 vaqtinchalik shartli olinadigan protez, mustahkamlovchi akril',
-        narxi:'190 000',
+        xizmat:`3D intraoral skanerlash`,
+        narxi:5500 ,
+
+        img:dg,
+        boshlanishN:5500,
+        sharx:`Medit i700 yuqori tezlikdagi intraoral 3D skaner bir tish yoki butun qatorning real vaqtda raqamli taassurotini, shuningdek, yumshoq to‘qimalarning fotosuratlarini olish uchun og‘iz bo‘shlig‘i skanerlash uchun ishlatiladi. 3D skanerdan foydalanish maslahatlar sifatini yaxshilash, eng yaxshi davolash variantini tanlash va onlayn bulut tizimidan foydalangan holda stomatologiya laboratoriyalari bilan muloqot qilish imkonini beradi.`,
     },
     {
         id:6,
