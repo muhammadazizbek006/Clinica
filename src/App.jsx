@@ -55,6 +55,7 @@ import ImplantatsiyaDetail from "./pages/implantatsiya/ImplantatsiyaDetail";
 import Ortodontiya from './pages/ortodontiya/Ortodontiya'
 import OrtodontiyaDetail from './pages/ortodontiya/OrtodontiyaDetail'
 import Barchaxizmatlar from "./pages/barchaxizmatlar/Barchaxizmatlar";
+import OmmabopxizmatlarDetail from "./components/OmmabopxizmatlarDetail";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -104,6 +105,8 @@ const App = () => {
 
         <Route path="/ortodontiya" element={<Ortodontiya/>}/>
         <Route path="/ortadont/:yonalishi" element={<OrtodontiyaDetail/>}/>
+
+        <Route path="/ommabop-xizmatlar/:xizmat" element={<OmmabopxizmatlarDetail/>}/>
         
         <Route path="/kilinikaxaqida" element={<KlinikaXadiqa/>}/>
 
