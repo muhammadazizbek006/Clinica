@@ -32,7 +32,7 @@ const AktsiyaDetail = () => {
           {skidka.map((e) => {
             return (
               <div className="flex">
-                <img width={437} height={490} className="w-[437px] h-[490px] mr-14 " src={e.img} alt={e.yonalishi} />
+                <img width={437} height={490} className="w-[437px] h-[490px] mr-14 object-cover " src={e.img} alt={e.yonalishi} />
                 {/* right */}
                 <div className="w-full max-w-[701px]">
 

@@ -17,7 +17,7 @@ const BolalarDetail = () => {
                     return(
                         <div className=' flex  justify-between items-center containerb'>
                             <div className='w-28 bg-akva  mr-6'>
-                              <img className='  px-5 py-3 ' src={bollar} alt={e.yonalishi} />
+                              <img className='  px-5 py-3 object-cover ' src={bollar} alt={e.yonalishi} />
                             </div>
                             <h2 className='text-32 font-medium border-b-4 border-b-header w-full pb-5 ' >{e.yonalishi}</h2>
                         </div>

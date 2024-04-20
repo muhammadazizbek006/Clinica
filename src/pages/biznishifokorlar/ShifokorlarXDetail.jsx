@@ -28,7 +28,7 @@ const ShifokorlarXDetail = () => {
                         return(
                             <li className='flex  '>
                                 {/* left */}
-                                <img className='w-[405px] h-[559px] mr-24' src={e.img} alt={e.name} />
+                                <img className='w-[405px] h-[559px] mr-24 object-cover' src={e.img} alt={e.name} />
 
                                 <div>
                                     <h4 className='text-base font-medium text-header mb-3'>Doktor ixtisosligi</h4>

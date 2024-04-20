@@ -38,7 +38,7 @@ const KlinikaShfokorlari = () => {
             </ul>
             {/* hamma shifokorlar */}
             <div className='flex justify-center'>
-                <Link className='text-lg font-medium bg-header py-3 px-6  hover:text-white hover:bg-online-zakaz duration-500'>Hamma shifokorlar</Link>
+                <Link to='/ShifokorlarX' className='text-lg font-medium bg-header py-3 px-6  hover:text-white hover:bg-online-zakaz duration-500'>Hamma shifokorlar</Link>
             </div>
         </div>
     </section>
