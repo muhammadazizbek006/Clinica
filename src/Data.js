@@ -70,15 +70,14 @@ export const carusels = [
 
 
 // ommabop xizmatlar
-
+import maslaxatlash from './img/ommabop/stmaslaxat.png'
+import gig from './img/ommabop/gig.png'
+import xavo from './img/ommabop/xavo.png'
+import ped from './img/ommabop/pediat.png'
 export const ommabop = [
     {
-        id:1,
-        xizmat:'3D intraoral skanerlash',
-        narxi:5500,
-    },
-    {
         id:2,
+        img:kares,
         xizmat:'Kariyesni davolash',
         narxi:5500,
         boshlanishN:5500,
@@ -92,6 +91,7 @@ export const ommabop = [
     },
     {
         id:3,
+        img:maslaxatlash,
         xizmat:'Stomatolog-terapevt bilan maslahatlashuv',
         narxi:300 ,
         boshlanishN:`300 `,
@@ -106,6 +106,7 @@ export const ommabop = [
     },
     {
         id:4,
+        img:gig,
         xizmat:"Og'iz bo'shlig'ining keng qamrovli gigienasi",
         narxi:5500,
         boshlanishN:`5500`,
@@ -117,13 +118,13 @@ export const ommabop = [
         id:5,
         xizmat:`3D intraoral skanerlash`,
         narxi:5500 ,
-
         img:dg,
         boshlanishN:5500,
         sharx:`Medit i700 yuqori tezlikdagi intraoral 3D skaner bir tish yoki butun qatorning real vaqtda raqamli taassurotini, shuningdek, yumshoq to‘qimalarning fotosuratlarini olish uchun og‘iz bo‘shlig‘i skanerlash uchun ishlatiladi. 3D skanerdan foydalanish maslahatlar sifatini yaxshilash, eng yaxshi davolash variantini tanlash va onlayn bulut tizimidan foydalangan holda stomatologiya laboratoriyalari bilan muloqot qilish imkonini beradi.`,
     },
     {
         id:6,
+        img:xavo,
         xizmat:"Havo oqimi tishlarini tozalash",
         narxi:1800,
         boshlanishN:1800 ,
@@ -138,6 +139,7 @@ export const ommabop = [
     },
     {
         id:7,
+        img:ped,
         xizmat:"Pediatrik stomatolog bilan maslahatlashuv",
         sharx:`Tish salomatligiga g'amxo'rlik bolalikdan boshlanishi kerak. Clinica Native-da bolalar stomatologiyasi sohasi yosh bemorlarga, zamonaviy jihozlarga va yuqori sifatli materiallarga e'tibor berishni anglatadi. Bolalar uchun stomatologik davolanish har doim pediatrik stomatolog bilan maslahatlashuvdan boshlanadi - shifokor tekshiruv o'tkazadigan va og'iz bo'shlig'i kasalliklarini davolash va oldini olish bo'yicha chora-tadbirlar rejasini tuzadigan dastlabki uchrashuv.`,
         malumotT:`Bolalar stomatologiga tashrif buyurish uchun TOP 10 ta sabab:`,
@@ -149,6 +151,7 @@ export const ommabop = [
     },
     {
         id:8,
+        img:dg,
         xizmat:"Ultrasonik tishlarni tozalash",
         narxi:1800,
         boshlanishN:1800,
@@ -162,6 +165,7 @@ export const ommabop = [
     },
     {
         id:9,
+        img:tish,
         xizmat:"Tish chiqarish",
         narxi:2000,
         boshlanishN:2000,
@@ -169,7 +173,7 @@ export const ommabop = [
         malumotT:`Qanday hollarda tish chiqarish tavsiya etiladi?`,
         malumot:`Jiddiy tish kasalliklari, shu jumladan periodontit, chuqur ildiz kariesi, donolik tishlarini noto'g'ri joylashtirish uchun`,
         malumot2:`Muvaffaqiyatli ortodontik davolash va protezlash uchun.`,
-        
+
 
     },
 ]
