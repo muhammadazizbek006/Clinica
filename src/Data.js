@@ -164,6 +164,13 @@ export const ommabop = [
         id:9,
         xizmat:"Tish chiqarish",
         narxi:2000,
+        boshlanishN:2000,
+        sharx:`Ba'zi hollarda, ayniqsa konservativ davo samarasiz bo'lsa, tish chiqarish kerak bo'lishi mumkin. Mumkin bo'lgan noqulaylikni kamaytirish va tiklanish vaqtini kamaytirish uchun shifokorlar ushbu protsedurani iloji boricha yumshoqroq bajarishga harakat qilishadi. Biroq, har bir vaziyat individualdir. Tishning holatini baholash va uni olib tashlash kerakligini aniqlash uchun tish shifokoriga murojaat qilish muhimdir.`,
+        malumotT:`Qanday hollarda tish chiqarish tavsiya etiladi?`,
+        malumot:`Jiddiy tish kasalliklari, shu jumladan periodontit, chuqur ildiz kariesi, donolik tishlarini noto'g'ri joylashtirish uchun`,
+        malumot2:`Muvaffaqiyatli ortodontik davolash va protezlash uchun.`,
+        
+
     },
 ]
 
