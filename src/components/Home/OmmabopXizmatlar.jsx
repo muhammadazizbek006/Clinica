@@ -12,11 +12,11 @@ import { ommabop } from '../../Data'
 const OmmabopXizmatlar = () => {
   return (
         <section className='liner py-14'>
-            <div className="containerb flex items-center justify-between">
+            <div className="containerb flex flex-col justify-start md:flex-row items-center md:justify-between">
               {/* ommabop xizmatlar */}
-              <div className='max-w-xs'>
-                <h2 className='text-42 font-medium mb-8'>Ommabop xizmatlar</h2>
-                <Link to='/barchaxizmatlar' className='font-medium text-lg px-5 py-3 bg-white hover:bg-online-zakaz hover:text-white duration-500'>Barcha xizmatlar</Link>
+              <div className=' md:max-w-xs mb-6  text-center'>
+                <h2 className=' text-3xl md:text-42 font-medium mb-8'>Ommabop xizmatlar</h2>
+                <Link to='/barchaxizmatlar' className='font-medium mb-3 inline-block text-lg px-5 py-3 bg-white hover:bg-online-zakaz hover:text-white duration-500'>Barcha xizmatlar</Link>
               </div>
               {/* davolash turlari */}
               <div className='bg-white py-6 '  data-aos="fade-up" data-aos-duration="1000">
@@ -30,11 +30,11 @@ const OmmabopXizmatlar = () => {
                             {/* // left */}
                             <div className='flex items-center w-full max-w-[581px]'> 
                               <img className='mr-3' src={soat} alt="" />
-                              <p className='text-xl'>{e.xizmat}</p>
+                              <p className='text-base mr-4 lg:mr-0  md:text-xl'>{e.xizmat}</p>
                             </div>
                             {/* right */}
                             <div className='flex items-center' >
-                              <span className='mr-3'>{e.narxi}</span>
+                              <span className=' hidden lg:inline-block lg:mr-3'>{e.narxi}</span>
                               <img className='' src={next} alt="" />
                             </div>
                           </Link>

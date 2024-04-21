@@ -12,12 +12,12 @@ const Home = () => {
   return (
     <>
     <Carusel/>
-    {/* <StamatalogikXizmatlar/>
+    <StamatalogikXizmatlar/>
     <OmmabopXizmatlar/>
-    <KlinikaShfokorlari/>
-    <KopSavollar/>
-    <KlinikaXaqida/>
-    <Cta/> */}
+    {/* <KlinikaShfokorlari/> */}
+    {/* <KopSavollar/> */}
+    {/* <KlinikaXaqida/> */}
+    {/* <Cta/> */}
     </>
   )
 }
