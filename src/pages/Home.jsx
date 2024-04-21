@@ -15,8 +15,8 @@ const Home = () => {
     <StamatalogikXizmatlar/>
     <OmmabopXizmatlar/>
     <KlinikaShfokorlari/>
-    {/* <KopSavollar/> */}
-    {/* <KlinikaXaqida/> */}
+    <KopSavollar/>
+    <KlinikaXaqida/>
     {/* <Cta/> */}
     </>
   )
