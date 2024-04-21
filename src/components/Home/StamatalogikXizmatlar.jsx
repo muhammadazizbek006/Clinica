@@ -17,7 +17,7 @@ const StamatalogikXizmatlar = () => {
                   xizmatlar.map((e)=>{
                     return(
                       <li key={e.id} className='w-full max-w-[180px]'>
-                        <Link  >
+                        <Link>
                               <div className=' hover:bg-header duration-300 w-44 mb-2  h-40'>
                                 <img width={160} height={160} className='bg-akva     w-44 h-40  px-5 py-2 object-center object-contain transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-90 hover:bg-header duration-300' src={e.img} alt={e.title} />
                               </div>
