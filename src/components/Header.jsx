@@ -1,14 +1,21 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+// draw
+import {
+  Drawer,
+  Button,
+  Typography,
+  IconButton,
+} from "@material-tailwind/react";
+
 // img
-import vk from "../img/vk.svg";
-import telegram from "../img/telegram.svg";
-import whatsapp from "../img/whatsapp.svg";
+
 import arrow from "../img/arrow.svg";
 import logo from "../img/logo.svg";
 import hamburger from "../img/menu.svg";
 const Header = () => {
+  const [openRight, setOpenRight] = React.useState(false);
   // naxr
   const [down, setDown] = useState(false);
 
@@ -22,11 +29,8 @@ const Header = () => {
   return (
     <header className="py-3 bg-header sticky  top-0  z-50">
       <div className="containerb flex  justify-between items-center">
-
-        {/* nav */}
-        <nav className="relative flex  ">
-                  {/* logo */}
-        <Link className="w-36 h-11 mr-12 " to="/">
+                        {/* logo */}
+        <Link className="w-36 h-11 block lg:hidden xl:block " to="/">
           <svg
             width="140"
             viewBox="0 0 140 43"
@@ -94,8 +98,11 @@ const Header = () => {
             </defs>
           </svg>
         </Link>
+        {/* nav */}
+        <nav className="relative hidden lg:block   ">
 
-          <ul className="text-base font-medium flex items-center space-x-10  ">
+
+          <ul className="text-base font-medium flex items-center   lg:space-x-7 xl:space-x-10    ">
             {/* xizmatlar va narxlar */}
             <li onMouseMove={handleOpen} onMouseLeave={handleClose}>
               <Link  className="flex ">
@@ -194,11 +201,11 @@ const Header = () => {
         </nav>
 
         {/* telefont va ijtimoiy tarmoqlar */}
-        <div className="flex xl:flex-col justify-center items-center">
-          <span className="mb-3 ">
+        <div className="flex  justify-center items-center md:flex-row md:flex-col ">
+          <span className="mb-3 hidden md:block ">
             +998 91 475 06 12
           </span>
-          <div className="flex space-x-5">
+          <div className="flex space-x-3  lg:space-x-5">
             {/* vk */}
             <a class=" bg-white rounded-full w-8 h-8" href="https://vk.com/clinica_native" target="_blank">
                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -222,10 +229,17 @@ const Header = () => {
                 </a>
           </div>
           {/* menu */}
-          <div className="888:hidden ml-3">
-            <img src={hamburger} alt="" />
-          </div>
+
+            <button className="block md:hidden ml-3">
+              <img src={hamburger} alt="" />
+            </button>
+            
+
         </div>
+      </div>
+          {/* draw */}
+      <div>
+
       </div>
     </header>
   );
