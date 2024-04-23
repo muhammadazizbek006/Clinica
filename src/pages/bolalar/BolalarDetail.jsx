@@ -33,7 +33,7 @@ const BolalarDetail = () => {
                 Bolalar.map((e)=>{
                     return(
                         <div className='flex justify-between'>
-                            <img className='w-[546px]' src={e.img} alt={e.yonalishi} />
+                            <img className='w-[546px] h-[500px] object-cover' src={e.img} alt={e.yonalishi} />
                         {/* right */}
                             <div className='w-full max-w-[733px]'>
                                 <div className='flex items-center mb-8'> 
