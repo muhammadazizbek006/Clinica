@@ -1201,6 +1201,7 @@ import  ol from './img/ortodontiya/ol.png'
 import  aligners from './img/ortodontiya/aligners.png'
 import  keng from './img/ortodontiya/keng.png'
 import  keng2 from './img/ortodontiya/keng2.png'
+import qavsOlish from './img/ortodontiya/qavsOlish.png'
 // import  keramika from './img/ortodontiya/keramika.png'
 import  qavs from './img/ortodontiya/qavs.png'
 import { Link } from 'react-router-dom'
@@ -1326,6 +1327,7 @@ export const Ortadon = [
     {
         id:8,
         yonalishi:`Qavslarni olib tashlash`,
+        img:qavsOlish,
         narxi:10000 ,
         soni:`1 jag'`,
         boshlanishN:10000 ,

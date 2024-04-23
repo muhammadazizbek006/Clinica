@@ -36,9 +36,8 @@ const BolalarDetail = () => {
                             <img className='w-[546px]' src={e.img} alt={e.yonalishi} />
                         {/* right */}
                             <div className='w-full max-w-[733px]'>
-                                <div className='flex items-center justify-between space-x-2 mb-8'> 
+                                <div className='flex items-center mb-8'> 
                                  <p className='text-3xl font-medium'>{e.narxi} rubldan</p>
-                                 <button className='bg-header px-8 py-3 hover:bg-online-zakaz hover:text-white duration-300'>Ro'yxatdan o'tish</button>
                                 </div>
                                 {/* sharx */}
                                 <p className='text-base tracking-wide leading-8'>{e.sharxi}</p>

@@ -55,7 +55,6 @@ const ChegirmaDetail = () => {
         
                           </div>
 
-                          <button className='px-10 py-3 bg-header hover:bg-online-zakaz hover:text-white duration-300'>Online Ro'yxardan O'tish</button>
                         </div>
                       </div>
                     )

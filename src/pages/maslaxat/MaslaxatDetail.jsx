@@ -49,9 +49,8 @@ const MaslaxatDetail = () => {
                       {/* right */}
                       <div className='w-full max-w-[710px]'>
                         {/* top */}
-                        <div className='flex items-center justify-between mb-8'>
+                        <div className='flex items-center  mb-8'>
                           <p className='text-3xl font-medium'>{e.boshlangichnarxi} rubldan</p>
-                          <button className='px-8 py-3 bg-header hover:bg-online-zakaz hover:text-white duration-700 font-medium'>ro'yxatdan o'tish</button>
                         </div>
                         {/* maslaxat */}
                         <div className='border-b-2 border-b-gray-300 pb-8'>

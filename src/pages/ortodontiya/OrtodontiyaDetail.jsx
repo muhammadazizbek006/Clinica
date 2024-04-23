@@ -37,7 +37,7 @@ const OrtodontiyaDetail = () => {
           {ortadontalog.map((e) => {
             return (
               <div className="flex">
-                <img width={400} height={600} className="w-[400px] h-[600px] mr-20" src={e.img} alt={e.yonalishi} />
+                <img width={400} height={600} className="w-[400px] h-[500px] mr-20" src={e.img} alt={e.yonalishi} />
                 {/* right */}
                 <div className="w-full max-w-[701px]">
                   {/* narx ro'yxat */}
@@ -45,9 +45,7 @@ const OrtodontiyaDetail = () => {
                     <p className="text-3xl font-medium">
                       {e.boshlanishN} rubldan
                     </p>
-                    <button className="text-lg font-medium bg-header hover:bg-online-zakaz hover:text-white duration-300 py-3 px-5">
-                      Ro'yxatdan o'tish
-                    </button>
+                    
                   </div>
                   {/* sharx */}
                   <div className="border-b-2 border-b-gray-500">
@@ -57,7 +55,6 @@ const OrtodontiyaDetail = () => {
                   {/* maslaxat */}
                   <div className="pt-8">
                     <h4 className="mb-9 text-base font-medium flex items-center space-x-3">
-                      <img className="mr-4" src={terapevtm} alt={e.malumot} />
                       {e.malumotTitle}
                     </h4>
 

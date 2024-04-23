@@ -34,7 +34,7 @@ const Barchaxizmatlar = () => {
             <h2 className='text-32 font-medium border-b-4 border-b-header w-full '>Tish shifokori bilan maslahatlashuv</h2>
           </div>
           {/* right */}
-          <button className='bg-header px-7 py-4 text-xl font-medium  hover:bg-online-zakaz hover:text-white duration-700'>Ro'yxatdan o'tish</button>
+        
         </div>
       </div>
       </section>
