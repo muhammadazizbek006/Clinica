@@ -22,8 +22,11 @@ const Header = () => {
   return (
     <header className="py-3 bg-header sticky  top-0  z-50">
       <div className="containerb flex  justify-between items-center">
-        {/* logo */}
-        <Link className="w-36 h-11 sm:block  1381:block 888:hidden " to="/">
+
+        {/* nav */}
+        <nav className="relative flex  ">
+                  {/* logo */}
+        <Link className="w-36 h-11 mr-12 " to="/">
           <svg
             width="140"
             viewBox="0 0 140 43"
@@ -92,9 +95,7 @@ const Header = () => {
           </svg>
         </Link>
 
-        {/* nav */}
-        <nav className="relative ">
-          <ul className="text-base font-medium flex items-center md:flex hidden md:hidden 888:flex md:space-x-2 lg:space-x-6 1129:space-x-14   xl:space-x-5 ">
+          <ul className="text-base font-medium flex items-center space-x-10  ">
             {/* xizmatlar va narxlar */}
             <li onMouseMove={handleOpen} onMouseLeave={handleClose}>
               <Link  className="flex ">
@@ -194,7 +195,7 @@ const Header = () => {
 
         {/* telefont va ijtimoiy tarmoqlar */}
         <div className="flex xl:flex-col justify-center items-center">
-          <span className="mb-3 inline-block hidden xl:block">
+          <span className="mb-3 ">
             +998 91 475 06 12
           </span>
           <div className="1381:space-x-2 888:space-x-1 space-x-3 flex">
