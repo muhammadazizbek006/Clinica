@@ -45,13 +45,11 @@ const PeriAdanatalogiyaDetail = () => {
                 {/* right */}
                 <div className="w-full max-w-[701px]">
                   {/* narx ro'yxat */}
-                  <div className="flex items-center justify-between mb-8">
+                  <div className="flex items-center  mb-8">
                     <p className="text-3xl font-medium">
                       {e.boshlanishN} rubldan
                     </p>
-                    <button className="text-lg font-medium bg-header hover:bg-online-zakaz hover:text-white duration-300 py-3 px-5">
-                      Ro'yxatdan o'tish
-                    </button>
+
                   </div>
                   {/* sharx */}
                   <div className="border-b-2 border-b-gray-500">
