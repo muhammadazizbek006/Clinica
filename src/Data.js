@@ -1350,46 +1350,54 @@ export const xizmatlar = [
         id:1,
         img:xizmat1,
         title:"Tish shifokori bilan maslahatlashuv",
-        
+        url: "/shifokormaslaxat"
     },
     {
         id:2,
         img:xizmat2,
         title:"Bolalar stomatologiyasi",
+        url: "/bolalars",
     },
     {
         id:3,
         img:xizmat3,
         title:"Professional og'iz gigienasi",
+        url: "/shifokormaslaxat",
     },
     {
         id:4,
         img:xizmat4,
         title:"Terapevtik xizmatlar",
+        url: "/terapevtik",
     },
     {
         id:5,
         img:xizmat5,
         title:"Estetik stomatologiya",
+        url: "/EstetikStamatalogika",
     },
     {
         id:6,
         img:xizmat6,
         title:"Periodontologiya",
+        url: "/PeriAdanatalogiya",
     },
     {
         id:7,
         img:xizmat7,
         title:"Protezlash",
+        url: "/Protezlash",
     },
     {
         id:8,
         img:xizmat8,
         title:"Implantatsiya va jarrohlik",
+        url: "/implantatsiya",
     },
     {
         id:9,
         img:xizmat9,
         title:"Ortodontiya",
+        url: "/ortodontiya",
     },
 ]
