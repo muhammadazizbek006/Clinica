@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-
-// draw
+import { Link, NavLink } from "react-router-dom";
 import {
   Drawer,
   Button,
   Typography,
   IconButton,
 } from "@material-tailwind/react";
+
+// draw
+
 
 // img
 
@@ -16,6 +17,8 @@ import logo from "../img/logo.svg";
 import hamburger from "../img/menu.svg";
 const Header = () => {
   const [openRight, setOpenRight] = React.useState(false);
+  const openDrawerRight = () => setOpenRight(true);
+  const closeDrawerRight = () => setOpenRight(false);
   // naxr
   const [down, setDown] = useState(false);
 
@@ -27,7 +30,7 @@ const Header = () => {
   };
 
   return (
-    <header className="py-3 bg-header sticky  top-0  z-50">
+    <header className="py-3 bg-header sticky  top-0  z-50 relative">
       <div className="containerb flex  justify-between items-center">
                         {/* logo */}
         <Link className="w-36 h-11 block lg:hidden xl:block " to="/">
@@ -230,16 +233,39 @@ const Header = () => {
           </div>
           {/* menu */}
 
-            <button className="block md:hidden ml-3">
+            <button onClick={openDrawerRight} className="block md:hidden ml-3">
               <img src={hamburger} alt="" />
             </button>
             
 
         </div>
       </div>
-          {/* draw */}
-      <div>
+       {/* draw */}
+      <div className="absolute  right-1 top-2">
+      <Drawer
+        placement="right"
+        open={openRight}
+        onClose={closeDrawerRight}
+        className="p-4 md:hidden ">
 
+        <div className="mb-6 flex items-center justify-between">
+          <Typography variant="h5" color="blue-gray">
+              Menyu
+          </Typography>
+          <b 
+            variant="text"
+            color="blue-gray"
+            onClick={closeDrawerRight}>X</b>
+        </div>
+          <div className="flex flex-col">
+            <NavLink path='/'>Bosh sahifa</NavLink>
+            <NavLink path='/shifokormaslaxat'>shifokor Maslaxati</NavLink>
+            <NavLink path='/Aktsiya'>Aksiya</NavLink>
+            <NavLink path='/barchaxizmatlar'>Xizmatlar</NavLink>
+            <NavLink path='/ShifokorlarX'>Bizning Shifokorlar</NavLink>
+            <NavLink path='/kontaktlar'>kontaktlar</NavLink>
+          </div>
+      </Drawer>
       </div>
     </header>
   );
