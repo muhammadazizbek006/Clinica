@@ -28,9 +28,8 @@ const OmmabopxizmatlarDetail = () => {
                                 <img className='mr-12' src={e.img} alt={e.xizmat} />
                                 <div>
                                     
-                                    <div className='flex  justify-between items-center mb-12'>
+                                    <div className='mb-12'>
                                         <p className='text-3xl'>{e.boshlanishN} rubldan</p>
-                                        <button className='px-10 py-4 bg-header hover:bg-online-zakaz hover:text-white duration-300'>Ro'yxatdan O'tish</button>
                                     </div>
                                     <div className='space-y-3'>
                                         <p>{e.sharx}</p>
