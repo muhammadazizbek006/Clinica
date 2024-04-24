@@ -1,6 +1,7 @@
 import React from 'react'
 import {ommabop} from '../Data'
 import { useParams } from 'react-router-dom';
+
 const OmmabopxizmatlarDetail = () => {
     const { xizmat } = useParams();
     const Ommabopxizmat = ommabop.filter((e) => e.xizmat == xizmat);
@@ -20,7 +21,7 @@ const OmmabopxizmatlarDetail = () => {
             }
         </section>
 
-            <section className='py-8'>
+            <section className='py-9'>
                 {
                     Ommabopxizmat.map((e)=>{
                         return(
