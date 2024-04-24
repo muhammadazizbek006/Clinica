@@ -24,7 +24,7 @@ const OmmabopxizmatlarDetail = () => {
                 {
                     Ommabopxizmat.map((e)=>{
                         return(
-                            <div key={e.id} className='containerb flex  '>
+                            <div key={e.id} className='containerb flex'>
                                 <img className='mr-12' src={e.img} alt={e.xizmat} />
                                 <div>
                                     
