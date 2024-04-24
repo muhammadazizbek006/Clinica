@@ -21,7 +21,7 @@ const OmmabopxizmatlarDetail = () => {
             }
         </section>
 
-            <section className='py-9'>
+            <section className='py-8'>
                 {
                     Ommabopxizmat.map((e)=>{
                         return(
