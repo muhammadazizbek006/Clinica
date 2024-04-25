@@ -15,7 +15,6 @@ import PageNotFound from "./pages/PageNotFound";
 import Shifokormaslaxat from './pages/maslaxat/Shifokormaslaxat'
 import MaslaxatDetail from "./pages/maslaxat/MaslaxatDetail";
 
-import BolalarS from "./pages/bolalar/BolalarS";
 import BolalarDetail from "./pages/bolalar/BolalarDetail";
 
 import Chegirma from "./pages/chegirma/Chegirma";
@@ -54,8 +53,12 @@ import ImplantatsiyaDetail from "./pages/implantatsiya/ImplantatsiyaDetail";
 
 import Ortodontiya from './pages/ortodontiya/Ortodontiya'
 import OrtodontiyaDetail from './pages/ortodontiya/OrtodontiyaDetail'
+
 import Barchaxizmatlar from "./pages/barchaxizmatlar/Barchaxizmatlar";
 import OmmabopxizmatlarDetail from "./components/OmmabopxizmatlarDetail";
+
+import BolalarStamatalogiyasi from "./pages/bolalar/BolalarStamatalogiyasi";
+
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -65,8 +68,8 @@ const App = () => {
         <Route path="/shifokormaslaxat" element={<Shifokormaslaxat />} />
         <Route path="/mdetail/:yonalishi" element={<MaslaxatDetail />} />
         
-        <Route path="/bolalars" element={<BolalarS/>}/>
-        <Route path="/bolalar/:yonalishi" element={<BolalarDetail/>}/>
+        <Route path="/BolalarStamatalogiyasi" element={<BolalarStamatalogiyasi/>}/>
+        <Route path="/bolalar-stamatalogiyasi/:yonalishi" element={<BolalarDetail/>}/>
 
         <Route path="/chegirma" element={<Chegirma/>}/>
         <Route path="/chegirma/:nomi" element={<ChegirmaDetail/>}/>

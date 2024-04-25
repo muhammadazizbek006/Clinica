@@ -1358,7 +1358,7 @@ export const xizmatlar = [
         id:2,
         img:xizmat2,
         title:"Bolalar stomatologiyasi",
-        url: "/bolalars",
+        url: "/BolalarStamatalogiyasi",
     },
     {
         id:3,
