@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
           {/* right */}
           <div className='flex flex-col space-y-2'>
-            <Link>Yangiliklar</Link>
+            <Link to='/yangiliklar'>Yangiliklar</Link>
             <Link to='/kontaktlar'>Kontaktlar</Link>
           </div>
         </li>

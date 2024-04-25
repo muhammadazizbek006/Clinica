@@ -58,6 +58,8 @@ import Barchaxizmatlar from "./pages/barchaxizmatlar/Barchaxizmatlar";
 import OmmabopxizmatlarDetail from "./components/OmmabopxizmatlarDetail";
 
 import BolalarStamatalogiyasi from "./pages/bolalar/BolalarStamatalogiyasi";
+import Yangiliklar from "./pages/yangiliklar/Yangiliklar";
+import YangiliklarDetail from './pages/yangiliklar/YangiliklarDetail'
 
 const App = () => {
   const router = createBrowserRouter(
@@ -113,6 +115,8 @@ const App = () => {
         
         <Route path="/kilinikaxaqida" element={<KlinikaXadiqa/>}/>
 
+        <Route path="/Yangiliklar" element={<Yangiliklar/>}/>
+        <Route path="/yangilik/:nomi" element={<YangiliklarDetail/>}/>
         <Route path="/kontaktlar" element={<Kontaktlar/>}/>
 
 
