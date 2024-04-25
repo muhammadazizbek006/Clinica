@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Yangiliklar = () => {
+const YangiliklarDetail = () => {
   return (
     <>
         
@@ -8,4 +8,4 @@ const Yangiliklar = () => {
   )
 }
 
-export default Yangiliklar
+export default YangiliklarDetail

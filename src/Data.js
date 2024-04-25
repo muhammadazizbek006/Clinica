@@ -1403,3 +1403,75 @@ export const xizmatlar = [
         url: "/ortodontiya",
     },
 ]
+// yangiliiklar
+import y1 from './img/yangiliklar/y1.png'
+import y2 from './img/yangiliklar/y2.png'
+import y3 from './img/yangiliklar/y3.jpg'
+import y4 from './img/yangiliklar/y4.jpg'
+// import y5 from './img/yangiliklar/y5.jpg'
+import y6 from './img/yangiliklar/y6.jpg'
+import y7 from './img/yangiliklar/y7.jpg'
+import y8 from './img/yangiliklar/y8.jpg'
+
+export const yangilik = [
+    {
+        id:1,
+        img:y1,
+        nomi:`VILOYAT onalik kapitali hisobidan davolanish`,
+        sana:`28/08/2023`,
+        sharx:`2023-yil 1-sentabrdan boshlab Clinica Native-da MINTAJAL onalik kapitali hisobidan davolanish mumkin bo‘ldi. Agar sizda 3 yoki undan ortiq farzandingiz bo'lsa va MINTAQAL onalik kapitali uchun sertifikatingiz bo'lsa , biz sizga Sverdlovsk viloyati Ijtimoiy siyosat vazirligining Ijtimoiy siyosat bo'limiga topshirish uchun hujjatlar to'plamini tayyorlashga yordam beramiz.`,
+        malumotTitle:`Harakatlar algoritmi:`,
+        malumot:`1-qadam . Konsultatsiya uchun Clinica Native bilan uchrashuv tayinlang (mintaqaviy onalik kapitali mablag'lari hisobidan davolanish istagi va imkoniyati borligini ma'lum qiling).`,
+        malumot2:`Qadam 2. Klinika bilan shartnoma tuzing va davolash rejasini tuzing.`,
+        malumot3:`Qadam 3. Sverdlovsk viloyati Ijtimoiy siyosat vazirligining ijtimoiy siyosat bo'limiga (yashash joyingiz bo'yicha) topshirish uchun Klinikada hujjatlar to'plamini to'ldiring.`,
+
+    },
+    {
+        id:2,
+        img:y2,
+        nomi:`Qo'shni tish pari`,
+        sana:`24.08.2023`,
+        sharx:`Tish perisi qizlar, o'g'il bolalar va ularning ota-onalarini qiziqarli bayramga taklif qiladi!`,
+        sharx2:`Tish peri, ayiqchalar, qiziqarli musobaqalar, raqslar, sharlar va sovg'alar.
+        Klinikada bolalar stomatologlariga bepul maslahatlar beriladi.
+        Ular chaqalog'ingizni o'ynoqi va oson tarzda tekshirishlari mumkin.
+        Sizning tashrifingizni kutamiz!`,        
+    },
+    {
+        id:3,
+        img:y3,
+        nomi:`5 avgustdan boshlab Clinica Native tibbiyot fanlari doktori - Elena Nikolaevna Svetlakova bilan bolalar qabulini ochdi.`,
+        sana:`08/01/2023`,
+        sharx:`Shifokor bolalar bilan ishlashda katta tajribaga ega va faqat zamonaviy asbob-uskunalar va materiallardan foydalanadi. Klinika quyidagilarni amalga oshiradi:`,
+        sharx2:`Biz klinikada har qanday yoshdagi bemorlarga qulaylik, qulaylik va shaxsiy e'tibor muhitini yaratdik va chaqalog'ingizning o'zini erkin his qilishiga yordam beradigan usullardan foydalandik.`,        
+    },
+    {
+        id:4,
+        img:y4,
+        nomi:`Keling tanishamiz! 10 iyul kuni Clinika Native bemorlarni qabul qila boshladi. Uchrashuvlar kattalar uchun ochiq.`,
+        sana:`07/10/2023`,
+        sharx:`10 iyul kuni yangi premium stomatologiya klinikasi Clinica Native o'zining birinchi bemorlarini qabul qilishni boshlaydi! Biz sizga diagnostika tekshiruvlari, mutaxassis bilan maslahatlashuv, profilaktik gigiena, murakkab jarrohlik aralashuvlar va noyob implant texnologiyalarigacha bo'lgan sog'lom tish va tish go'shtini saqlashga yordam beradigan keng ko'lamli xizmatlarni taklif etamiz.`,
+        sharx2:`Biz nafaqat o'tkir muammolarga yordam beramiz, balki og'iz bo'shlig'i kasalliklarining rivojlanishini oldini olish va tish va tish go'shtini qanday saqlash kerakligini ham aytib beramiz.
+
+        Clinica Native - bu shunchaki klinika emas, bu o'zingizni uydagidek his qiladigan joy. Bizning do'stona va professional jamoamiz tashrifingiz qulay va yoqimli bo'lishi uchun barcha imkoniyatlarni ishga soladi. `,
+        
+    },
+
+    {
+        id:5,
+        img:y6,
+        nomi:`10 iyul kuni Clinica Native premium stomatologiya klinikasi ochildi`,
+        sana:`28/08/2023`,
+        sharx:`10 iyul kuni eng talabchan bemorlar uchun yaratilgan yangi premium Clinica Native stomatologiya klinikasi o'z eshiklarini ochadi. Bu yerda diagnostika tekshiruvi, mutaxassislar maslahati, profilaktik gigienadan tortib murakkab jarrohlik aralashuvlar va noyob implantatsiya texnologiyalarigacha bo‘lgan barcha turdagi stomatologik xizmatlar ko‘rsatiladi.`,
+        sharx2:`Klinika eng zamonaviy asbob-uskunalar bilan jihozlangan va stomatologik davolanish uchun faqat yuqori sifatli materiallardan foydalanadi. Ko'p tarmoqli stomatologlar jamoasi katta tajribaga ega va doimiy ravishda o'z malakalarini oshirib boradi.`,
+        sharx3:`Clinica Native qulay va og'riqsiz davolanishni kafolatlaydigan shaxsiy e'tibor va sifatli parvarishning oltin standartlariga asoslangan individual yondashuvni taklif etadi.`,        
+    },
+    {
+        id:6,
+        img:y7,
+        nomi:`Clinica Native - bu "Ekaterininskiy Park" yangi turar-joy majmuasidagi birinchi stomatologiya klinikasi`,
+        sana:`28/08/2023`,
+        sharx:`Clinica Native Ekaterinburgning o'ziga xos belgisi hisoblangan "Ekaterininskiy Park" yangi turar-joy majmuasida ochilgan birinchi stomatologiya klinikasi bo'ldi.`,
+        sharx2:`Yevropa qulayligi va estetikasi bilan voqealar markazida yashashni istaganlar uchun yashash muhitining yangi formati. Hududning yangi kontseptsiyasi, talabchan va talabchan qo'shnilar Clinica Native formatini oldindan belgilab berdi - eng talabchan bemorlar uchun yaratilgan.`,        
+    },
+]
