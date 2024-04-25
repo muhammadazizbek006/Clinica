@@ -1352,7 +1352,7 @@ export const xizmatlar = [
         id:1,
         img:xizmat1,
         title:"Tish shifokori bilan maslahatlashuv",
-        url: "/shifokormaslaxat"
+        url: "/Tish shifokori bilan maslahatlashuv"
     },
     {
         id:2,
@@ -1364,7 +1364,7 @@ export const xizmatlar = [
         id:3,
         img:xizmat3,
         title:"Professional og'iz gigienasi",
-        url: "/shifokormaslaxat",
+        url: "/EstetikStamatalogika",
     },
     {
         id:4,
