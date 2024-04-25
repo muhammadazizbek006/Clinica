@@ -32,8 +32,8 @@ const Modal = () => {
     };
 
     return (
-        <div className='absolute bottom-5 right-12 z-50'>
-            <button className='px-4 py-4 bg-green-400 border-4 rounded-full' onClick={toggleModal}>
+        <div className='absolute bottom-20 right-24 z-50'>
+            <button className='px-4 py-4 bg-green-400 fixed border-4 rounded-full' onClick={toggleModal}>
                 <svg viewBox="0 0 10 14" width="28" height="25" fill="none" id="feedback_svg" className="callibri_panel_picture" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 3V2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1" fill="#000"></path>
                     <rect x=".5" y="2.5" width="9" height="11" rx="1.5" className="callibri_passive_icon callibri_svg_fill" stroke="#000"></rect>
@@ -44,8 +44,8 @@ const Modal = () => {
             {/* modal */}
             {modalOpen && (
                 <div className="fixed inset-0 flex justify-center items-center bg-gray-800 bg-opacity-50" onClick={handleOverlayClick}>
-                    <div className="bg-white p-8 rounded-lg">
-                        <button className="absolute top-0 right-0 m-4 text-gray-500 hover:text-gray-700" onClick={toggleModal}>
+                    <div className="bg-white p-8 rounded-lg relative">
+                        <button className="absolute top-0 right-0 m-4 text-online-zakaz hover:text-gray-700" onClick={toggleModal}>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
