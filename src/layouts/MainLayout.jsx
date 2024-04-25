@@ -18,7 +18,7 @@ const MainLayout = () => {
     <div className="flex flex-col min-h-screen">
       <Header />
       {/* { path !== "/" && <Breadcrumps />} */}
-      <Modal className='bg-orange-700 absolute right-0'/>
+      <Modal className='fixed'/>
       <main className="grow">
         <Outlet />
       </main>
