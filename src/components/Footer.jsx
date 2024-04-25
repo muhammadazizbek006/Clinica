@@ -19,9 +19,9 @@ const Footer = () => {
         <img src={Logo} alt="" />
       </div>
       {/* link va bog'lanish  */}
-      <ul className='flex justify-between text-base font-medium '>
+      <ul className='flex flex-wrap justify-between text-sm lg:text-base font-medium '>
         {/* link */}
-        <li className='flex  space-x-10'>
+        <li className='flex flex-col xl:flex-row mb-6 lg:mb-0    xl:space-x-10'>
           {/* left */}
           <div className='flex flex-col space-y-2'>
             <Link to='/barchaxizmatlar'>Xizmatlar</Link>
@@ -39,8 +39,9 @@ const Footer = () => {
             <Link to='/kontaktlar'>Kontaktlar</Link>
           </div>
         </li>
+
           {/* center */}
-          <li className='w-full max-w-96 space-y-2 inline-block'>
+          <li className='w-full max-w-96 space-y-2 mb-6 lg:mb-0 inline-block'>
 
               <a href="https://clinicanative.ru/upload/licence.pdf">MChJ "Native Denta Clinic <br /> 2023 yil 23 iyundagi L041-01021-66/00659255-sonli litsenziya.</a> <br />
               <a href="https://clinicanative.ru/upload/politica_native_pesonal.pdf">Shaxsiy ma'lumotlarni qayta ishlash siyosati </a>
