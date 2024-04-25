@@ -65,7 +65,7 @@ const App = () => {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
 
-        <Route path="/shifokormaslaxat" element={<Shifokormaslaxat />} />
+        <Route path="/Tish shifokori bilan maslahatlashuv" element={<Shifokormaslaxat />} />
         <Route path="/mdetail/:yonalishi" element={<MaslaxatDetail />} />
         
         <Route path="/BolalarStamatalogiyasi" element={<BolalarStamatalogiyasi/>}/>

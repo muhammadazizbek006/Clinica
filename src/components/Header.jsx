@@ -144,7 +144,7 @@ const Header = () => {
               className={` absolute left-0 top-6    flex flex-col shadow-md `}
             >
               <Link
-                to="/shifokormaslaxat"
+                to="/Tish shifokori bilan maslahatlashuv"
                 className=" pl-2 py-3  w-[300px] inline-block bg-white border-b-2 border-header "
               >
                 Tish shifokori bilan maslahatlashuv
