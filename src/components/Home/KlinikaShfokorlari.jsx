@@ -32,8 +32,8 @@ const KlinikaShfokorlari = () => {
                             <p>{e.ixtisosligi3}</p>
                           </div>
 
-                          <div className='mt-auto inline-block'>
-                          <Link to={`/detail/${e.name}`} className='text-lg font-medium bg-header py-3 px-6 inline-block  hover:text-white hover:bg-online-zakaz duration-500'>Batafsil</Link>
+                          <div className='flex'>
+                           <Link to={`/detail/${e.name}`} className='text-lg font-medium bg-header py-3 px-6 inline-block  hover:text-white hover:bg-online-zakaz duration-500'>Batafsil</Link>
                           </div>
                         </div>
                       </Link>

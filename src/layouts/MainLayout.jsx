@@ -26,15 +26,18 @@ const MainLayout = () => {
           className={`${
             open ? " block w-1/2" : " hidden w-0"} h-full absolute bg-white top-0 z-[70] right-0 transition-all duration-500`}>
             
-            <div className="flex  py-3">
+            <div className="flex  py-3 border-b-2 border-b-gray-300">
             <h3 className="mr-64 pl-2">Menyu</h3>
             <button className="font-bold">X</button>
           </div>
-          <div className="flex flex-col py-4 pl-3 space-y-3">
-            <Link to='/'>Bosh sahifa</Link>
-            <Link path="/Aktsiya">Aksiya</Link>
-            <Link path="/ShifokorlarX">Bizning shifokorlar</Link>
-            <Link path="/barchaxizmatlar">Xizmatlar</Link>
+
+          <div className="flex flex-col divide-y-2 py-4 pl-3 space-y-5">
+            <Link className="pt-2"  to='/'>Bosh sahifa</Link>
+            <Link className="pt-2" to="/Aktsiya">Aksiya</Link>
+            <Link className="pt-2" to="/ShifokorlarX">Bizning shifokorlar</Link>
+            <Link className="pt-2" to="/barchaxizmatlar">Xizmatlar</Link>
+            <Link className="pt-2" to='/kilinikaxaqida'>Klinika xaqida</Link>
+            <Link className="pt-2" to='/kontaktlar'>Kontaktlar</Link>
           </div>
         </div>
       </div>
