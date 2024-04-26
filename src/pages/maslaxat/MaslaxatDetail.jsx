@@ -22,7 +22,7 @@ const MaslaxatDetail = () => {
                 {
                 mDetail.map((e)=>{
                     return(
-                       <div className='flex items-center containerb'>
+                       <div className='flex flex-col 1129:flex-row text-center  1129:text-start items-center containerb'>
                         
                         <div className='w-28 bg-akva  mr-6 '>
                          <img className='  px-5 py-3 ' src={title} alt={e.yonalishi} />

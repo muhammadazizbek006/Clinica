@@ -29,8 +29,8 @@ const ChegirmaDetail = () => {
             {
                 nomim.map((e)=>{
                     return(
-                        <div className="flex">
-                        <img width={437} height={490} className="w-[437px] h-[490px] mr-14 object-cover " src={e.img} alt={e.yonalishi} />
+                        <div className="flex flex-col   654:flex-row">
+                        <img width={437} height={490} className=" mb-5 654:mb-0 w-[400px] sm:w-[300px] sm:h-80 lg:w-[437px] lg:h-[460px] sm:mr-4 lg:mr-14 object-cover " src={e.img} alt={e.yonalishi} />
                         {/* right */}
                         <div className="w-full max-w-[701px]">
         

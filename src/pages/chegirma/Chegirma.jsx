@@ -10,11 +10,11 @@ const Chegirma = () => {
   return (
     <>
     <section className='py-10'>
-        <div className="containerb flex items-center mb-7">
+        <div className="containerb flex flex-col text-center md:text-start md:flex-row items-center mb-7">
             <img className='bg-header p-5 rounded-full mr-3' src={chegirma} alt="#" />
-            <h2 className='text-32 font-medium border-b-4 pb-5 border-b-header w-full '>Qanday qilib chegirma olish mumkin</h2>
+            <h2 className=' text-xl md:text-32 font-medium border-b-4 pb-5 border-b-header w-full '>Qanday qilib chegirma olish mumkin</h2>
         </div>
-        <ul className='containerb grid grid-cols-2 gap-x-6 gap-y-8'>
+        <ul className='containerb grid grid-cols-1  md:grid-cols-2 gap-x-6 gap-y-8'>
             {
                 chegirmalar.map((e)=>{
                     return(
