@@ -20,13 +20,13 @@ const KlinikaShfokorlari = () => {
               {
                 shifokorlar.map((e)=>{
                   return(
-                    <li className='' data-aos="fade-up" data-aos-duration="1000" key={e.id}>
-                      <Link className='flex flex-col items-center md:items-start text-center  md:text-start md:flex-row'>
-                        <img className='md:mr-12 w-52 h-56 object-cover' src={e.img} alt={e.name} />
-                        <div className='flex flex-col text-center '>
+                    <li className=' h-56 ' data-aos="fade-up" data-aos-duration="1000" key={e.id}>
+                      <Link className='flex flex-col items-center md:items-start text-center  md:text-start md:flex-row h-full'>
+                        <img className='md:mr-12 w-52 object-cover h-full' src={e.img} alt={e.name} />
+                        <div className='flex flex-col text-center h-full justify-between'>
                           <h3 className='text-lg font-medium mb-3'>{e.name}</h3>
 
-                          <div className=' flex flex-col mb-5 text-center items-center md:mb-24 '>
+                          <div className=' flex flex-col mb-5 text-center items-center md:mb-8'>
                             <p className='max-w-48 text-base'>{e.ixtisosligi}</p>
                             <p>{e.ixtisosligi2}</p>
                             <p>{e.ixtisosligi3}</p>
