@@ -35,11 +35,11 @@ const Shifokormaslaxat = () => {
             maslaxatlar.map((e)=>{
               return(
                 <li  key={e.id} className='border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300'>
-                  <Link to={`/mdetail/${e.yonalishi}`} className='flex justify-between items-center p-5'>
+                  <Link to={`/mdetail/${e.yonalishi}`} className='flex flex-col justify-between md:items-center md:flex-row p-5'>
                     {/* left */}
                     <div className='flex flex-col'>
-                      <h3 className='text-xl font-medium mb-3 max-w-[900px]'>{e.yonalishi}</h3>
-                      <div className='flex items-center'>
+                      <h3 className=' md:max-w-[400px] text-sm xl:text-xl font-medium mb-3 xl:max-w-[900px]'>{e.yonalishi}</h3>
+                      <div className='flex items-center mb-3 md:mb-0'>
                         <p className='mr-2 text-xl text-next'>Batafsil</p>
                         <img src={next} alt="#" />
                       </div>

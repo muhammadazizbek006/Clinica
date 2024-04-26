@@ -400,6 +400,11 @@ export const maslaxatlar = [
         boshlangichnarxi:300,
         vazifasi:"Har qanday tish davolash tish shifokori bilan maslahatlashuvdan boshlanadi. Bu shifokor og'iz bo'shlig'ini tekshiradigan, qo'shimcha testlarni tayinlaydigan, anamnezni to'playdigan, kontrendikatsiyalar va cheklovlarni aniqlaydigan va tavsiyalar beradigan dastlabki uchrashuvdir.Tishlar va tish go'shtini sog'lom saqlash uchun muntazam ravishda stomatologik tekshiruvdan o'tish muhimdir. Tishlaringiz bilan hamma narsa yaxshi bo'lsa ham, har olti oyda bir marta tish shifokoriga tashrif buyurish tavsiya etiladi. Agar siz ovqat paytida og'riq, noqulaylik haqida tashvishlansangiz yoki kariesga shubha bo'lsa, birinchi uchrashuvda shifokor tashxis qo'yadi, davolash rejasini ishlab chiqadi va keyingi uchrashuvga tayinlanadi. Agar kerak bo'lsa, tish shifokori sizni boshqa mutaxassislarga ham yuboradi.",
         sababnomi:"Tish shifokoriga tashrif buyurish uchun TOP 10 ta sabab:",
+        malumot:`O'tkir tish og'rig'i (hatto og'riq vaqt o'tishi bilan o'tgan bo'lsa ham);`,
+        malumot2:`Chiqib ketgan tish yoki plomba;`,
+        malumot3:`Tish go'shtidagi oqma yoki tish go'shtining shishishi;`,
+        malumot4:`To'ldiruvchining tushishi;`,
+        
     },
     {
         id:3,

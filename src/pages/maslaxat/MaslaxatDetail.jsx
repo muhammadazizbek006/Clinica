@@ -41,24 +41,29 @@ const MaslaxatDetail = () => {
               {
                 mDetail.map((e)=>{
                   return(
-                    <div className='flex justify-between'>
+                    <div className='flex flex-col 1129:flex-row justify-center 1129:justify-between'>
                       {/* img */}
                       <div>
-                        <img width={482} height={600} className='w-[492px] h-[500px]' src={e.img} alt="" />
+                        <img width={482} height={600} className=' w-[690px] 1129:w-[330px] 1129::h-[400px] xl:w-[492px] xl:h-[500px] xl:mr-8 object-cover mb-5 1129:mb-0' src={e.img} alt="" />
                       </div>
                       {/* right */}
-                      <div className='w-full max-w-[710px]'>
+                      <div className='w-full   1129:max-w-[560px] xl:max-w-[700px]'>
                         {/* top */}
                         <div className='flex items-center  mb-8'>
                           <p className='text-3xl font-medium'>{e.boshlangichnarxi} rubldan</p>
                         </div>
                         {/* maslaxat */}
-                        <div className='border-b-2 border-b-gray-300 pb-8'>
-                          <p className='text-base '>{e.vazifasi}</p>
+                        <div className='  border-b-2 border-b-gray-300 pb-8'>
+                          <p className=' text-sm xl:text-base '>{e.vazifasi}</p>
                         </div>
                         {/* sabab */}
-                        <div className='py-8'>
+                        <div className='py-8 space-y-3'>
                           <h3 className='text-xl mb-9'>{e.sababnomi}</h3>
+                          <p>{e.malumot}</p>
+                          <p>{e.malumot2}</p>
+                          <p>{e.malumot3}</p>
+                          <p>{e.malumot4}</p>
+
                         </div>
                       </div>
                     </div>
