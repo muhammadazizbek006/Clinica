@@ -17,7 +17,7 @@ const EstetikDetail = () => {
       <section className="py-8">
         {estetikG.map((e) => {
           return (
-            <div className=" flex  justify-between items-center containerb">
+            <div className=" flex flex-col justify-center md:flex-row text-center md:text-start md:justify-between items-center containerb">
               <div className="w-28 bg-akva  mr-6">
                 <img
                   className="  px-5 py-3 "
@@ -25,7 +25,7 @@ const EstetikDetail = () => {
                   alt={e.yonalishi}
                 />
               </div>
-              <h2 className="text-32 font-medium border-b-4 border-b-header w-full pb-5 ">
+              <h2 className=" text-2xl md:text-32 font-medium border-b-4 border-b-header w-full pb-5 ">
                 {e.yonalishi}
               </h2>
             </div>
@@ -37,10 +37,10 @@ const EstetikDetail = () => {
         <div className="containerb">
           {estetikG.map((e) => {
             return (
-              <div className="flex justify-between">
-                <img className="w-[399px]" src={e.img} alt={e.yonalishi} />
+              <div className="flex flex-col md:flex-row  justify-between">
+                <img className=" h-[300px] sm:h-[400px] md:w-[260px] lg:w-[399px] lg:h-[500px] object-cover mb-4 md:mb-0" src={e.img} alt={e.yonalishi} />
                 {/* right */}
-                <div className="w-full max-w-[701px]">
+                <div className="w-full md:max-w-[400px] lg:max-w-[500px] xl:max-w-[701px]">
                   {/* narx ro'yxat */}
                   <div className="flex items-center mb-8">
                     <p className="text-3xl font-medium">
