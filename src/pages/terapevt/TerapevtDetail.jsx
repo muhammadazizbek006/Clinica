@@ -17,7 +17,7 @@ const TerapevtDetail = () => {
       <section className="py-8">
         {terapevt.map((e) => {
           return (
-            <div className=" flex  justify-between items-center containerb">
+            <div className=" flex flex-col sm:flex-row text-center sm:text-start  sm:justify-between items-center containerb">
               <div className="w-28 bg-akva  mr-6">
                 <img className="  px-5 py-3 " src={terapevti} alt={e.yonalishi} />
               </div>
@@ -33,10 +33,10 @@ const TerapevtDetail = () => {
         <div className="containerb">
           {terapevt.map((e) => {
             return (
-              <div className="flex justify-between">
-                <img className="w-[399px]" src={e.img} alt={e.yonalishi} />
+              <div className="flex flex-col md:flex-row justify-between">
+                <img className="  md:w-[299px] sm:h-[350px] object-cover mb-4 md:mb-0 lg:w-[399px]" src={e.img} alt={e.yonalishi} />
                 {/* right */}
-                <div className="w-full max-w-[701px]">
+                <div className="w-full md:max-w-[400px] lg:max-w-[501px] xl:max-w-[701px]">
                 {/* narx ro'yxat */}
                 <div className="flex items-center  mb-8">
                     <p className="text-3xl font-medium">{e.boshlanishN} rubldan</p>
