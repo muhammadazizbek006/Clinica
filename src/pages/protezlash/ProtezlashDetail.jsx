@@ -17,11 +17,11 @@ const ProtezlashDetail = () => {
       <section className="py-8">
         {pro.map((e) => {
           return (
-            <div className=" flex  justify-between items-center containerb">
+            <div className=" flex flex-col text-center md:flex-row   justify-between items-center containerb">
               <div className="w-28 bg-akva  mr-6">
                 <img className="  px-5 py-3 " src={protezlar} alt={e.yonalishi} />
               </div>
-              <h2 className="text-32 font-medium border-b-4 border-b-header w-full pb-5 ">
+              <h2 className=" text-2xl md:text-32 font-medium border-b-4 border-b-header w-full pb-5 ">
                 {e.yonalishi}
               </h2>
             </div>
@@ -33,10 +33,10 @@ const ProtezlashDetail = () => {
         <div className="containerb">
           {pro.map((e) => {
             return (
-              <div className="flex">
-                <img className="w-[546px] mr-14" src={e.img} alt={e.yonalishi} />
+              <div className="flex flex-col md:flex-row justify-between">
+                <img className=" md:w-[340px] xl:w-[526px] md:h-[400px] lg:h-[700px] mb-4 md:mb-0 " src={e.img} alt={e.yonalishi} />
                 {/* right */}
-                <div className="w-full max-w-[701px]">
+                <div className="w-full md:max-w-[380px] xl:max-w-[701px]">
                   {/* narx ro'yxat */}
                   <div className="flex items-center  mb-8">
                     <p className="text-3xl font-medium">
