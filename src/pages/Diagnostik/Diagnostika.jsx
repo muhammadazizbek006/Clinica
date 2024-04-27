@@ -46,7 +46,7 @@ const Diagnostika = () => {
                 >
                   <Link
                     to={`/diga/${e.yonalishi}`}
-                    className="flex justify-between items-center p-5"
+                    className="flex flex-col sm:flex-row justify-between sm:items-center p-5"
                   >
                     {/* left */}
                     <div className="flex flex-col">
@@ -54,7 +54,7 @@ const Diagnostika = () => {
                         {e.yonalishi}
                       </h3>
                       <div className="flex items-center  ">
-                        <p className="mr-6 text-xl text-next border-b border-b-cyan-700">
+                        <p className="mr-6 text-xl text-next border-b border-b-cyan-700 mb-3 sm:mb-0">
                           Batafsil
                         </p>
                         <img src={next} alt="#" />
