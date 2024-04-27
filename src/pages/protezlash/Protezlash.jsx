@@ -43,14 +43,14 @@ const Protezlash = () => {
                 >
                   <Link
                     to={`/protez/${e.yonalishi}`}
-                    className="flex justify-between items-center p-5"
+                    className="flex flex-col sm:flex-row justify-between p-5"
                   >
                     {/* left */}
                     <div className="flex flex-col">
-                      <h3 className="text-xl font-medium mb-3 max-w-[900px]">
+                      <h3 className=" text-base md:text-xl font-medium mb-3 max-w-[900px]">
                         {e.yonalishi}
                       </h3>
-                      <div className="flex items-center  ">
+                      <div className="flex items-center mb-4 sm:mb-0  ">
                         <p className="mr-6 text-xl text-next border-b border-b-cyan-700">
                           Batafsil
                         </p>
@@ -59,7 +59,7 @@ const Protezlash = () => {
                     </div>
                     {/* right */}
                     <div className="flex items-center">
-                      <p className="mr-12 text-lg ">{e.narxi} rubldan</p>
+                      <p className="mr-12 text-lg sm:hidden md:block ">{e.narxi} rubldan</p>
                       <div className="flex items-center text-lg">
                         <p className="mr-2">{e.soni}</p>
                       </div>
