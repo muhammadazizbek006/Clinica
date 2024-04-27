@@ -19,9 +19,9 @@ const ImplantatsiyaDetail = () => {
       <section className="py-8">
         {implantatsiv.map((e) => {
           return (
-            <div className=" flex  justify-between items-center containerb">
+            <div className=" flex flex-col text-center md:text-start md:flex-row justify-between items-center containerb">
               <div className="w-28 bg-akva  mr-6">
-                <img className="  px-5 py-3 " src={implantatsya} alt={e.yonalishi} />
+                <img className="  px-5 py-3  " src={implantatsya} alt={e.yonalishi} />
               </div>
               <h2 className="text-32 font-medium border-b-4 border-b-header w-full pb-5 ">
                 {e.yonalishi}
@@ -35,10 +35,10 @@ const ImplantatsiyaDetail = () => {
         <div className="containerb">
           {implantatsiv.map((e) => {
             return (
-              <div className="flex">
-                <img className="w-[546px] mr-14" src={e.img} alt={e.yonalishi} />
+              <div className="flex flex-col md:flex-row justify-between">
+                <img className=" h-[400px] md:w-[340px] lg:w-[420px] md:h-96 lg:h-[600px] object-cover mb-4 md:mb-0 " src={e.img} alt={e.yonalishi} />
                 {/* right */}
-                <div className="w-full max-w-[701px]">
+                <div className="w-full md:max-w-[370px] lg:max-w-[540px] xl:max-w-[701px]">
                   {/* narx ro'yxat */}
                   <div className="flex items-center  mb-8">
                     <p className="text-3xl font-medium">
