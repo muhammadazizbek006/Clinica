@@ -79,6 +79,7 @@ export const ommabop = [
         id:2,
         img:kares,
         xizmat:'Kariyesni davolash',
+        url:`/terapevt/:yonalishi`,
         narxi:5500,
         boshlanishN:5500,
         sharx:`Tish kariesining oldini olish uchun tish shifokoriga tashrif buyurish, muntazam tekshiruvlardan o'tish va profilaktik tozalash kerak. Agar karies paydo bo'lsa, tishlarning parchalanishi va asoratlarni oldini olish uchun uni imkon qadar erta davolash kerak. Tish chirishini davolash ta'sirlangan to'qimalarni olib tashlash va tishni to'ldirishni yoki og'irroq holatlarda inley yoki toj kabi boshqa usullarni qo'llashni o'z ichiga olishi mumkin. Tish kariesining oldini olish uchun siz shakar va shakarli ichimliklarni iste'mol qilishni ham nazorat qilishingiz kerak, tishlaringizni qattiq narsalar bilan urishdan saqlaning va emalni mustahkamlash uchun ftoridli mahsulotlardan foydalaning. Tishlarni kariyesga qarshi maxsus xususiyatlarga ega pastalar va chayishlar yordamida ham himoya qilish mumkin.`,

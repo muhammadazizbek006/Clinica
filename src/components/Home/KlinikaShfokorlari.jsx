@@ -20,7 +20,7 @@ const KlinikaShfokorlari = () => {
               {
                 shifokorlar.map((e)=>{
                   return(
-                    <li className=' h-56 ' data-aos="fade-up" data-aos-duration="1000" key={e.id}>
+                    <li className='tex lg:text-start' data-aos="fade-up" data-aos-duration="1000" key={e.id}>
                       <Link className='flex flex-col items-center md:items-start text-center  md:text-start md:flex-row h-full'>
                         <img className='md:mr-12 w-52 object-cover h-full' src={e.img} alt={e.name} />
                         <div className='flex flex-col text-center h-full justify-between'>
@@ -33,7 +33,7 @@ const KlinikaShfokorlari = () => {
                           </div>
 
                           <div className='flex'>
-                           <Link to={`/detail/${e.name}`} className='text-lg font-medium bg-header py-3 px-6 inline-block  hover:text-white hover:bg-online-zakaz duration-500'>Batafsil</Link>
+                           <Link to={`/detail/${e.name}`} className=' mx-auto lg:mx-0 text-lg font-medium bg-header py-3 px-6 inline-block  hover:text-white hover:bg-online-zakaz duration-500'>Batafsil</Link>
                           </div>
                         </div>
                       </Link>

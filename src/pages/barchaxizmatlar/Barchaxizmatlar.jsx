@@ -87,7 +87,6 @@ const Barchaxizmatlar = () => {
             <h2 className='text-32 font-medium border-b-4 border-b-header w-full '>Bolalar stomatologiyasi</h2>
           </div>
           {/* right */}
-          <button className='bg-header px-7 py-4 text-xl font-medium  hover:bg-online-zakaz hover:text-white duration-700'>Ro'yxatdan o'tish</button>
         </div>
       </div>
       </section>
@@ -142,7 +141,6 @@ const Barchaxizmatlar = () => {
             <h2 className='text-32 font-medium border-b-4 border-b-header w-full '>Terapevtik xizmatlar</h2>
           </div>
           {/* right */}
-          <button className='bg-header px-7 py-4 text-xl font-medium  hover:bg-online-zakaz hover:text-white duration-700'>Ro'yxatdan o'tish</button>
         </div>
       </div>
       </section>
@@ -195,7 +193,7 @@ const Barchaxizmatlar = () => {
             <h2 className='text-32 font-medium border-b-4 border-b-header w-full '>Estetik stomatologiya</h2>
           </div>
           {/* right */}
-          <button className='bg-header px-7 py-4 text-xl font-medium  hover:bg-online-zakaz hover:text-white duration-700'>Ro'yxatdan o'tish</button>
+         
         </div>
       </div>
     </section>
@@ -251,9 +249,7 @@ const Barchaxizmatlar = () => {
               </h2>
             </div>
             {/* right */}
-            <button className="bg-header px-7 py-4 text-xl font-medium  hover:bg-online-zakaz hover:text-white duration-700">
-              Ro'yxatdan o'tish
-            </button>
+
           </div>
         </div>
       </section>
@@ -315,9 +311,7 @@ const Barchaxizmatlar = () => {
               </h2>
             </div>
             {/* right */}
-            <button className="bg-header px-7 py-4 text-xl font-medium  hover:bg-online-zakaz hover:text-white duration-700">
-              Ro'yxatdan o'tish
-            </button>
+
           </div>
         </div>
       </section>
@@ -378,9 +372,7 @@ const Barchaxizmatlar = () => {
               </h2>
             </div>
             {/* right */}
-            <button className="bg-header px-7 py-4 text-xl font-medium  hover:bg-online-zakaz hover:text-white duration-700">
-              Ro'yxatdan o'tish
-            </button>
+
           </div>
         </div>
       </section>
