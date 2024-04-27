@@ -20,7 +20,7 @@ const PeriAdanatalogiyaDetail = () => {
   <section className="py-8">
         {peri.map((e) => {
           return (
-            <div className=" flex  justify-between items-center containerb">
+            <div className=" flex flex-col text-center md:text-start md:flex-row  justify-between items-center containerb">
               <div className="w-28 bg-akva  mr-6">
                 <img
                   className="  px-5 py-3 "
@@ -28,7 +28,7 @@ const PeriAdanatalogiyaDetail = () => {
                   alt={e.yonalishi}
                 />
               </div>
-              <h2 className="text-32 font-medium border-b-4 border-b-header w-full pb-5 ">
+              <h2 className="text-2xl md:text-32 font-medium border-b-4 border-b-header w-full pb-5 ">
                 {e.yonalishi}
               </h2>
             </div>
@@ -40,10 +40,10 @@ const PeriAdanatalogiyaDetail = () => {
         <div className="containerb">
           {peri.map((e) => {
             return (
-              <div className="flex justify-between">
-                <img className="w-[399px]" src={e.img} alt={e.yonalishi} />
+              <div className="flex flex-col md:flex-row justify-between">
+                <img className=" h-96  md:w-[280px] lg:w-[399px] md:h-[600px] object-cover mb-4 md:mb-0" src={e.img} alt={e.yonalishi} />
                 {/* right */}
-                <div className="w-full max-w-[701px]">
+                <div className="w-full md:max-w-[440px] lg:max-w-[520px] xl:max-w-[701px]">
                   {/* narx ro'yxat */}
                   <div className="flex items-center  mb-8">
                     <p className="text-3xl font-medium">
