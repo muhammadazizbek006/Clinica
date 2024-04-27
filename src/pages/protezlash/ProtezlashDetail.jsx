@@ -34,7 +34,7 @@ const ProtezlashDetail = () => {
           {pro.map((e) => {
             return (
               <div className="flex flex-col md:flex-row justify-between">
-                <img className=" md:w-[340px] xl:w-[526px] md:h-[400px] lg:h-[700px] mb-4 md:mb-0 " src={e.img} alt={e.yonalishi} />
+                <img className=" md:w-[340px] xl:w-[526px] md:h-[400px] lg:h-[700px] mb-4 md:mb-0 object-cover " src={e.img} alt={e.yonalishi} />
                 {/* right */}
                 <div className="w-full md:max-w-[380px] xl:max-w-[701px]">
                   {/* narx ro'yxat */}
