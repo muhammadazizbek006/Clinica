@@ -26,12 +26,12 @@ const MainLayout = () => {
           className={`${
             open ? " block " : " hidden w-0"} h-full absolute bg-white top-0 z-[70] right-0 transition-all duration-500`}>
             
-            <div className="flex  py-3 border-b-2 border-b-gray-300">
+            <div className="flex  py-3  border-b-4 border-b-header border-dashed">
             <h3 className="mr-64 pl-2">Menyu</h3>
-            <button className="font-bold">X</button>
+            <button className="font-bold mr-4 absolute right-0">X</button>
           </div>
 
-          <div className="flex flex-col divide-y-2 py-4 pl-3 space-y-5">
+          <div className="flex flex-col divide-y-2 divide-dashed divide-header py-4 pl-3 space-y-5">
             <Link className="pt-2"  to='/'>Bosh sahifa</Link>
             <Link className="pt-2" to="/Aktsiya">Aksiya</Link>
             <Link className="pt-2" to="/ShifokorlarX">Bizning shifokorlar</Link>
