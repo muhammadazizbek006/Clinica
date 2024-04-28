@@ -29,13 +29,13 @@ const OmmabopXizmatlar = () => {
                           <Link to={`/ommabop-xizmatlar/${e.xizmat}`}  className='flex justify-between items-center py-3 px-6'>
                             {/* // left */}
                             <div className='flex items-center w-full max-w-[581px]'> 
-                              <img className='mr-3' src={soat} alt="" />
+                              <img className='mr-3' src={soat} alt="note" />
                               <p className='text-base mr-4 lg:mr-0  md:text-xl'>{e.xizmat}</p>
                             </div>
                             {/* right */}
                             <div className='flex items-center' >
                               <span className=' hidden lg:inline-block lg:mr-3'>{e.narxi}</span>
-                              <img className='' src={next} alt="" />
+                              <img className='' src={next} alt="o'tish" />
                             </div>
                           </Link>
                         </li>

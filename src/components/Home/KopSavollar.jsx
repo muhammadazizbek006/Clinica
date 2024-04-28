@@ -53,7 +53,7 @@ const KopSavollar = () => {
               return (
                 <Accordion
                   icon={
-                    <img src={arrow}                      className={`transition-transform duration-200 w-8  h-8 ${
+                    <img src={arrow} className={`transition-transform duration-200 w-8  h-8 ${
                         open == id ? "rotate-0" : "rotate-180"
                       }`}
                     />
@@ -69,7 +69,7 @@ const KopSavollar = () => {
                     onClick={() => handleOpen(id)}
                   >
                    <div className="flex items-center space-x-2">
-                   <img src={savol} alt="" />
+                   <img src={savol} alt="note" />
                     {quiz.savol}
                    </div>
                   </AccordionHeader>

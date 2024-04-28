@@ -65,7 +65,7 @@ const Shifokorlar = () => {
             <img
               className="bg-header p-4 rounded-full"
               src={biznishifokorlar}
-              alt="#"
+              alt="note"
             />
             <h2 className="text-32 font-medium">Bizning shifokorlarimiz</h2>
           </div>
@@ -96,15 +96,15 @@ const Shifokorlar = () => {
                 key={e.id}
                 className="gird  grid-cols-1 sm:grid-cols-2 md:grid-cols-3   items-center p-2 border-akva border-2  border-dashed"
               >
-                <div className="flex flex-col">
-                <img width="278" height="354" className="h-80 object-cover " src={e.img} alt="#" />
-                <div className=" p-3 text-center grow">
+                <div className="flex flex-col ">
+                <img width="278" height="354" className="h-80 object-cover " src={e.img} alt={e.name} />
+                <div className=" p-3 text-center flex flex-col">
                   <h3 className="text-xl font-medium mb-2">{e.name}</h3>
                   <p className="mb-12">{e.ixtisosligi}</p>
 
 
                   <div className="mt-auto inline-block  ">
-                  <Link to={`/detail/${e.name}`} className="text-xl font-medium  inline-block hover:text-white hover:bg-online-zakaz bg-header duration-500 px-8   py-3">
+                  <Link to={`/detail/${e.name}`} className="text-xl font-medium w-full  inline-block hover:text-white hover:bg-online-zakaz bg-header duration-500 px-8   py-3">
                     Batafsil
                   </Link>
                   </div>

@@ -45,7 +45,7 @@ const Carusel = () => {
                   </div>
                   {/* right */}
                   <div className=" hidden md:inline-block absolute slideCut w-1/2 right-0 top-0">
-                    <img className=" w-full h-[700px] object-cover" src={e.img} alt="" />
+                    <img className=" w-full h-[700px] object-cover" src={e.img} alt={e.nomi} />
                   </div>
                 </div>
               </SwiperSlide>
