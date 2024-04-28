@@ -24,7 +24,7 @@ const MainLayout = () => {
       >
         <div
           className={`${
-            open ? " block w-1/2" : " hidden w-0"} h-full absolute bg-white top-0 z-[70] right-0 transition-all duration-500`}>
+            open ? " block " : " hidden w-0"} h-full absolute bg-white top-0 z-[70] right-0 transition-all duration-500`}>
             
             <div className="flex  py-3 border-b-2 border-b-gray-300">
             <h3 className="mr-64 pl-2">Menyu</h3>
