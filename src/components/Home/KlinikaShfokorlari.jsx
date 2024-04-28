@@ -20,20 +20,21 @@ const KlinikaShfokorlari = () => {
               {
                 shifokorlar.map((e)=>{
                   return(
-                    <li className='tex lg:text-start' data-aos="fade-up" data-aos-duration="1000" key={e.id}>
-                      <Link className='flex flex-col items-center md:items-start text-center  md:text-start md:flex-row h-full'>
-                        <img className='md:mr-12 w-52 object-cover h-full' src={e.img} alt={e.name} />
-                        <div className='flex flex-col text-center h-full justify-between'>
-                          <h3 className='text-lg font-medium mb-3'>{e.name}</h3>
+                    <li className='flex  justify-center lg:justify-start' data-aos="fade-up" data-aos-duration="1000" key={e.id}>
+                      <Link className='flex flex-col md:flex-row     h-full'>
+                        <img className='md:mr-6 xl:mr-12 md:w-32 lg:w-52 object-cover  h-56 inline-block lg:h-full mb-4 md:mb-0 ' src={e.img} alt={e.name} />
+                       {/* right */}
+                        <div className='flex flex-col text-center md:text-start h-full justify-between md:max-w-[200px] xl:max-w-[624px]'>
+                          <h3 className=' md:text-base lg:text-lg font-medium lg:mb-3'>{e.name}</h3>
 
-                          <div className=' flex flex-col mb-5 text-center items-center md:mb-8'>
-                            <p className='max-w-48 text-base'>{e.ixtisosligi}</p>
+                          <div className=' flex flex-col mb-5 text-base md:text-sm lg:text-base   md:mb-8'>
+                            <p className=''>{e.ixtisosligi}</p>
                             <p>{e.ixtisosligi2}</p>
                             <p>{e.ixtisosligi3}</p>
                           </div>
 
-                          <div className='flex'>
-                           <Link to={`/detail/${e.name}`} className=' mx-auto lg:mx-0 text-lg font-medium bg-header py-3 px-6 inline-block  hover:text-white hover:bg-online-zakaz duration-500'>Batafsil</Link>
+                          <div className='flex justify-center md:justify-start'>
+                           <Link to={`/detail/${e.name}`} className=' text-lg font-medium bg-header py-3 px-6 inline-block  hover:text-white hover:bg-online-zakaz duration-500'>Batafsil</Link>
                           </div>
                         </div>
                       </Link>
