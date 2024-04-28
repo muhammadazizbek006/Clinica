@@ -31,8 +31,8 @@ const AktsiyaDetail = () => {
         <div className="containerb">
           {skidka.map((e) => {
             return (
-              <div className="flex">
-                <img width={437} height={490} className="w-[437px] h-[490px] mr-14 object-cover " src={e.img} alt={e.yonalishi} />
+              <div className="flex flex-col md:flex-row justify-between">
+                <img width={437} height={490} className=" w-[600px] md:w-[337px] lg:w-[437px] h-[490px] mr-0 md:mr-14 mb-4 md:mb-0 object-cover " src={e.img} alt={e.yonalishi} />
                 {/* right */}
                 <div className="w-full max-w-[701px]">
 
