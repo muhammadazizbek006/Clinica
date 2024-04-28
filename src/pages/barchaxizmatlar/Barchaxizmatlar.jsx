@@ -21,13 +21,13 @@ const Barchaxizmatlar = () => {
     <section>
       <div className="containerb">
         {/* top */}
-        <div className=' flex items-center  pt-5'>
+        <div className=' flex justify-center md:justify-start items-center  pt-5'>
           {/* left */}
-          <div className='flex items-center'>
+          <div className='flex flex-col md:flex-row text-center md:text-start items-center'>
             <div className='w-28 bg-akva  mr-6 '>
               <img className='  px-5 py-3  ' src={maslaxat} alt='#' />
             </div>
-            <h2 className='text-32 font-medium border-b-4 border-b-header w-full '>Tish shifokori bilan maslahatlashuv</h2>
+            <h2 className=' text-2xl lg:text-32 font-medium border-b-4 border-b-header w-full '>Tish shifokori bilan maslahatlashuv</h2>
           </div>
           {/* right */}
         </div>
@@ -173,21 +173,19 @@ const Barchaxizmatlar = () => {
     </section>
 
 
-
-            {/* title */}
-            <section>
+        {/* title */}
+        <section>
       <div className="containerb">
         {/* top */}
-        <div className=' flex items-center justify-between pt-5'>
+        <div className=' flex items-center justify-center sm:justify-start  pt-5'>
           {/* left */}
-          <div className='flex items-center'>
+          <div className='flex flex-col sm:flex-row items-center'>
             <div className='w-28 bg-akva  mr-6 '>
               <img className='  px-5 py-3  ' src={estetik} alt='#' />
             </div>
-            <h2 className='text-32 font-medium border-b-4 border-b-header w-full '>Estetik stomatologiya</h2>
+            <h2 className=' text-xl sm:text-32 font-medium border-b-4 border-b-header w-full '>Estetik stomatologiya</h2>
           </div>
           {/* right */}
-         
         </div>
       </div>
     </section>
@@ -200,10 +198,10 @@ const Barchaxizmatlar = () => {
                     Estetik.map((e)=>{
                         return(
                             <li key={e.id} className='border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300'>
-                                <Link  to={`/estetika/${e.yonalishi}`} className='flex justify-between items-center p-5'>
+                                <Link  to={`/estetika/${e.yonalishi}`} className='flex flex-col sm:flex-row justify-between sm:items-center p-5'>
                                     {/* left */}
                                     <div className='flex flex-col'>
-                                    <h3 className='text-xl font-medium mb-3 max-w-[900px]'>{e.yonalishi}</h3>
+                                    <h3 className=' text-lg sm:text-xl font-medium mb-3 max-w-[900px]'>{e.yonalishi}</h3>
                                     <div className='flex items-center  '>
                                         <p className='mr-6 text-xl text-next border-b border-b-cyan-700'>Batafsil</p>
                                         <img src={next} alt="#" />
@@ -211,7 +209,7 @@ const Barchaxizmatlar = () => {
                                     </div>  
                                     {/* right */}
                                     <div className='flex items-center'>
-                                    <p className='mr-12 text-lg '>{e.narxi} rubldan</p>
+                                    <p className='mr-12 text-lg  hidden md:block '>{e.narxi} rubldan</p>
                                     <div className='flex items-center text-lg'>
                                     <p className='mr-2'>{e.soni}</p>
                                     </div>
@@ -228,18 +226,18 @@ const Barchaxizmatlar = () => {
 
 
 
-          {/* title */}
-          <section>
+      {/* title */}
+      <section>
         <div className="containerb">
           {/* top */}
-          <div className=" flex items-center justify-between pt-5">
+          <div className=" flex justify-center sm:justify-start items-center  pt-5">
             {/* left */}
-            <div className="flex items-center">
+            <div className="flex flex-col sm:flex-row  items-center">
               <div className="w-28 bg-akva  mr-6 ">
                 <img className="  px-5 py-3  " src={peri} alt="#" />
               </div>
               <h2 className="text-32 font-medium border-b-4 border-b-header w-full ">
-              Peri Adanatalogiya
+                Peri Adanatalogiya
               </h2>
             </div>
             {/* right */}
@@ -260,11 +258,11 @@ const Barchaxizmatlar = () => {
                 >
                   <Link
                     to={`/periadanatalog/${e.yonalishi}`}
-                    className="flex justify-between items-center p-5"
+                    className="flex  flex-col justify-between md:items-center md:flex-row p-5"
                   >
                     {/* left */}
                     <div className="flex flex-col">
-                      <h3 className="text-xl font-medium mb-3 max-w-[900px]">
+                      <h3 className=" text-base lg:text-xl font-medium mb-3 max-w-[900px]">
                         {e.yonalishi}
                       </h3>
                       <div className="flex items-center  ">
@@ -276,7 +274,7 @@ const Barchaxizmatlar = () => {
                     </div>
                     {/* right */}
                     <div className="flex items-center">
-                      <p className="mr-12 text-lg ">{e.narxi} rubldan</p>
+                      <p className=" hidden lg:block mr-12 text-lg ">{e.narxi} rubldan</p>
                       <div className="flex items-center text-lg">
                         <p className="mr-2">{e.soni}</p>
                       </div>
@@ -290,11 +288,11 @@ const Barchaxizmatlar = () => {
       </section>
 
 
-           {/* title */}
-           <section>
+     {/* title */}
+     <section>
         <div className="containerb">
           {/* top */}
-          <div className=" flex items-center justify-between pt-5">
+          <div className=" flex items-center  pt-5">
             {/* left */}
             <div className="flex items-center">
               <div className="w-28 bg-akva  mr-6 ">
@@ -322,14 +320,14 @@ const Barchaxizmatlar = () => {
                 >
                   <Link
                     to={`/protez/${e.yonalishi}`}
-                    className="flex justify-between items-center p-5"
+                    className="flex flex-col sm:flex-row justify-between p-5"
                   >
                     {/* left */}
                     <div className="flex flex-col">
-                      <h3 className="text-xl font-medium mb-3 max-w-[900px]">
+                      <h3 className=" text-base md:text-xl font-medium mb-3 max-w-[900px]">
                         {e.yonalishi}
                       </h3>
-                      <div className="flex items-center  ">
+                      <div className="flex items-center mb-4 sm:mb-0  ">
                         <p className="mr-6 text-xl text-next border-b border-b-cyan-700">
                           Batafsil
                         </p>
@@ -338,7 +336,7 @@ const Barchaxizmatlar = () => {
                     </div>
                     {/* right */}
                     <div className="flex items-center">
-                      <p className="mr-12 text-lg ">{e.narxi} rubldan</p>
+                      <p className="mr-12 text-lg sm:hidden md:block ">{e.narxi} rubldan</p>
                       <div className="flex items-center text-lg">
                         <p className="mr-2">{e.soni}</p>
                       </div>
@@ -351,17 +349,17 @@ const Barchaxizmatlar = () => {
         </div>
       </section>
 
-                   {/* title */}
-                   <section>
+             {/* title */}
+             <section>
         <div className="containerb">
           {/* top */}
-          <div className=" flex items-center justify-between pt-5">
+          <div className=" flex justify-center md:justify-start items-center pt-5">
             {/* left */}
-            <div className="flex items-center">
+            <div className="flex flex-col md:flex-row items-center">
               <div className="w-28 bg-akva  mr-6 ">
                 <img className="  px-5 py-3  " src={implantatsya} alt="#" />
               </div>
-              <h2 className="text-32 font-medium border-b-4 border-b-header w-full ">
+              <h2 className=" text-2xl md:text-32 font-medium border-b-4 border-b-header w-full ">
                Implantatsiya va jarrohlik
               </h2>
             </div>
@@ -383,15 +381,15 @@ const Barchaxizmatlar = () => {
                 >
                   <Link
                     to={`/implant/${e.yonalishi}`}
-                    className="flex justify-between items-center p-5"
+                    className="flex flex-col md:flex-row  justify-between md:items-center p-5"
                   >
                     {/* left */}
                     <div className="flex flex-col">
-                      <h3 className="text-xl font-medium mb-3 max-w-[900px]">
+                      <h3 className=" text-base xl:text-xl font-medium mb-3 max-w-[900px]">
                         {e.yonalishi}
                       </h3>
                       <div className="flex items-center  ">
-                        <p className="mr-6 text-xl text-next border-b border-b-cyan-700">
+                        <p className="mr-6 text-xl text-next border-b border-b-cyan-700 mb-3 md:mb-0">
                           Batafsil
                         </p>
                         <img src={next} alt="#" />
@@ -399,7 +397,7 @@ const Barchaxizmatlar = () => {
                     </div>
                     {/* right */}
                     <div className="flex items-center">
-                      <p className="mr-12 text-lg ">{e.narxi} rubldan</p>
+                      <p className="mr-12 text-lg  md:hidden lg:block ">{e.narxi} rubldan</p>
                       <div className="flex items-center text-lg">
                         <p className="mr-2">{e.soni}</p>
                       </div>
