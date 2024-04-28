@@ -43,17 +43,17 @@ const Modal = () => {
 
             {/* modal */}
             {modalOpen && (
-                <div className="fixed inset-0 flex justify-center items-center bg-gray-800 bg-opacity-50" onClick={handleOverlayClick}>
-                    <div className="bg-white p-8 rounded-lg relative">
+                <div className="fixed  inset-0 flex justify-center items-center bg-gray-800 bg-opacity-50" onClick={handleOverlayClick}>
+                    <div className="bg-white h-[530px]  w-96 md:h-[460px] md:w-[500px] p-8 rounded-lg relative">
                         <button className="absolute top-0 right-0 m-4 text-online-zakaz hover:text-gray-700" onClick={toggleModal}>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
                         <div>
-                            <div className="flex justify-center mb-4">
+                            <div className="flex flex-col sm:flex-row justify-center mb-4">
                                 <button
-                                    className={`px-12 mr-12 py-2 ${activeTab === 1 ? 'border-b-4 border-b-green-500 text-online-zakaz' : ''} mr-2`}
+                                    className={`  sm:px-12 mr-12 py-2 ${activeTab === 1 ? 'border-b-4 border-b-green-500 text-online-zakaz' : ''} mr-2`}
                                     onClick={() => setActiveTab(1)}>So'rang</button>
                                 <button
                                     className={`px-12 py-2 ${activeTab === 2 ? 'border-b-4 border-b-green-500 text-online-zakaz' : 'border-b-0'}`}
@@ -61,11 +61,11 @@ const Modal = () => {
                             </div>
 
                             <div className={`${activeTab === 1 ? 'block' : 'hidden'}`}>
-                                <h3>Savollaringizni bering va biz imkon qadar tezroq javob beramiz</h3>
+                                <h3 className='text-center'>Savollaringizni bering va biz imkon qadar tezroq javob beramiz</h3>
                                 {/* 1-da form */}
-                                <form className="p-4 max-w-[500px]">
-                                    <textarea placeholder="Sizning xabaringiz..." className='w-full h-40 pl-4 pt-4 rounded-lg mb-3 bg-[#F8F8F8]'></textarea>
-                                    <div className='grid-cols-2 grid gap-x-4'>
+                                <form className=" flex flex-col p-4 max-w-[400px]">
+                                    <textarea placeholder="Sizning xabaringiz..." className='w-full  h-20 md:h-28 pl-4 pt-4 rounded-lg mb-3 bg-[#F8F8F8]'></textarea>
+                                    <div className=' grid-cols-1 sm:grid-cols-2 grid gap-x-4'>
                                         <input className='bg-[#F8F8F8] py-2 pr-4 pl-2 rounded-2xl mb-5' type="text" placeholder='ism' />
                                         <input type="email" placeholder='email' className="bg-[#F8F8F8] py-2 pr-4 pl-2 rounded-2xl mb-5" />
                                         <input type="tel" placeholder='telefon' className="bg-[#F8F8F8] py-2 pr-4 pl-2 rounded-2xl mb-5" />
@@ -78,7 +78,7 @@ const Modal = () => {
 
                             <div className={`${activeTab === 2 ? 'block' : 'hidden'}`}>
                                 {/* 2-da ifrem */}
-                                <iframe className='w-[441px] h-[320px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d483175.7732257224!2d-74.26324279946795!3d40.69767092560273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1649731589500!5m2!1sen!2s" width="441" height="350" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
+                                <iframe className=' w-[320px] md:w-[441px] h-[320px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d483175.7732257224!2d-74.26324279946795!3d40.69767092560273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1649731589500!5m2!1sen!2s" width="441" height="350" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
 
                                 <div className="flex space-x-3 py-3  lg:space-x-5">
                                     {/* vk */}
