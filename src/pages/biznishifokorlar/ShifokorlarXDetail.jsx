@@ -26,9 +26,9 @@ const ShifokorlarXDetail = () => {
                 {
                     shifokor.map((e)=>{
                         return(
-                            <li className='flex  '>
+                            <li className='flex flex-col justify-between  '>
                                 {/* left */}
-                                <img className='w-[405px] h-[559px] mr-24 object-cover' src={e.img} alt={e.name} />
+                                <img className=' h-[600px] mb-4 md:mb-0    w-[774px] md:w-[305px] lg:w-[405px] md:h-[559px] mr-0 md:mr-10 lg:mr-24 object-cover' src={e.img} alt={e.name} />
 
                                 <div>
                                     <h4 className='text-base font-medium text-header mb-3'>Doktor ixtisosligi</h4>
