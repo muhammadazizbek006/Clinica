@@ -34,9 +34,9 @@ const Carusel = () => {
           {Aksiya.map((e) => {
             return (
               <SwiperSlide key={e.id} className="relative bg-header">
-                <div className=" h-[600px] flex flex-col md:flex-row  items-center md:h-[700px] containerb">
+                <div className=" h-[320px] w-full flex flex-col md:flex-row  items-center md:h-[700px] containerb">
                   {/* left */}
-                  <div className="flex flex-col  items-center text-center w-1/2 gap-y-5">
+                  <div className="flex flex-col  items-center text-center md:w-1/2 gap-y-5">
                     <h2 className=" text-3xl md:font-medium  lg:font-bold lg:text-6xl">{e.nomi}</h2>
                     <p className="font-medium ">{e.chegrima}</p>
                     <Link to={`/Akt/${e.nomi}`} className="bg-white hover:bg-online-zakaz hover:text-white duration-300 px-10 py-3   text-center">
