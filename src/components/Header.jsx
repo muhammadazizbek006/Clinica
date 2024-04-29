@@ -214,7 +214,7 @@ const Header = ({ setopen }) => {
           <div className="flex space-x-3  lg:space-x-5">
             {/* vk */}
             <a
-              class=" bg-white rounded-full w-8 h-8"
+              className=" bg-white rounded-full w-8 h-8"
               href="https://vk.com/clinica_native"
               target="_blank"
             >
@@ -234,7 +234,7 @@ const Header = ({ setopen }) => {
             {/* telegram */}
             <a
               title="Telegramga yozing"
-              class="flex items-center justify-center bg-white rounded-full  w-8 h-8"
+              className="flex items-center justify-center bg-white rounded-full  w-8 h-8"
               href="https://t.me/clinica_native"
               target="_blank"
             >
@@ -245,7 +245,7 @@ const Header = ({ setopen }) => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g clip-path="url(#clip0_3536_14011)">
+                <g clipPath="url(#clip0_3536_14011)">
                   <path
                     d="M16.5387 1.59798L0.591584 7.77936C-0.0501582 8.06722 -0.267213 8.64368 0.436475 8.95653L4.52761 10.2634L14.4195 4.11843C14.9596 3.73266 15.5125 3.83553 15.0367 4.2599L6.54094 11.992L6.27406 15.2642C6.52125 15.7694 6.97385 15.7718 7.26255 15.5207L9.61303 13.2851L13.6386 16.3151C14.5736 16.8715 15.0823 16.5125 15.2835 15.4927L17.9239 2.92537C18.198 1.67012 17.7305 1.11704 16.5387 1.59798Z"
                     fill="#BADF93"
@@ -255,7 +255,7 @@ const Header = ({ setopen }) => {
             </a>
             {/* telegram */}
             <a
-              class="flex items-center justify-center bg-white rounded-full  w-8 h-8"
+              className="flex items-center justify-center bg-white rounded-full  w-8 h-8"
               title="WhatsApp ga yozing"
               target="_blank"
               href="https://wa.me/79827437230?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82..."
