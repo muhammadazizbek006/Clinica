@@ -15,9 +15,9 @@ const Footer = () => {
    <footer className='bg-akva pt-11 pb-10'>
     <div className="containerb">
       {/* logo */}
-      <div className='mb-9'>
+      <Link to='/' className='mb-9'>
         <img src={Logo} alt="note" />
-      </div>
+      </Link>
       {/* link va bog'lanish  */}
       <ul className='flex flex-wrap justify-between text-sm lg:text-base font-medium '>
         {/* link */}
