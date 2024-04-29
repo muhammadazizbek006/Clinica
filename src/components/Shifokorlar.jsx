@@ -94,11 +94,11 @@ const Shifokorlar = () => {
             return (
               <SwiperSlide
                 key={e.id}
-                className="gird  grid-cols-1 sm:grid-cols-2 md:grid-cols-3   items-center p-2 border-akva border-2  border-dashed"
+                className="gird  grid-cols-1 sm:grid-cols-2 md:grid-cols-3   items-center p-2 border-akva border-2  rounded-[5px] border-dashed"
               >
-                <div className="flex flex-col ">
-                <img width="278" height="354" className="h-80 object-cover " src={e.img} alt={e.name} />
-                <div className=" p-3 text-center flex flex-col">
+                <div className="flex flex-col w-full h-[526px]  ">
+                <img width="278" height="354" className="h-80 object-cover  w-full  inline-block aspect-[140/1 rounded-[5px]  " src={e.img} alt={e.name} />
+                <div className=" p-3 text-center flex flex-col grow">
                   <h3 className="text-xl font-medium mb-2">{e.name}</h3>
                   <p className="mb-12">{e.ixtisosligi}</p>
 
