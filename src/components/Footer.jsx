@@ -15,7 +15,7 @@ const Footer = () => {
    <footer className='bg-akva pt-11 pb-10'>
     <div className="containerb">
       {/* logo */}
-      <Link to='/' className='mb-9'>
+      <Link to='/' className='mb-9 inline-block'>
         <img src={Logo} alt="note" />
       </Link>
       {/* link va bog'lanish  */}
