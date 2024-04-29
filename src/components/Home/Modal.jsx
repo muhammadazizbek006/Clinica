@@ -114,7 +114,7 @@ const Modal = () => {
           className="fixed  inset-0 flex justify-center items-center bg-gray-800 bg-opacity-50"
           onClick={handleOverlayClick}
         >
-          <div className="bg-white h-[530px]  w-96 md:h-[460px] md:w-[600px] p-8 rounded-lg relative">
+          <div className="bg-white h-[520px]  w-96 md:h-[460px] md:w-[600px] p-8 rounded-lg relative">
             <button
               className="absolute top-0 right-0 m-4 text-online-zakaz hover:text-gray-700"
               onClick={toggleModal}
@@ -210,7 +210,7 @@ const Modal = () => {
               <div className={`${activeTab === 2 ? "block" : "hidden"}`}>
                 {/* 2-da ifrem */}
                 <iframe
-                  className=" w-[320px] md:w-[441px] h-[320px]"
+                  className="  w-[320px] md:w-[541px] inline-block h-[320px]"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d483175.7732257224!2d-74.26324279946795!3d40.69767092560273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1649731589500!5m2!1sen!2s"
                   width="441"
                   height="350"
@@ -219,7 +219,7 @@ const Modal = () => {
                   loading="lazy"
                 ></iframe>
 
-                <div className="flex space-x-3 py-3  lg:space-x-5">
+                <div className="flex space-x-3 py-4  lg:space-x-5">
                   {/* vk */}
                   <a
                     className="bg-online-zakaz rounded-full w-8 h-8"
