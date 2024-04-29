@@ -44,7 +44,7 @@ const MaslaxatDetail = () => {
                     <div className='flex flex-col 1129:flex-row justify-center 1129:justify-between'>
                       {/* img */}
                       <div>
-                        <img width={482} height={600} className=' w-[690px] 1129:w-[330px] 1129::h-[400px] xl:w-[492px] xl:h-[500px] xl:mr-8 object-cover mb-5 1129:mb-0' src={e.img} alt="" />
+                        <img width={482} height={600} className=' w-[690px] 1129:w-[330px] 1129:h-[400px] xl:w-[492px] xl:h-[500px] xl:mr-8 object-cover mb-5 1129:mb-0' src={e.img} alt="" />
                       </div>
                       {/* right */}
                       <div className='w-full   1129:max-w-[560px] xl:max-w-[700px]'>
