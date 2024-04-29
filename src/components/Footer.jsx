@@ -6,9 +6,7 @@ import tel from '../img/tel.svg'
 import email from '../img/email.svg'
 import manzil from '../img/manzil.svg'
 
-import week from '../img/wekkfoot.svg'
-import telegram from '../img/telegramfoot.svg'
-import whatsapp from '../img/whatsappfoot.svg'
+
 
 const Footer = () => {
   return (

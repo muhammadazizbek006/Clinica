@@ -10,7 +10,7 @@ import KlinikaXaqida from '../components/Home/KlinikaXaqida'
 import Cta from '../components/Home/Cta'
 const Home = () => {
   return (
-    <>
+    <div>
     <Carusel/>
     <StamatalogikXizmatlar/>
     <OmmabopXizmatlar/>
@@ -18,7 +18,7 @@ const Home = () => {
     <KopSavollar/>
     <KlinikaXaqida/>
     <Cta/>
-    </>
+    </div>
   )
 }
 
