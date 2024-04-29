@@ -114,7 +114,7 @@ const Modal = () => {
           className="fixed  inset-0 flex justify-center items-center bg-gray-800 bg-opacity-50"
           onClick={handleOverlayClick}
         >
-          <div className="bg-white h-[530px]  w-96 md:h-[460px] md:w-[500px] p-8 rounded-lg relative">
+          <div className="bg-white h-[530px]  w-96 md:h-[460px] md:w-[600px] p-8 rounded-lg relative">
             <button
               className="absolute top-0 right-0 m-4 text-online-zakaz hover:text-gray-700"
               onClick={toggleModal}
@@ -135,9 +135,9 @@ const Modal = () => {
               </svg>
             </button>
             <div>
-              <div className="flex flex-col sm:flex-row justify-center mb-4">
+              <div className="flex flex-col md:flex-row justify-center mb-4">
                 <button
-                  className={`  sm:px-12 mr-12 py-2 ${
+                  className={`  sm:px-12 md:mr-12 py-2 ${
                     activeTab === 1
                       ? "border-b-4 border-b-green-500 text-online-zakaz"
                       : ""
@@ -147,7 +147,7 @@ const Modal = () => {
                   So'rang
                 </button>
                 <button
-                  className={`px-12 py-2 ${
+                  className={`sm:px-12 py-2 ${
                     activeTab === 2
                       ? "border-b-4 border-b-green-500 text-online-zakaz"
                       : "border-b-0"
@@ -163,40 +163,43 @@ const Modal = () => {
                   Savollaringizni bering va biz imkon qadar tezroq javob beramiz
                 </h3>
                 {/* 1-da form */}
-                <form onSubmit={handleSubmitInput} className=" flex flex-col p-4 max-w-[400px]">
+                <form
+                  onSubmit={handleSubmitInput}
+                  className=" flex flex-col p-4 max-w-[600px]"
+                >
                   <textarea
-                  onChange={handleMessage}
+                    onChange={handleMessage}
                     value={message}
                     placeholder="Sizning xabaringiz..."
-                    className="w-full  h-20 md:h-28 pl-4 pt-4 rounded-lg mb-3 bg-[#F8F8F8]"
-                  ></textarea>
-                  <div className=" grid-cols-1 sm:grid-cols-2 grid gap-x-4">
+                    className="w-full inline-block shadow-md   h-20 md:h-28 pl-4 pt-4 rounded-lg mb-3 bg-[#F8F8F8] resize-none"></textarea>
+
+                  <div className=" grid-cols-1 md:grid-cols-2 grid gap-x-4">
                     <input
-                    onChange={handleName}
+                      onChange={handleName}
                       value={name}
-                      className="bg-[#F8F8F8] py-2 pr-4 pl-2 rounded-2xl mb-5"
+                      className="bg-[#F8F8F8] py-2 pr-4 pl-2 rounded-sm shadow-md mb-5"
                       type="text"
                       placeholder="ism"
                     />
                     <input
-                    onChange={handleEmail}
+                      onChange={handleEmail}
                       value={email}
                       type="email"
                       placeholder="email"
-                      className="bg-[#F8F8F8] py-2 pr-4 pl-2 rounded-2xl mb-5"
+                      className="bg-[#F8F8F8] py-2 pr-4 pl-2 rounded-sm shadow-md mb-5"
                     />
                     <input
-                    onChange={handlePhone}
+                      onChange={handlePhone}
                       value={phone}
                       type="tel"
                       placeholder="telefon"
-                      className="bg-[#F8F8F8] py-2 pr-4 pl-2 rounded-2xl mb-5"
+                      className="bg-[#F8F8F8] py-2 pr-4 pl-2 rounded-sm shadow-md mb-5"
                     />
                   </div>
                   <div className="flex justify-center">
                     <button
                       type="submit"
-                      className="bg-green-600 text-white px-10 py-2 rounded-2xl"
+                      className="bg-green-600 text-white px-10 py-2 rounded-sm shadow-md"
                     >
                       yuborish
                     </button>
