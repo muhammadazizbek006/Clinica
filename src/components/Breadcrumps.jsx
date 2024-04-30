@@ -11,8 +11,8 @@ const Breadcrumps = () => {
       path !== "" && path !== "sotib-olish" && path !== "sale" && path !== "car"
   );
   return (
-    <div className="w-full flex items-center justify-center">
-      <ul className="flex space-x-5 vercel my-5 w-[96%] xl:w-[1300px]">
+    <div className="w-full flex items-center  containerb">
+      <ul className="flex  space-x-2 xl:space-x-5 vercel my-5 w-[96%] lg:w-[1300px]">
         <li>
           <Link to={"/"} className="text-header">
             Bosh sahifa 
@@ -23,7 +23,7 @@ const Breadcrumps = () => {
           return (
             <li key={index}>
               {index !== filterArr.length - 1 ? (
-                <Link className="text-header" to={path}>
+                <Link className="text-header" to={path }>
                   {`${path}`}
                 </Link>
               ) : (

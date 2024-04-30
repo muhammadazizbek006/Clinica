@@ -1467,7 +1467,7 @@ export const yangilik = [
     {
         id:3,
         img:y3,
-        nomi:`5 avgustdan boshlab Clinica Native tibbiyot fanlari doktori - Elena Nikolaevna Svetlakova bilan bolalar qabulini ochdi.`,
+        nomi:`Elena Nikolaevna  bolalar qabulini ochdi.`,
         sana:`08/01/2023`,
         sharx:`Shifokor bolalar bilan ishlashda katta tajribaga ega va faqat zamonaviy asbob-uskunalar va materiallardan foydalanadi. Klinika quyidagilarni amalga oshiradi:`,
         sharx2:`Biz klinikada har qanday yoshdagi bemorlarga qulaylik, qulaylik va shaxsiy e'tibor muhitini yaratdik va chaqalog'ingizning o'zini erkin his qilishiga yordam beradigan usullardan foydalandik.`,        
@@ -1475,7 +1475,7 @@ export const yangilik = [
     {
         id:4,
         img:y4,
-        nomi:`Keling tanishamiz! 10 iyul kuni Clinika Native bemorlarni qabul qila boshladi. Uchrashuvlar kattalar uchun ochiq.`,
+        nomi:`Keling tanishamiz!`,
         sana:`07/10/2023`,
         sharx:`10 iyul kuni yangi premium stomatologiya klinikasi Clinica Native o'zining birinchi bemorlarini qabul qilishni boshlaydi! Biz sizga diagnostika tekshiruvlari, mutaxassis bilan maslahatlashuv, profilaktik gigiena, murakkab jarrohlik aralashuvlar va noyob implant texnologiyalarigacha bo'lgan sog'lom tish va tish go'shtini saqlashga yordam beradigan keng ko'lamli xizmatlarni taklif etamiz.`,
         sharx2:`Biz nafaqat o'tkir muammolarga yordam beramiz, balki og'iz bo'shlig'i kasalliklarining rivojlanishini oldini olish va tish va tish go'shtini qanday saqlash kerakligini ham aytib beramiz.
@@ -1496,7 +1496,7 @@ export const yangilik = [
     {
         id:6,
         img:y7,
-        nomi:`Clinica Native - bu "Ekaterininskiy Park" yangi turar-joy majmuasidagi birinchi stomatologiya klinikasi`,
+        nomi:`Clinica Native - "Ekaterininskiy Park"  birinchi stomatologiya klinikasi`,
         sana:`28/08/2023`,
         sharx:`Clinica Native Ekaterinburgning o'ziga xos belgisi hisoblangan "Ekaterininskiy Park" yangi turar-joy majmuasida ochilgan birinchi stomatologiya klinikasi bo'ldi.`,
         sharx2:`Yevropa qulayligi va estetikasi bilan voqealar markazida yashashni istaganlar uchun yashash muhitining yangi formati. Hududning yangi kontseptsiyasi, talabchan va talabchan qo'shnilar Clinica Native formatini oldindan belgilab berdi - eng talabchan bemorlar uchun yaratilgan.`,        

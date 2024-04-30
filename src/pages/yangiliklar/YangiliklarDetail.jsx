@@ -11,7 +11,7 @@ const YangiliklarDetail = () => {
         <div className="containerb">
           { yangiliklar.map((e)=>{
             return(
-              <h2 className=' text-3xl md:text-42 mb-3 sm:mb-8'>{e.nomi}</h2>
+              <h2 className=' text-3xl xl:text-42 mb-3 sm:mb-8'>{e.nomi}</h2>
             )
           })
             
