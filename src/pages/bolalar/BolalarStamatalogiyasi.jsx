@@ -34,7 +34,7 @@ const BolalarStamatalogiyasi = () => {
                         bolalar.map((e)=>{
                             return(
                                 <li key={e.id} className='border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300'>
-                                    <Link to={`/bolalar-stamatalogiyasi/${e.yonalishi}`}  className='flex  flex-col md:justify-between md:items-center md:flex-row p-5 '>
+                                    <Link to={`/BolalarStamatalogiyasi/${e.yonalishi}`}  className='flex  flex-col md:justify-between md:items-center md:flex-row p-5 '>
                                         {/* left */}
                                         <div className='flex flex-col'>
                                         <h3 className=' text-lg md:text-xl font-medium mb-3 max-w-[900px]'>{e.yonalishi}</h3>

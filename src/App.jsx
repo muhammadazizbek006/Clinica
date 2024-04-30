@@ -71,7 +71,7 @@ const App = () => {
         <Route path="/mdetail/:yonalishi" element={<MaslaxatDetail />} />
         
         <Route path="/BolalarStamatalogiyasi" element={<BolalarStamatalogiyasi/>}/>
-        <Route path="/bolalar-stamatalogiyasi/:yonalishi" element={<BolalarDetail/>}/>
+        <Route path="/BolalarStamatalogiyasi/:yonalishi" element={<BolalarDetail/>}/>
 
         <Route path="/chegirma" element={<Chegirma/>}/>
         <Route path="/chegirma/:nomi" element={<ChegirmaDetail/>}/>
