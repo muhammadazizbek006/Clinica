@@ -36,8 +36,10 @@ const Header = ({ setopen }) => {
     <header className="py-3 bg-header sticky  top-0  z-50 relative">
       <div className="containerb flex  justify-between items-center">
         {/* logo */}
-        <Link className="w-36 h-11 block lg:hidden xl:block " to="/">
-          <svg
+        <Link className=" w-28 h-full  sm:w-36 sm:h-11 block lg:hidden xl:block " to="/">
+        <img src={logo} alt="" />
+        
+          {/* <svg
             width="140"
             viewBox="0 0 140 43"
             fill="#153E35"
@@ -102,7 +104,7 @@ const Header = ({ setopen }) => {
                 <rect width="140" height="43" fill="#153E35"></rect>
               </clipPath>
             </defs>
-          </svg>
+          </svg> */}
         </Link>
         {/* nav */}
         <nav className="relative hidden lg:block   ">
