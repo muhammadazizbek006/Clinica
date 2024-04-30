@@ -12,11 +12,11 @@ const Aktsiya = () => {
                     { Aksiya.map((e)=>{
                         return(
                             <li key={e.id}>
-                               <Link className='flex flex-col justify-center items-center text-center sm:items-start sm:text-start lg:flex-row'  to={`/Aktsiya/${e.nomi}`}>
-                                   <img width={208} height={240} className='w-52  h-60  sm:mr-10  object-cover' src={e.img} alt="#" />
+                               <Link className='flex flex-col  items-center text-center sm:items-start sm:text-start lg:flex-row'  to={`/Aktsiya/${e.nomi}`}>
+                                   <img width={208} height={240} className='w-52 mb-4 sm:mb-0  h-60  sm:mr-10  object-cover' src={e.img} alt="#" />
 
                                    <div>
-                                        <h3 className='text-lg font-medium mb-3'>{e.nomi}</h3>
+                                        <h3 className='text-lg font-medium sm:mb-3'>{e.nomi}</h3>
                                         <p className='text-base'>{e.muddat}</p>
                                    </div>
                                </Link>

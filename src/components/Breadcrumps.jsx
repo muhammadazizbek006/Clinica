@@ -23,7 +23,7 @@ const Breadcrumps = () => {
           return (
             <li key={index}>
               {index !== filterArr.length - 1 ? (
-                <Link className="text-header" to={path }>
+                <Link className="text-header" to={"/" + path}>
                   {`${path}`}
                 </Link>
               ) : (

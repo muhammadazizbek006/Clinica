@@ -39,7 +39,7 @@ const Carusel = () => {
                   <div className="flex flex-col  items-center text-center md:w-1/2 gap-y-5">
                     <h2 className=" text-3xl md:font-medium  lg:font-bold lg:text-6xl">{e.nomi}</h2>
                     <p className="font-medium ">{e.chegrima}</p>
-                    <Link to={`/Akt/${e.nomi}`} className="bg-white hover:bg-online-zakaz hover:text-white duration-300 px-10 py-3   text-center">
+                    <Link to={`/Aktsiya/${e.nomi}`} className="bg-white hover:bg-online-zakaz hover:text-white duration-300 px-10 py-3   text-center">
                       Batafsil
                     </Link>
                   </div>

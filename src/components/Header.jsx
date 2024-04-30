@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  Drawer,
-  Button,
-  Typography,
-  IconButton,
-} from "@material-tailwind/react";
+
 
 // draw
 
@@ -15,9 +10,9 @@ import arrow from "../img/arrow.svg";
 import logo from "../img/logo.svg";
 import hamburger from "../img/menu.svg";
 const Header = ({ setopen }) => {
-  const [openRight, setOpenRight] = React.useState(false);
-  const openDrawerRight = () => setOpenRight(true);
-  const closeDrawerRight = () => setOpenRight(false);
+  // const [openRight, setOpenRight] = React.useState(false);
+  // const openDrawerRight = () => setOpenRight(true);
+  // const closeDrawerRight = () => setOpenRight(false);
   // naxr
   const [down, setDown] = useState(false);
 
