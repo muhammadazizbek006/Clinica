@@ -1,7 +1,6 @@
 import React from "react";
 import { PeriAdanatalogik } from "../../Data";
 import { useParams } from "react-router-dom";
-import Cta from "../../components/Home/Cta";
 import Chegirma from "../chegirma/Chegirma";
 // img
 import terapevtm from '../../img/terapevt/terapevt.svg'
@@ -86,7 +85,6 @@ const PeriAdanatalogiyaDetail = () => {
 
       <Chegirma />
       
-      <Cta />
     </>
   )
 }

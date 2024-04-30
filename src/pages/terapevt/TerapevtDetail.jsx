@@ -5,7 +5,6 @@ import { Terapevt } from "../../Data";
 // img
 import terapevti from '../../img/terapevtik.png'
 import terapevtm from '../../img/terapevt/terapevt.svg'
-import Cta from "../../components/Home/Cta";
 import Chegirma from "../chegirma/Chegirma";
 const TerapevtDetail = () => {
 
@@ -71,7 +70,6 @@ const TerapevtDetail = () => {
         </div>
       </section>
           <Chegirma/>
-      <Cta/>
     </>
   );
 };

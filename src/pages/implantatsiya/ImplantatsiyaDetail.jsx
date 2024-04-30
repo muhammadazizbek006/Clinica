@@ -2,9 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 // pages
 import KopSavollar from "../../components/Home/KopSavollar";
-import Cta from "../../components/Home/Cta";
 import Chegirma from "../chegirma/Chegirma";
-import { Protezlashi, implantatsiya } from "../../Data";
+import {  implantatsiya } from "../../Data";
 // img
 import  implantatsya  from '../../img/implantatsya.png';
 import terapevtm from '../../img/terapevt/terapevt.svg'
@@ -79,7 +78,6 @@ const ImplantatsiyaDetail = () => {
       <Chegirma />
       <KopSavollar />
 
-      <Cta />
     </>
   )
 }

@@ -10,7 +10,6 @@ import Chegirma from '../chegirma/Chegirma'
 import next from '../../img/next.svg'
 import maslahatlashuv from '../../img/maslahatlashuv.png'
 import KopSavollar from '../../components/Home/KopSavollar';
-import Cta from '../../components/Home/Cta';
 const Diagnostika = () => {
   return (
     <>
@@ -78,7 +77,6 @@ const Diagnostika = () => {
       <Chegirma />
 
       <KopSavollar/>
-      <Cta />
       
       </>
   )

@@ -6,7 +6,6 @@ import next from '../../img/next.svg'
 import protezlar from '../../img/protezlash.png'
 // page
 import Chegirma from '../chegirma/Chegirma'
-import Cta from '../../components/Home/Cta'
 import KopSavollar from '../../components/Home/KopSavollar';
 const Protezlash = () => {
   return (
@@ -75,7 +74,6 @@ const Protezlash = () => {
       <Chegirma />
 
       <KopSavollar/>
-      <Cta />
     </>
   )
 }

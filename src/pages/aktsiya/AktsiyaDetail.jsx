@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import { Aksiya } from '../../Data';
 // pages
 import KopSavollar from "../../components/Home/KopSavollar";
-import Cta from "../../components/Home/Cta";
 
 // img
 
@@ -65,8 +64,6 @@ const AktsiyaDetail = () => {
 
       <KopSavollar />
 
-
-      <Cta />
     </>
   )
 }

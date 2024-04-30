@@ -4,7 +4,6 @@ import { shifokorlar } from '../../Data';
 
 // pages
 
-import Cta from "../../components/Home/Cta";
 
 const ShifokorlarXDetail = () => {
     const { name } = useParams();
@@ -61,7 +60,6 @@ const ShifokorlarXDetail = () => {
             </div>
         </section>
 
-        <Cta/>
     </>
   )
 }

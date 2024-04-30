@@ -6,7 +6,6 @@ import next from '../../img/next.svg'
 import peri from '../../img/periodanatalogiya.png'
 // page
 import Chegirma from '../chegirma/Chegirma'
-import Cta from '../../components/Home/Cta'
 const PeriAdanatalogiya = () => {
   return (
     <>
@@ -72,7 +71,6 @@ const PeriAdanatalogiya = () => {
       </section>
 
       <Chegirma />
-      <Cta />
     </>
   );
 };

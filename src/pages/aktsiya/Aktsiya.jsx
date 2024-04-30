@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Aksiya } from '../../Data'
-import Cta from '../../components/Home/Cta'
+
 const Aktsiya = () => {
   return (
     <>
@@ -29,7 +29,6 @@ const Aktsiya = () => {
             </div>
         </section>
 
-        <Cta/>
     </>
   )
 }

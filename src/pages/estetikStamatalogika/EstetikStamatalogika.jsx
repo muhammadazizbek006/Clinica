@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 import estetik from '../../img/estetik.png'
 import next from '../../img/next.svg'
 import Chegirma from '../chegirma/Chegirma'
-import Cta from '../../components/Home/Cta'
 const EstetikStamatalogika = () => {
   return (
     <>
@@ -62,7 +61,6 @@ const EstetikStamatalogika = () => {
 
 
     <Chegirma/>
-    <Cta/>
     </>
   )
 }

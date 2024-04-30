@@ -6,7 +6,6 @@ import next from '../../img/next.svg'
 import  implantatsya  from '../../img/implantatsya.png';
 // page
 import Chegirma from '../chegirma/Chegirma'
-import Cta from '../../components/Home/Cta'
 
 const Implantatsiya = () => {
   return (
@@ -75,7 +74,6 @@ const Implantatsiya = () => {
       <Chegirma />
 
 
-      <Cta />
     </>
   )
 }

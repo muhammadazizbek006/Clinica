@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 // pages
 import KopSavollar from "../../components/Home/KopSavollar";
-import Cta from "../../components/Home/Cta";
 import Chegirma from "../chegirma/Chegirma";
 import { Ortadon } from "../../Data";
 // img
@@ -82,7 +81,6 @@ const OrtodontiyaDetail = () => {
       <Chegirma />
 
       <KopSavollar />
-      <Cta />
     </>
   )
 }

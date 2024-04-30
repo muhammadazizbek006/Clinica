@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import { Diagnostik } from '../../Data';
 // pages
 import KopSavollar from "../../components/Home/KopSavollar";
-import Cta from "../../components/Home/Cta";
 import Chegirma from "../chegirma/Chegirma";
 // img
 
@@ -62,7 +61,6 @@ const DiagnostikaDetail = () => {
 
       <Chegirma />
 
-      <Cta />
     </>
   )
 }

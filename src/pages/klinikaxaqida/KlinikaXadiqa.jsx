@@ -1,6 +1,5 @@
 import React from 'react'
 import { klinika } from '../../Data'
-import Cta from '../../components/Home/Cta'
 
 const KlinikaXadiqa = () => {
   return (
@@ -30,7 +29,6 @@ const KlinikaXadiqa = () => {
             </div>
         </section>
 
-        <Cta/>
     </>
   )
 }

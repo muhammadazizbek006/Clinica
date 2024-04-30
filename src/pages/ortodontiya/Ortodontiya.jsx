@@ -6,7 +6,6 @@ import next from '../../img/next.svg'
 import ortodontiya from '../../img/ortodontiya.png'
 // page
 import Chegirma from '../chegirma/Chegirma'
-import Cta from '../../components/Home/Cta'
 import KopSavollar from '../../components/Home/KopSavollar';
 
 const Ortodontiya = () => {
@@ -76,7 +75,6 @@ const Ortodontiya = () => {
       <Chegirma />
 
       <KopSavollar/>
-      <Cta />
     </>
   )
 }
