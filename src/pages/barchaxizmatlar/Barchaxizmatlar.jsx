@@ -24,7 +24,7 @@ const Barchaxizmatlar = () => {
         <div className=' flex justify-center md:justify-start items-center  pt-5'>
           {/* left */}
           <div className='flex flex-col md:flex-row text-center md:text-start items-center'>
-            <div className='w-28 bg-akva  mr-6 '>
+            <div className='w-28 bg-akva  justify-center   sm:mr-6 '>
               <img className='  px-5 py-3  ' src={maslaxat} alt='#' />
             </div>
             <h2 className=' text-2xl lg:text-32 font-medium border-b-4 border-b-header w-full '>Tish shifokori bilan maslahatlashuv</h2>
@@ -76,7 +76,7 @@ const Barchaxizmatlar = () => {
             <div className=' flex justify-center sm:justify-start items-center  pt-5'>
               {/* left */}
               <div className='flex flex-col sm:flex-row  items-center'>
-                <div className='w-28 bg-akva  mr-6 '>
+                <div className='w-28 bg-akva  sm:mr-6 '>
                   <img className='  px-5 py-3  ' src={bollar} alt='#' />
                 </div>
                 <h2 className=' text-xl sm:text-32 font-medium border-b-4 border-b-header w-full '>Bolalar stomatologiyasi</h2>
@@ -129,10 +129,10 @@ const Barchaxizmatlar = () => {
         <div className=' flex justify-center sm:justify-start items-center   pt-5'>
           {/* left */}
           <div className='flex flex-col sm:flex-row  items-center'>
-            <div className='w-28 bg-akva  mr-6 '>
+            <div className='w-28 bg-akva  sm:mr-6 '>
               <img className='  px-5 py-3  ' src={terapevtik} alt='#' />
             </div>
-            <h2 className='text-32 font-medium border-b-4 border-b-header w-full '>Terapevtik xizmatlar</h2>
+            <h2 className='text-32 text-center sm:text-start font-medium border-b-4 border-b-header w-full '>Terapevtik xizmatlar</h2>
           </div>
           {/* right */}
         </div>
@@ -180,7 +180,7 @@ const Barchaxizmatlar = () => {
         <div className=' flex items-center justify-center sm:justify-start  pt-5'>
           {/* left */}
           <div className='flex flex-col sm:flex-row items-center'>
-            <div className='w-28 bg-akva  mr-6 '>
+            <div className='w-28 bg-akva  sm:mr-6 '>
               <img className='  px-5 py-3  ' src={estetik} alt='#' />
             </div>
             <h2 className=' text-xl sm:text-32 font-medium border-b-4 border-b-header w-full '>Estetik stomatologiya</h2>
@@ -233,7 +233,7 @@ const Barchaxizmatlar = () => {
           <div className=" flex justify-center sm:justify-start items-center  pt-5">
             {/* left */}
             <div className="flex flex-col sm:flex-row  items-center">
-              <div className="w-28 bg-akva  mr-6 ">
+              <div className="w-28 bg-akva  sm:mr-6 ">
                 <img className="  px-5 py-3  " src={peri} alt="#" />
               </div>
               <h2 className="text-32 font-medium border-b-4 border-b-header w-full ">
@@ -356,7 +356,7 @@ const Barchaxizmatlar = () => {
           <div className=" flex justify-center md:justify-start items-center pt-5">
             {/* left */}
             <div className="flex flex-col md:flex-row items-center">
-              <div className="w-28 bg-akva  mr-6 ">
+              <div className="w-28 bg-akva  sm:mr-6 ">
                 <img className="  px-5 py-3  " src={implantatsya} alt="#" />
               </div>
               <h2 className=" text-2xl md:text-32 font-medium border-b-4 border-b-header w-full ">
