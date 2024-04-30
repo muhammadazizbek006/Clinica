@@ -11,7 +11,7 @@ const YangiliklarDetail = () => {
         <div className="containerb">
           { yangiliklar.map((e)=>{
             return(
-              <h2 className='text-42 mb-8'>{e.nomi}</h2>
+              <h2 className=' text-3xl md:text-42 mb-3 sm:mb-8'>{e.nomi}</h2>
             )
           })
             
@@ -24,8 +24,8 @@ const YangiliklarDetail = () => {
           {
             yangiliklar.map((e)=>{
               return(
-                <div className='flex'>
-                  <img className='mr-6 w-[437px] h-[299px] object-cover' src={e.img} alt={e.nomi} />
+                <div className='flex flex-col sm:flex-row justify-between'>
+                  <img className='mr-6 sm:w-[317px] lg:w-[437px] h-[299px] object-cover mb-5 sm:mb-0' src={e.img} alt={e.nomi} />
                   <div className='text-base space-y-3'>
                     <p>{e.sana}</p>
                     <p>{e.sharx}</p>
