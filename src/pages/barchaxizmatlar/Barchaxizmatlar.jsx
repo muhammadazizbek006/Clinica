@@ -41,7 +41,7 @@ const Barchaxizmatlar = () => {
             maslaxatlar.map((e)=>{
               return(
                 <li  key={e.id} className='border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300'>
-                  <Link to={`/mdetail/${e.yonalishi}`} className='flex flex-col justify-between md:items-center md:flex-row p-5'>
+                  <Link to={`/Tish shifokori bilan maslahatlashuv/${e.yonalishi}`} className='flex flex-col justify-between md:items-center md:flex-row p-5'>
                     {/* left */}
                     <div className='flex flex-col'>
                       <h3 className=' md:max-w-[400px] text-sm xl:text-xl font-medium mb-3 xl:max-w-[900px]'>{e.yonalishi}</h3>
@@ -94,7 +94,7 @@ const Barchaxizmatlar = () => {
                         bolalar.map((e)=>{
                             return(
                                 <li key={e.id} className='border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300'>
-                                    <Link to={`/bolalar-stamatalogiyasi/${e.yonalishi}`}  className='flex  flex-col md:justify-between md:items-center md:flex-row p-5 '>
+                                    <Link to={`/BolalarStamatalogiyasi/${e.yonalishi}`}  className='flex  flex-col md:justify-between md:items-center md:flex-row p-5 '>
                                         {/* left */}
                                         <div className='flex flex-col'>
                                         <h3 className=' text-lg md:text-xl font-medium mb-3 max-w-[900px]'>{e.yonalishi}</h3>
@@ -146,7 +146,7 @@ const Barchaxizmatlar = () => {
                     Terapevt.map((e)=>{
                         return(
                             <li key={e.id} className='border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300'>
-                                <Link to={`/terapevt/${e.yonalishi}`}  className='flex flex-col md:flex-row justify-between md:items-center p-5'>
+                                <Link to={`/terapevtik/${e.yonalishi}`}  className='flex flex-col md:flex-row justify-between md:items-center p-5'>
                                     {/* left */}
                                     <div className='flex flex-col'>
                                     <h3 className='text-xl font-medium mb-3 max-w-[900px]'>{e.yonalishi}</h3>
@@ -198,7 +198,7 @@ const Barchaxizmatlar = () => {
                     Estetik.map((e)=>{
                         return(
                             <li key={e.id} className='border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300'>
-                                <Link  to={`/estetika/${e.yonalishi}`} className='flex flex-col sm:flex-row justify-between sm:items-center p-5'>
+                                <Link  to={`/EstetikStamatalogika/${e.yonalishi}`} className='flex flex-col sm:flex-row justify-between sm:items-center p-5'>
                                     {/* left */}
                                     <div className='flex flex-col'>
                                     <h3 className=' text-lg sm:text-xl font-medium mb-3 max-w-[900px]'>{e.yonalishi}</h3>
@@ -257,7 +257,7 @@ const Barchaxizmatlar = () => {
                   className="border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300"
                 >
                   <Link
-                    to={`/periadanatalog/${e.yonalishi}`}
+                    to={`/PeriAdanatalogiya/${e.yonalishi}`}
                     className="flex  flex-col justify-between md:items-center md:flex-row p-5"
                   >
                     {/* left */}
@@ -319,7 +319,7 @@ const Barchaxizmatlar = () => {
                   className="border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300"
                 >
                   <Link
-                    to={`/protez/${e.yonalishi}`}
+                    to={`/Protezlash/${e.yonalishi}`}
                     className="flex flex-col sm:flex-row justify-between p-5"
                   >
                     {/* left */}
@@ -380,7 +380,7 @@ const Barchaxizmatlar = () => {
                   className="border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300"
                 >
                   <Link
-                    to={`/implant/${e.yonalishi}`}
+                    to={`/implantatsiya/${e.yonalishi}`}
                     className="flex flex-col md:flex-row  justify-between md:items-center p-5"
                   >
                     {/* left */}
