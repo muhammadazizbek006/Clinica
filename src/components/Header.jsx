@@ -171,7 +171,7 @@ const Header = ({ setopen }) => {
             <a
               title="Telegramga yozing"
               className="flex items-center justify-center bg-white rounded-full  w-8 h-8"
-              href="https://t.me/clinica_native"
+              href="https://t.me/Umarov_Dev"
               target="_blank"
             >
               <svg
@@ -189,12 +189,12 @@ const Header = ({ setopen }) => {
                 </g>
               </svg>
             </a>
-            {/* telegram */}
+            {/* whatsapp */}
             <a
               className="flex items-center justify-center bg-white rounded-full  w-8 h-8"
               title="WhatsApp ga yozing"
               target="_blank"
-              href="https://wa.me/79827437230?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82..."
+              href="https://wa.me/+998914750612"
             >
               <svg
                 width="32"
