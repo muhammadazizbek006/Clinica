@@ -20,13 +20,13 @@ const ShifokorlarX = () => {
               {
                 shifokorlar.map((e)=>{
                   return(
-                    <li key={e.id} className='flex'>
-                          <Link  to={`/detail/${e.name}`} className='flex flex-col items-center w-full text-center md:text-start md:items-start  md:flex-row   '>
+                    <li key={e.id} className='flex justify-center md:justify-start'>
+                          <Link  to={`/detail/${e.name}`} className='flex flex-col items-center w-full h-full text-center md:text-start md:items-start  md:flex-row   '>
                             <img className=' w-60  md:w-40 h-48 md:mr-2 lg:mr-4 object-cover' width={150} height={190} src={e.img} alt="" />
                             {/* right */}
-                            <div className='flex flex-col max-w-72'>
-                              <h3 className=' text-base lg:text-lg font-medium lg:mb-3 '>{e.name}</h3>
-                              <div className=' '>
+                            <div className='flex flex-col text-center md:text-start h-full justify-between  max-w-72'>
+                              <h3 className=' text-base lg:text-lg font-medium  '>{e.name}</h3>
+                              <div className=''>
                                 <p className='text-sm lg:text-base mb-1'>{e.ixtisosligi}</p>
                                 <p className='text-sm lg:text-base mb-1'>{e.ixtisosligi2}</p>
                                 <p className='text-sm lg:text-base mb-1'>{e.ixtisosligi3}</p>

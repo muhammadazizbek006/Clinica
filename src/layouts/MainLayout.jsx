@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import { Outlet, useLocation, Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Modal from "../components/Home/Modal";
+import Cta from '../components/Home/Cta'
 
 // import Breadcrumps from "../components/Breadcrumps";
 
@@ -48,6 +49,7 @@ const MainLayout = () => {
       <main className="grow">
         <Outlet />
       </main>
+      <Cta/>
       <Footer />
     </div>
   );
