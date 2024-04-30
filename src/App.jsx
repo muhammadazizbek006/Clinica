@@ -111,7 +111,6 @@ const App = () => {
 
         <Route path="/ortodontiya" element={<Ortodontiya/>}/>
         <Route path="/ortodontiya/:yonalishi" element={<OrtodontiyaDetail/>}/>
-        {/* <Route path="/OmmabopXizmatlar" element={<OmmabopXizmatlar/>}/> */}
         <Route path="/:xizmat" element={<OmmabopxizmatlarDetail/>}/>
         
         <Route path="/kilinikaxaqida" element={<KlinikaXadiqa/>}/>

@@ -15,7 +15,7 @@ const Breadcrumps = () => {
       <ul className="flex space-x-5 vercel my-5 w-[96%] xl:w-[1300px]">
         <li>
           <Link to={"/"} className="text-header">
-            Bosh sahifa
+            Bosh sahifa 
           </Link>
         </li>
 

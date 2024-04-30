@@ -17,7 +17,6 @@ const Home = () => {
     <KlinikaShfokorlari/>
     <KopSavollar/>
     <KlinikaXaqida/>
-    <Cta/>
     </div>
   )
 }
