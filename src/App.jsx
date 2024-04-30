@@ -68,7 +68,7 @@ const App = () => {
         <Route index element={<Home />} />
 
         <Route path="/Tish shifokori bilan maslahatlashuv" element={<Shifokormaslaxat />} />
-        <Route path="/mdetail/:yonalishi" element={<MaslaxatDetail />} />
+        <Route path="/Tish shifokori bilan maslahatlashuv/:yonalishi" element={<MaslaxatDetail />} />
         
         <Route path="/BolalarStamatalogiyasi" element={<BolalarStamatalogiyasi/>}/>
         <Route path="/BolalarStamatalogiyasi/:yonalishi" element={<BolalarDetail/>}/>
@@ -77,23 +77,23 @@ const App = () => {
         <Route path="/chegirma/:nomi" element={<ChegirmaDetail/>}/>
         
         <Route path="/terapevtik" element={<Terapevtik/>}/>
-        <Route path="/terapevt/:yonalishi" element={<TerapevtDetail/>}/>
+        <Route path="/terapevtik/:yonalishi" element={<TerapevtDetail/>}/>
         
         
         <Route path="/EstetikStamatalogika" element={<EstetikStamatalogika/>}/>
-        <Route path="/estetika/:yonalishi" element={<EstetikDetail/>}/>
+        <Route path="/EstetikStamatalogika/:yonalishi" element={<EstetikDetail/>}/>
 
 
         <Route path="/PeriAdanatalogiya" element={<PeriAdanatalogiya/>}/>
-        <Route path="/periadanatalog/:yonalishi" element={<PeriAdanatalogiyaDetail/>}/>
+        <Route path="/PeriAdanatalogiya/:yonalishi" element={<PeriAdanatalogiyaDetail/>}/>
 
 
         <Route path="/Protezlash" element={<Protezlash/>}/>
-        <Route path="/protez/:yonalishi" element={<ProtezlashDetail/>}/>
+        <Route path="/Protezlash/:yonalishi" element={<ProtezlashDetail/>}/>
 
 
         <Route path="/Diagnostika" element={<Diagnostika/>}/>
-        <Route path="/diga/:yonalishi" element={<DiagnostikaDetail/>}/>
+        <Route path="/Diagnostika/:yonalishi" element={<DiagnostikaDetail/>}/>
 
         <Route path="/Aktsiya" element={<Aktsiya/>}/>
         <Route path="/Aktsiya/:nomi" element={<AktsiyaDetail/>}/>
@@ -105,18 +105,18 @@ const App = () => {
         <Route path="/shifokorlarx/:name" element={<ShifokorlarXDetail/>}/>
 
         <Route path="/implantatsiya" element={<Implantatsiya/>}/>
-        <Route path="/implant/:yonalishi" element={<ImplantatsiyaDetail/>}/>
+        <Route path="/implantatsiya/:yonalishi" element={<ImplantatsiyaDetail/>}/>
 
 
         <Route path="/ortodontiya" element={<Ortodontiya/>}/>
-        <Route path="/ortadont/:yonalishi" element={<OrtodontiyaDetail/>}/>
+        <Route path="/ortodontiya/:yonalishi" element={<OrtodontiyaDetail/>}/>
 
         <Route path="/ommabop-xizmatlar/:xizmat" element={<OmmabopxizmatlarDetail/>}/>
         
         <Route path="/kilinikaxaqida" element={<KlinikaXadiqa/>}/>
 
         <Route path="/Yangiliklar" element={<Yangiliklar/>}/>
-        <Route path="/yangilik/:nomi" element={<YangiliklarDetail/>}/>
+        <Route path="/Yangiliklar/:nomi" element={<YangiliklarDetail/>}/>
         <Route path="/kontaktlar" element={<Kontaktlar/>}/>
 
 

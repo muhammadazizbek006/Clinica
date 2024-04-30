@@ -13,7 +13,7 @@ const Yangiliklar = () => {
                         yangilik.map((e)=>{
                             return(
                                 <li key={e.id}>
-                                    <Link to={`/yangilik/${e.nomi}`} className='flex'>
+                                    <Link to={`/Yangiliklar/${e.nomi}`} className='flex'>
                                         <img className='w-48 h-56 object-cover mr-6' src={e.img} alt={e.nomi} />
                                         <div className='w-full max-w-80'>
                                             <h3 className='text-lg font-medium mb-3'>{e.nomi}</h3>

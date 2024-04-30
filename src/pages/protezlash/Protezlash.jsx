@@ -41,7 +41,7 @@ const Protezlash = () => {
                   className="border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300"
                 >
                   <Link
-                    to={`/protez/${e.yonalishi}`}
+                    to={`/Protezlash/${e.yonalishi}`}
                     className="flex flex-col sm:flex-row justify-between p-5"
                   >
                     {/* left */}

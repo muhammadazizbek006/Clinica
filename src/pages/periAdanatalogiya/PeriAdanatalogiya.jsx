@@ -40,7 +40,7 @@ const PeriAdanatalogiya = () => {
                   className="border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300"
                 >
                   <Link
-                    to={`/periadanatalog/${e.yonalishi}`}
+                    to={`/PeriAdanatalogiya/${e.yonalishi}`}
                     className="flex  flex-col justify-between md:items-center md:flex-row p-5"
                   >
                     {/* left */}

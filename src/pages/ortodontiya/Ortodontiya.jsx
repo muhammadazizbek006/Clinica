@@ -42,7 +42,7 @@ const Ortodontiya = () => {
                   className="border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300"
                 >
                   <Link
-                    to={`/ortadont/${e.yonalishi}`}
+                    to={`/ortodontiya/${e.yonalishi}`}
                     className="flex flex-col sm:flex-row justify-between sm:items-center p-5"
                   >
                     {/* left */}

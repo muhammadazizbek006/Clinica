@@ -32,7 +32,7 @@ const Terapevtik = () => {
                     Terapevt.map((e)=>{
                         return(
                             <li key={e.id} className='border-b-2 border-b-akva border-dashed hover:bg-sky-50 duration-300'>
-                                <Link to={`/terapevt/${e.yonalishi}`}  className='flex flex-col md:flex-row justify-between md:items-center p-5'>
+                                <Link to={`/terapevtik/${e.yonalishi}`}  className='flex flex-col md:flex-row justify-between md:items-center p-5'>
                                     {/* left */}
                                     <div className='flex flex-col'>
                                     <h3 className='text-xl font-medium mb-3 max-w-[900px]'>{e.yonalishi}</h3>
