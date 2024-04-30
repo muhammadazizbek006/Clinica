@@ -96,13 +96,13 @@ const App = () => {
         <Route path="/diga/:yonalishi" element={<DiagnostikaDetail/>}/>
 
         <Route path="/Aktsiya" element={<Aktsiya/>}/>
-        <Route path="/Akt/:nomi" element={<AktsiyaDetail/>}/>
+        <Route path="/Aktsiya/:nomi" element={<AktsiyaDetail/>}/>
 
 
         <Route path="/barchaxizmatlar" element={<Barchaxizmatlar/>}/>
 
         <Route path="/ShifokorlarX" element={<ShifokorlarX/>}/>
-        <Route path="/detail/:name" element={<ShifokorlarXDetail/>}/>
+        <Route path="/shifokorlarx/:name" element={<ShifokorlarXDetail/>}/>
 
         <Route path="/implantatsiya" element={<Implantatsiya/>}/>
         <Route path="/implant/:yonalishi" element={<ImplantatsiyaDetail/>}/>

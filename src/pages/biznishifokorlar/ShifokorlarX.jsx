@@ -21,8 +21,8 @@ const ShifokorlarX = () => {
                 shifokorlar.map((e)=>{
                   return(
                     <li key={e.id} className='flex justify-center md:justify-start'>
-                          <Link  to={`/detail/${e.name}`} className='flex flex-col items-center w-full h-full text-center md:text-start md:items-start  md:flex-row   '>
-                            <img className=' w-60  md:w-40 h-48 md:mr-2 lg:mr-4 object-cover' width={150} height={190} src={e.img} alt="" />
+                          <Link  to={`/shifokorlarx/${e.name}`} className='flex flex-col items-center w-full h-full text-center md:text-start md:items-start  md:flex-row   '>
+                            <img className=' w-60  md:w-40 h-48 md:mr-2 lg:mr-4 object-cover' width={150} height={190} src={e.img} alt={e.name} />
                             {/* right */}
                             <div className='flex flex-col text-center md:text-start h-full justify-between  max-w-72'>
                               <h3 className=' text-base lg:text-lg font-medium  '>{e.name}</h3>
@@ -33,7 +33,7 @@ const ShifokorlarX = () => {
                               </div>
                                                       
                               <div className='mt-auto inline-block w-full '>
-                                  <Link to={`/detail/${e.name}`} className='text-lg font-medium bg-header py-3 md:px-3 lg:px-5 max-md:w-full inline-block  hover:bg-online-zakaz hover:text-white duration-300'>Batafsil ma'lumot</Link>
+                                  <Link to={`/shifokorlarx/${e.name}`} className='text-lg font-medium bg-header py-3 md:px-3 lg:px-5 max-md:w-full inline-block  hover:bg-online-zakaz hover:text-white duration-300'>Batafsil ma'lumot</Link>
                                 </div>
                             </div>
                           </Link>

@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Modal from "../components/Home/Modal";
 import Cta from '../components/Home/Cta'
 
-// import Breadcrumps from "../components/Breadcrumps";
+import Breadcrumps from "../components/Breadcrumps";
 
 const MainLayout = () => {
   const location = useLocation();
@@ -44,7 +44,7 @@ const MainLayout = () => {
       </div>
 
       <Header setopen={setopen} />
-      {/* { path !== "/" && <Breadcrumps />} */}
+      { path !== "/" && <Breadcrumps />}
       <Modal className="fixed" />
       <main className="grow">
         <Outlet />

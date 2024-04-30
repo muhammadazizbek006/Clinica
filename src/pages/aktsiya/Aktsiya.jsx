@@ -12,7 +12,7 @@ const Aktsiya = () => {
                     { Aksiya.map((e)=>{
                         return(
                             <li key={e.id}>
-                               <Link className='flex flex-col justify-center items-center text-center sm:items-start sm:text-start lg:flex-row'  to={`/Akt/${e.nomi}`}>
+                               <Link className='flex flex-col justify-center items-center text-center sm:items-start sm:text-start lg:flex-row'  to={`/Aktsiya/${e.nomi}`}>
                                    <img width={208} height={240} className='w-52  h-60  sm:mr-10  object-cover' src={e.img} alt="#" />
 
                                    <div>
