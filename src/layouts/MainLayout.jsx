@@ -44,7 +44,7 @@ const MainLayout = () => {
       </div>
 
       <Header setopen={setopen} />
-      { path !== "/" && <Breadcrumps />}
+      { path !== "/" &&  <Breadcrumps />}
       <Modal className="fixed" />
       <main className="grow">
         <Outlet />

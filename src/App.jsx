@@ -60,6 +60,7 @@ import OmmabopxizmatlarDetail from "./components/OmmabopxizmatlarDetail";
 import BolalarStamatalogiyasi from "./pages/bolalar/BolalarStamatalogiyasi";
 import Yangiliklar from "./pages/yangiliklar/Yangiliklar";
 import YangiliklarDetail from './pages/yangiliklar/YangiliklarDetail'
+import OmmabopXizmatlar from "./components/Home/OmmabopXizmatlar";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -110,8 +111,8 @@ const App = () => {
 
         <Route path="/ortodontiya" element={<Ortodontiya/>}/>
         <Route path="/ortodontiya/:yonalishi" element={<OrtodontiyaDetail/>}/>
-
-        <Route path="/ommabop-xizmatlar/:xizmat" element={<OmmabopxizmatlarDetail/>}/>
+        {/* <Route path="/OmmabopXizmatlar" element={<OmmabopXizmatlar/>}/> */}
+        <Route path="/:xizmat" element={<OmmabopxizmatlarDetail/>}/>
         
         <Route path="/kilinikaxaqida" element={<KlinikaXadiqa/>}/>
 

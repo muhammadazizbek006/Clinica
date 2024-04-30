@@ -26,7 +26,7 @@ const OmmabopXizmatlar = () => {
                       return(
                         
                         <li key={e.id} className='   hover:bg-link  '>
-                          <Link to={`/ommabop-xizmatlar/${e.xizmat}`}  className='flex justify-between items-center py-3 px-6'>
+                          <Link to={`/${e.xizmat}`}  className='flex justify-between items-center py-3 px-6'>
                             {/* // left */}
                             <div className='flex items-center w-full max-w-[581px]'> 
                               <img className='mr-3' src={soat} alt="note" />
